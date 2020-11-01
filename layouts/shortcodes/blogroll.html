@@ -1,0 +1,9 @@
+{{ $opmlJson := index .Site.Data.opml "opml" "body" "outline" }}
+{{ range $opmlJson }}
+{{ (printf "%s %s" "##" ._text) | markdownify }}
+<ul>
+    {{ range sort (index . "outline") "_title" "asc" }}
+    <li><a href="{{ ._htmlUrl }}" target="_blank">{{ ._title }}</a> (<a href="{{ ._xmlUrl }}" target="_blank">Feed</a>)</li>
+    {{ end }}
+</ul>
+{{ end }}

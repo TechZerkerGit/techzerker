@@ -1,0 +1,79 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>WSL - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/wsl/</link>
+        <description>WSL - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/wsl/" rel="self" type="application/rss+xml" /><item>
+    <title>Running i3 Desktop with WSL on Windows 10</title>
+    <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
+    <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
+    <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
+<p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/" target="_blank" rel="noopener noreffer">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
+<p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
+<p>Once you have that up and running, so that you can get to your basic WSL command prompt&hellip;</p>
+<p></p>
+<p>Obviously in my example, I&rsquo;ve added a few things to my <em>.bashrc</em>, and in windows I&rsquo;ve told it to let this window be a bit transparent.</p>
+<p>Next up, you need a functioning X Server on windows that we can use to create the display. I tried a few, but in the end had the best luck with <a href="https://sourceforge.net/projects/vcxsrv/" target="_blank" rel="noopener noreffer">VcXsrv</a>, which you can download from that link at <em>SourceForge</em>. No special instructions needed beyond getting it installed, ideally in the default paths.</p>
+<p>Once that is installed, you can also go ahead and install your DE (Desktop Environment) in your WSL install. In my case, because it&rsquo;s my preference and it&rsquo;s light weight, I stuck with <strong>i3</strong>, so that&rsquo;s what I&rsquo;ve tested here. That means your mileage may vary with other DE&rsquo;s. No special considerations for the install, in this case it was a standard <code>apt install i3</code> on a fully updated system.</p>
+<p>Now comes the fun part of pulling it all together, these scripts are dirty and simple, I guarantee someone could write them to be cleaner or better looking, but they were written just for myself originally to this end. On my desktop I have:</p>
+<p><strong>wsl.vbs</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">&#39; This script is meant to be launched from the Windows side, to start up a decorationless
+&#39; VcXsrv container for the environment.
+&#39;
+&#39; You may need to change this to reflect your VcXsrv install path as well as screen resolution.
+&#39; Then after the VcXsrv container is running, it pulls the WSL Ubuntu into it, along with a launch script.
+
+Set shell = CreateObject(&#34;WScript.Shell&#34; ) 
+shell.Run &#34;&#34;&#34;C:\Program Files\VcXsrv\vcxsrv.exe&#34;&#34; :0 -screen 0 @1 -ac +xinerama -engine 1 -nodecoration -wgl&#34;
+WScript.Sleep 200
+shell.Run &#34;ubuntu -c &#34;&#34;~/.scripts/wlaunch&#34;&#34;&#34;, 0
+</code></pre></td></tr></table>
+</div>
+</div><p>Following that, before this actually works, as you can see, inside my WSL Ubuntu home directory, I&rsquo;m calling a script called <em>wlaunch</em>:</p>
+<p><strong>wlaunch</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+</span><span class="cp"></span>
+<span class="c1"># meant to be run with `bash -c &#34;/path/to/wlaunch&#34;` when running from e.g. a Windows shortcut</span>
+
+<span class="c1"># explicitly needed when launching with bash -c from Windows</span>
+<span class="nb">source</span> ~/.bashrc
+<span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span>:0
+i3
+</code></pre></td></tr></table>
+</div>
+</div><p>Obviously, replace the last line calling i3 with something else if you are using a different environment, like XFCE, which I have not tested.</p>
+<p>When that&rsquo;s all in place, all things being equal, you should be able to run <em>wsl.vbs</em>, and after a few seconds, be staring at your desktop environment! In my case, because its i3, I have beyond that heavily setup my own i3 config files, polybar, etc. for the look I want:</p>
+<p></p>
+<p>After more than a year of this setup, I have yet to have any issues with any program. I&rsquo;ve run things like Sublime Text, Firefox and Spacemacs all within this desktop environment without any issues, and with way better performance than I had on a VM. For easy workflow between the base Windows 10 system and this WSL i3, I&rsquo;ve simply created symlinks for my core folders like <em>Documents</em> and my mapped network drive, given all drives in WSL1 are available at <strong>/mnt/driveletter</strong></p>
+<p>Hopefully this article was helpful to those that need it, it&rsquo;s certainly made my day to day usage on a Windows 10 machine be that much less&hellip;well&hellip;Windows!</p>
+<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Warhammer 40k Black Library</a> reading.</p>]]></description>
+</item></channel>
+</rss>
