@@ -48,6 +48,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Them: Why We Hate Each Other--and How to Heal | Ben Sasse |
 | The Death of Expertise | Tom Nichols |
 | Reasons and Persons | Derek Parfit |
+| Range: Why Generalists Triumph in a Specialized World | David Epstein |
+
 
 
 
