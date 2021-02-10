@@ -16,7 +16,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 | Title | Author | Finished | Commentary? |
 |:------|:-------|:--------:|------------:|
-| Everything Is F*cked | Mark Manson | 2020-06-06 | Test |
+| Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
 
 
 ## Would Like To Read
