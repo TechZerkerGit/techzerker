@@ -141,7 +141,7 @@ theme = "LoveIt"
   [params.social]
 #   GitHub = "xxxx"
     Linkedin = "scotthaner"
-    Twitter = "Techzerker"
+#    Twitter = "Techzerker"
 #    Instagram = "xxxx"
 #    Facebook = "xxxx"
     Telegram = "@techzerker"
@@ -208,9 +208,9 @@ theme = "LoveIt"
     # weight when arranging icons (the greater the weight, the later the icon is positioned)
     weight = -10
     # your social ID
-    id = "@techzerker"
+    id = "@TechZerker"
     # prefix of your social link
-    prefix = "https://social.librem.one/"
+    prefix = "https://fosstodon.org/"
     # content hovering on the icon
     title = "Mastodon"
 
