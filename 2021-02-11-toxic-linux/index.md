@@ -13,6 +13,8 @@ My core approach with Linux and encouraging adoption has been to talk about my o
 
 If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that's fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you've tried before and hit a *"Wall of Toxicity"*, then here are a few great places to join and ask questions where we'll be friendly and helpful, regardless of your experience level:
 
-[**Fosstodon**](https://fosstodon.org) (Mastodon Instance)
+
+[**Fosstodon**](https://fosstodon.org) (Mastodon Instance) 
+
 [**Telegram: Linux For Everyone**](https://t.me/linux4everyone)
 
