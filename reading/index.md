@@ -24,6 +24,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Title | Author |
 |:------|:-------|
 | Digital Minimalism | Cal Newport |
+| Deep Work | Cal Newport |
 | How to Live (Preface to Montaigne) | Sarah Bakewell |
 | Montaigne | Stefan Zweig |
 | The Moviegoer | Walker Percy |
