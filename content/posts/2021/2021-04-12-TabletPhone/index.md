@@ -13,7 +13,7 @@ resources:
 #  src: bmwtest.jpg
 ---
 
-After reading [Digital Minimalism]() several times when it was first released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone.
+After reading [Digital Minimalism]() several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone.
 <!--more-->
 
 ## The Setup
@@ -48,4 +48,11 @@ The selection of the carrier came down to the device selection, as I wasn’t in
 These components together formed the plan, and would double up as a budget savings vs the $75-100/mo standard smartphone plan.
 
 *Total Cost: **$31.00/mo***
+
+
+## Why Use a Tablet as a Phone?
+
+The thought process to this solution was to maintain the benefits of the smartphone, but introduce a barrier to the *always in your pocket* easy access.
+
+The concept being that I could still have access to apps on the go, and features like navigation. 
 
