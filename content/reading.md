@@ -52,8 +52,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Reasons and Persons | Derek Parfit |
 | Range: Why Generalists Triumph in a Specialized World | David Epstein |
 | Average Is Over | Tyler Cowen |
-
-
+| | |
 
 
 
