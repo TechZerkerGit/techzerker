@@ -33,6 +33,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Montaigne | Stefan Zweig |
 | The Moviegoer | Walker Percy |
 | The Laws of Human Nature | Robert Greene |
+| The Way of the Intelligent Rebel | Olivier Roland |
 | Leisure: The Basis of Culture | Josef Pieper |
 | So You've Been Publicly Shamed | Jon Ronson |
 | The Greatest Empire: A Life of Seneca | Emily Wilson |
