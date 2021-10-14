@@ -1,18 +1,11 @@
 ---
-title: ARM Systems and the 2019 Pinebook Pro
+title: "ARM Systems and the 2019 Pinebook Pro"
 #subtitle: ""
 date: 2020-02-18
 draft: false
 # images: []
-tags: 
-- Linux
-- Pine
-- Pinebook
-- ARM
-- Pi
-categories:
-- Tech
-- Linux
+tags: ["Linux","Pine","Pinebook","ARM","Pi"]
+categories: ["Tech","Linux"]
 resources:
 - name: featured-image
   src: pinebook-pro-ubuntu-mate-750x396.jpg
