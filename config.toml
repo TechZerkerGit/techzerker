@@ -139,9 +139,9 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
-#   GitHub = "xxxx"
+    GitHub = "TechZerkerGit"
     Linkedin = "scotthaner"
-#    Twitter = "Techzerker"
+    Twitter = "Techzerker"
 #    Instagram = "xxxx"
 #    Facebook = "xxxx"
     Telegram = "@techzerker"

@@ -10,22 +10,21 @@ Thanks for reading *TechZerker!*
 I'm Scott, a Canadian tech professional in the industry since 2005. I have been passionate about technology long before it became my profession, starting off with an Apple IIC back in the early 90's!
 
 Over time I've evolved from a regular tech user on the windows flavor of the day, to a die-hard windows fan (including Windows Phone!). After that mess, I finally have settled comfortably into open source
-and the linux world for all my needs, including gaming on Linux full time. When it comes to gaming, I am a mix between modern-ish gaming and what is best described as nostalgic gaming (late 90's and 2000's), 
+and the linux world for my needs, including gaming on Linux full time. When it comes to gaming, I am a mix between modern-ish gaming and what is best described as nostalgic gaming (late 90's and 2000's), 
 which rarely counts as *retro*, at least not yet.
 
 I created TechZerker as my source to talk about these technology, gaming and linux subjects. I have since expanded it as a personal blog to cover a variety of interests, as despite working in IT, I have a 
 variety of non-IT interests from *History*, to *Stoicism*, *Classic Cars* and *Motorsports*, and more. Given my career, most of what I write about is related to technology, but felt it worthwhile
-to demonstrate we're not all *hackers* or basement dwellers who live and die by a terminal.
+to demonstrate we're not all *hackers* or basement dwellers who live and die by a terminal. Despite these linux leaning, I am also a happy iOS/Apple user, as I also believe in the core philosiphy of *use what works for you*.
 
 As a final point, I am definitely concerned at the modern smartphone addiction challenges, and as I'm lifting my head up, I can't un-see a world scrolling through feeds, likes and shares with no real interaction,
 so you won't find those features here, and instead I encourage genuine and intelligent discussion on topics. Here are the most common ways to reach me:
 
-#### Mastodon: [**@TechZerker@Librem.One**](https://social.librem.one/@techzerker)
+#### Mastodon: [**@TechZerker@fosstodon.org**](https://fosstodon.org/@TechZerker)
 
 #### Telegram: [**@TechZerker**](https://t.me/techzerker)
 
 #### Twitter: [**@TechZerker**](https://twitter.com/techzerker)
-
 
 ---
 
