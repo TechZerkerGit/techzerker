@@ -1,0 +1,589 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Self-Hosted - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/self-hosted/</link>
+        <description>Self-Hosted - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/self-hosted/" rel="self" type="application/rss+xml" /><item>
+    <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
+    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
+    <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
+    <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
+<p>I had already dabbled a bit in <a href="https://pixelfed.org" target="_blank" rel="noopener noreffer">Pixelfed</a>, by joining <a href="https://pixelfed.social" target="_blank" rel="noopener noreffer">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
+<p></p>
+<p>On my Arch VPS that I host on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, I had already tried in previous weeks to direct install Pixelfed. Unfortunately, likely because of other self-hosted apps or packages in place, it was a struggle and I just could not get Pixelfed fully operational. In steps Docker, and the <a href="https://jonnev.se/pixelfed-beta-with-docker-and-traefik/" target="_blank" rel="noopener noreffer">article here</a> that inspired this updated version with what I had to do differently, as well as more details on the Nginx reverse proxy portion.</p>
+<p><em>If you are interested in using Vultr to host a VPS for this or any other self-hosted projects, depending on your project size and plans, you can either get <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">$10 of VPS Credit</a> for a small project, or if you&rsquo;re looking for a larger project, you can get <a href="https://www.vultr.com/?ref=8473015-6G" target="_blank" rel="noopener noreffer">$100 of VPS Credit for 30 days</a>. Both help me out and keep tracking based ads and services off my site.</em></p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>VPS <a href="https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers" target="_blank" rel="noopener noreffer">Operational &amp; Secure</a></li>
+<li>Docker &amp; Docker-Compose Installed</li>
+<li>Nginx Installed</li>
+<li><a href="https://www.cloudflare.com/en-ca/products/registrar/" target="_blank" rel="noopener noreffer">Domain Name</a> Setup, and Ideally SSL Certificates ready</li>
+</ul>
+<p><em>Of note, in this install, Nginx is direct installed on the host, as it fit with my existing environment. It is also common to deploy Nginx with Docker as well, which would change these instructions to some extent.</em></p>
+<h2 id="pixelfed-setup">Pixelfed Setup</h2>
+<p>The Pixelfed install will be built directly as a new image, as similar to Jon in the article I referenced, the only pre-built docker images while recent, had no details or notes, so did not inspire the most confidence. Ideally, the steps below should all be run as a non-root user that has <em>Sudo</em> capability.</p>
+<p>First, a directory to pull the source to, using /opt/ is a good best practice vs. installing it to a specific users /home directory.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed_source
+sudo chown $USER:$USER /opt_pixelfed_source
+</code></pre></td></tr></table>
+</div>
+</div><p>Next is pulling down the repository, in my case it&rsquo;s been active development, so I just pulled the most recent, but you can also pull an older <em>stable</em> build too if you prefer.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/pixelfed/pixelfed.git /opt/pixelfed_source
+cd /opt/pixelfed_source
+git checkout dev
+</code></pre></td></tr></table>
+</div>
+</div><p>This was the first difference I had to work through, where just trying a straight <em>docker build</em> was failing, because in the current versions, the <em>dockerfile</em> files are not in the root, so the command to build has to be updated to reflect that. I also tagged my build with the pull date, given it&rsquo;s dev so does not have a release number (like v0.10.8) and a commit tag is long and ugly.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker build . -t pixelfed:20200302 -f contrib/docker/Dockerfile.apache
+</code></pre></td></tr></table>
+</div>
+</div><p>There is also a <em>Dockerfile.fpm</em> file there for a php-fpm based version, but as of this writing date, I confirmed it is not complete/functioning yet.</p>
+<p>Once the docker has built, we can create a directory that the docker compose will run from, which will contain it&rsquo;s settings, as well as the Pixelfed .env settings file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed
+sudo chown $USER:$USER /opt/pixelfed
+cd /opt/pixelfed
+</code></pre></td></tr></table>
+</div>
+</div><p>To copy the example configuration file over:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cp ../pixelfed_source/.env.example .env
+nano .env
+</code></pre></td></tr></table>
+</div>
+</div><p>Rather then snippets of key settings, I&rsquo;m removing sensitive parts and posting up my entire .env config file, as the parts I struggled with the most were the ones where documentation is still a work in progress. Like the article I learned from, I stuck with pgsql within Docker.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">APP_NAME=&#34;Pixelfed&#34;
+APP_ENV=production
+APP_KEY=**blank, we&#39;ll generate this further down**
+APP_DEBUG=false
+
+APP_URL=https://**your-domain.name**
+APP_DOMAIN=&#34;**your-domain.name**&#34;
+ADMIN_DOMAIN=&#34;**your-domain.name**&#34;
+SESSION_DOMAIN=&#34;**your-domain.name**&#34;
+TRUST_PROXIES=&#34;*&#34;
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=pgsql
+DB_HOST=db
+DB_PORT=5432
+DB_DATABASE=pixelfed
+DB_USERNAME=pixelfed
+DB_PASSWORD=**create a proper secure password!**
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=redis
+SESSION_DRIVER=redis
+QUEUE_DRIVER=redis
+
+REDIS_SCHEME=tcp
+REDIS_HOST=redis
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
+MAIL_PORT=587
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME=&#34;Pixelfed&#34;
+
+OPEN_REGISTRATION=false
+ENFORCE_EMAIL_VERIFICATION=false
+PF_MAX_USERS=100
+
+MAX_PHOTO_SIZE=64000
+MAX_CAPTION_LENGTH=150
+MAX_ALBUM_LENGTH=4
+MAX_ACCOUNT_SIZE=10000000
+IMAGE_QUALITY=100
+
+ACTIVITY_PUB=true
+AP_REMOTE_FOLLOW=true
+AP_INBOX=true
+PF_COSTAR_ENABLED=false
+
+HORIZON_EMBED=true
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="docker--docker-compose">Docker / Docker-Compose</h2>
+<p>With that file saved and done, the next step is to setup the docker network and build the <code>docker-compose</code> file for the whole process.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker network create pixelfed
+docker network create web
+
+touch docker-compose.yml
+nano docker-compose.yml
+</code></pre></td></tr></table>
+</div>
+</div><p>Below is my docker compose file, with sensitive details removed and key points highlighted. Of worthy note in my install, I have host mapped the storage in place of an internal docker volume, to a Fuse S3FS mount point for my <a href="https://wasabi.com/cloud-storage-pricing/" target="_blank" rel="noopener noreffer">S3</a> storage, which will also make it easier for me to at minimum, backup the raw photo content, and it&rsquo;s cheaper storage than my VPS SSD.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">version: &#39;3&#39;
+services:
+
+  app:
+    image: pixelfed:20200302
+    restart: unless-stopped
+    ports:
+      - &#34;8080:80&#34;
+    env_file:
+      - ./.env
+    volumes:
+      - &#34;/path/to/s3-storage:/var/www/storage&#34;
+      - &#34;app-bootstrap:/var/www/bootstrap&#34;
+      - ./.env:/var/www/.env
+    networks:
+      - web
+      - pixelfed
+
+  db:
+    image: postgres:9.6.4
+    restart: unless-stopped
+    networks:
+     - pixelfed
+    volumes:
+     - db-data:/var/lib/postgresql/data
+    environment:
+     - POSTGRES_PASSWORD=${DB_PASSWORD}
+     - POSTGRES_USER=${DB_USERNAME}
+
+  worker:
+    image: pixelfed:20200302
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    volumes:
+      - &#34;/path/to/s3-storage:/var/www/storage&#34;
+      - &#34;app-bootstrap:/var/www/bootstrap&#34;
+    networks:
+      - web  # Required for ActivityPub
+      - pixelfed
+    command: gosu www-data php artisan horizon
+
+  redis:
+    image: redis:5-alpine
+    restart: unless-stopped
+    volumes:
+      - &#34;redis-data:/data&#34;
+    networks:
+      - pixelfed
+
+volumes:
+  redis-data:
+  app-bootstrap:
+  db-data:
+
+networks:
+  pixelfed:
+    internal: true
+  web:
+    external: true
+</code></pre></td></tr></table>
+</div>
+</div><p>If you are already running Nginx with other services on the same server, then you may need to adjust the <em>8080</em> Port in: <code>Ports: -8080:80</code> to a different available port, and mirror that change when we get to Nginx shortly.</p>
+<p>Now we should be able to spin up the image and get it ready for deployment, before we go and sort out Nginx:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+docker-compose exec app php artisan key:generate
+
+cat .env | grep APP_KEY 
+# Make sure there&#39;s a value
+</code></pre></td></tr></table>
+</div>
+</div><p>Then the container can be restarted, and some final Pixelfed prep tasks complete to have it ready to go.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose restart app
+docker-compose exec app php artisan config:cache
+docker-compose exec app php artisan migrate
+# Answer yes
+</code></pre></td></tr></table>
+</div>
+</div><p>At this point, technically, the Pixelfed instance should be up and running, so we&rsquo;ll need to sort out the Nginx portion so we can actually access it and verify that fact!</p>
+<h2 id="nginx-setup">Nginx Setup</h2>
+<p>There are a few different methods I&rsquo;ve seen used for Nginx .conf file locations, but they should all work with minor tweaks. In my case, there is a .conf file for each web application in <code>/etc/nginx/conf.d/nameofapp.conf</code></p>
+<p>As such, my base <code>/etc/nginx/nginx.conf</code> is default install, with just these key settings, everything else being commented out or removed.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">worker_processes  1;
+
+error_log  logs/error.log;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       mime.types;
+    include /etc/nginx/conf.d/*.conf;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+
+    gzip  on;
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>Then I have the file, <code>/etc/nginx/conf.d/pixelfed.conf</code> setup as below, with placing your correct domain name in place, as well as the path to your certificates.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">server {
+  listen 80;
+  server_name **your-domain.name**;
+  return 301 https://$server_name$request_uri;
+  client_max_body_size 100M;
+}
+server {
+  listen 443 ssl http2;
+  server_name **your-domain.name**;
+  client_max_body_size 100M;
+
+  ssl_protocols TLSv1.1 TLSv1.2;
+
+  # ** Adjust below to match your certs, mine were from CloudFlare, but there are plenty of guides for LetsEncrypt, etc. if you&#39;re not setting up   behind a CDN **
+
+  ssl_certificate /etc/nginx/ssl/**your-domain.name**-tld-cert.pem;
+  ssl_certificate_key /etc/nginx/ssl/**your-domain.name**-tld-key.pem;
+
+  access_log /var/log/nginx/**your-domain.name**.log;
+  location / {
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $remote_addr;
+      proxy_pass http://127.0.0.1:8080;
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>Note the <em>client_max_body_size 100M;</em> lines, I added these after hours digging through PixelFed and PHP.ini type options because I was able to upload pictures, but only if they were under 1MB, and with a very generic <em>failure</em> error. The end solution was that Nginx by default limits file transfers to 1MB if not defined. You can define this here just for Pixelfed, or you can define it globally in the main Nginx.conf file if you prefer.</p>
+<p>With the <em>pixelfed.conf</em> file generated and filled, hopefully correctly, you should now be able to restart Nginx so that it picks up the file changes. In the case of Arch (and most modern systems), it&rsquo;s using Systemd, so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl restart nginx
+</code></pre></td></tr></table>
+</div>
+</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name" target="_blank" rel="noopener noreffer">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
+<h2 id="user-creation">User Creation</h2>
+<p>If the site loaded for you, and if like myself you&rsquo;re building this primarily for private or small group usage, so turned off Open Registration, you can now use the terminal to create you first user, presumably as an admin:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose exec app php artisan user:create
+</code></pre></td></tr></table>
+</div>
+</div><p>That command above will walk you through several requests to build a user, including asking if the user should be an admin (probably <em>yes</em>). Of worthy note, when it asks for <strong>Over-ride manual e-mail verification</strong> (my wording might be off), enter <strong>yes</strong>. This marks the accounts e-mail as already verified, so for a small instance you don&rsquo;t have to focus on e-mail setup right away.</p>
+<p>With the user created, you should be able to login and start using Pixelfed!</p>
+<h2 id="outstanding-issues">Outstanding Issues</h2>
+<p>The only issue I currently am still working on resolving, but it may be caused by a caching network appliance that I can&rsquo;t test bypassing right away, is <em>collections</em>.</p>
+<p>On my instance when I try to create a collection, it lets me add from recent or by URL posts to a collection, and even lets me <em>Save</em> the collection. But roughly 75% of the time when I attempt to <em>Publish</em> the collection, I get a generic error message and it does not Publish. When this occurs, my reason I suspect this caching appliance I&rsquo;m stuck behind, is I can&rsquo;t even delete the half-created collection, until I wait an hour or so. Selecting delete gives me the prompt, but nothing happens even though Nginx logs show is processed and passed the command through correctly.</p>
+<p>A handful of times while trying to test this, a collection created perfect without error and published. Once I&rsquo;ve been able to test this on a direct internet line, I&rsquo;ll be able to narrow down if I still have a configuration error, and/or if I have an issue I need to submit back to the Github project, given this is the Dev branch.</p>
+<p>I will also add, I have not yet confirmed if <em>Federation</em> is working for me, but will be validating that when possible, and updating the article if I have to change any settings.</p>
+<h2 id="updating-pixelfed">Updating Pixelfed</h2>
+<p>This process I am mostly copying direct from the original article I followed, as this install has been recent enough, there have not been any updates yet for me to validate if this creates problems for me. That being said, the commands all look correct, so I don&rsquo;t anticipate issues. Before updating, especially on <em>Dev</em> branch, it&rsquo;s a good practice on your VPS to either take a backup or a snapshot <em>just in case</em>. To update to the current Dev:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed_source
+git checkout dev
+git pull origin dev
+git checkout dev
+docker build . -t pixelfed:todaysdate -f contrib/docker/Dockerfile.apache
+</code></pre></td></tr></table>
+</div>
+</div><p>Then once that has pulled and built, with the updated today&rsquo;s date to help identify it, it&rsquo;s just two lines to update in the <em>docker-compose.yml</em> file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed
+nano docker-compose.yml
+
+app:
+    image: pixelfed:todaysdate
+  #...
+  worker:
+    image: pixelfed:todaysdate
+</code></pre></td></tr></table>
+</div>
+</div><p>Then restart the docker-compose, and run the artisan migrate command. Worthy warning if you&rsquo;re new to docker, when we say restart, do <strong>not</strong> run <code>docker-compose down</code>, as that deletes this container and wipes the volume data as well, meaning the next <em>docker-compose up -d</em> would be like a fresh install (without your images or users), so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+docker-compose exec app php artisan migrate
+# Answer yes
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="wrap-up">Wrap Up</h2>
+<p>At this point, if everything worked (and I know, it often takes several attempts, this took me a while to get all sorted and running!), you should have a fully functioning PixelFed, and can either open registration, or terminal create users for your own small community to post to.</p>
+<p>For updates to the Project, keep an eye on <a href="https://github.com/pixelfed/pixelfed" target="_blank" rel="noopener noreffer">Pixelfed GitHub</a>, and as they detail on that page, there is a semi-active group on their Riot Matrix.Org channel for help, which I&rsquo;ve been over-active in during my install struggles.</p>
+<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
+</item><item>
+    <title>Self Hosting Migration Rush</title>
+    <link>https://techzerker.com/2019-03-24-self-host-migration/</link>
+    <pubDate>Sun, 24 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-03-24-self-host-migration/</guid>
+    <description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
+<p>If you visited this site at all in the past year, it was still a very busy &lsquo;news magazine&rsquo; looking WordPress site. It liked it at the time. I am shifting more to quick, personal writing on my tech adventures.</p>
+<p>Hence, TechZerker.com has moved to the reading focused <a href="https://writefreely.org" target="_blank" rel="noopener noreffer">WriteFreely</a> platform. It&rsquo;s open source, light on server resources, and was a breeze to implement! It is the project that powers the more well known <a href="https://write.as" target="_blank" rel="noopener noreffer">Write.As</a> platform.</p>
+<p>While I was at it, I also moved my cloud storage system from it&rsquo;s existing VPS to this new <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> VPS. I have been using Resilio Sync to that end for nearly a year now. It has been working great for my needs and I will do a better write-up on it, and it&rsquo;s installation.</p>
+<p>Last on the list, and easier than I expected, I deployed <a href="https://miniflux.app/" target="_blank" rel="noopener noreffer">MiniFlux</a> to replace Feedly. I continue to prefer a curated RSS feed over what social media services try to serve me. I had one or two small bumps with steps not really documented, but they were simple to figure out!</p>
+<p>All those services are now up and running, and are now on my preferred pure Arch Linux distro. The last project on the plate is to migrate an existing MineCraft. For that project I&rsquo;m going to test out MineOS to simplify the management.</p>
+<p>I will do additional write-ups or commentary on each of the applications when I am ready to write about them. In the meantime, enjoy the cleaner and way faster loading TechZerker!</p>
+<p>&ndash;Scott</p>
+]]></description>
+</item></channel>
+</rss>

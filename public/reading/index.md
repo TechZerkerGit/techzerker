@@ -1,8 +1,5 @@
----
-title: "Reading"
-date: 2020-06-04
-draft: false
----
+# Reading
+
 
 After seeing a few blogs and sites I follow add *Reading* lists, showing what they are, have previously and would like to read, I liked the idea!
 So here we are, right now, the "have read" list is short until I can scrape my memory for what has past, as I have not previously kept a written record.
@@ -61,3 +58,4 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 from Amazon services, however, many of the better affiliate systems need to see higher traffic in order to be approved. Whenever possible, if I have an affiliate link I will put preference to a non-Amazon provider if available.*
 
 ---
+
