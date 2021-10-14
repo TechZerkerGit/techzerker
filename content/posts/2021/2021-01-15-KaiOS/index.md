@@ -4,7 +4,11 @@ title: "Nokia KaiOS: Coming Soon"
 date: 2021-01-15
 draft: true
 # images: []
+<<<<<<< HEAD
 tags: ["KaiOS","Mobile","Nokia"]
+=======
+tags: ["KaiOS","Mobile",”Nokia”]
+>>>>>>> c363c454b5965875a69474a110087a08454926c7
 categories: ["Mobile",""]
 resources:
 - name: featured-image
@@ -23,6 +27,10 @@ I enjoy testing these boundaries to better reflect on modern technology. To that
 
 ![Nokia 6300 4G Store Picture](Nokia_63004G_Stock.JPG)
 
+<<<<<<< HEAD
 HMD Global, the company behind the Nokia name these days has produced a wide variety of hardware. They've created a range of mid-range and high end Android devices, and a handful of classic inspired *feature phones*. 
+=======
+HMD Global, the company behind the Nokia name these days has produced a wide variety of hardware. They’ve created a range of mid-range and high end Android devices, and a handful of classic inspired *feature phones*. 
+>>>>>>> c363c454b5965875a69474a110087a08454926c7
 
 

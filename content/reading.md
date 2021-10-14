@@ -14,6 +14,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Title | Author |
 |:------|:-------|
 | [Winner Take Nothing](https://amzn.to/2Y9A0pX) | Ernest Hemingway |
+| Dead Doubles | Trevor Barnes |
+| Digital Minimalism | Cal Newport |
 
 ## Finished Reading
 
@@ -26,11 +28,12 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 | Title | Author |
 |:------|:-------|
-| Digital Minimalism | Cal Newport |
+| Deep Work | Cal Newport |
 | How to Live (Preface to Montaigne) | Sarah Bakewell |
 | Montaigne | Stefan Zweig |
 | The Moviegoer | Walker Percy |
 | The Laws of Human Nature | Robert Greene |
+| The Way of the Intelligent Rebel | Olivier Roland |
 | Leisure: The Basis of Culture | Josef Pieper |
 | So You've Been Publicly Shamed | Jon Ronson |
 | The Greatest Empire: A Life of Seneca | Emily Wilson |
@@ -49,7 +52,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | The Death of Expertise | Tom Nichols |
 | Reasons and Persons | Derek Parfit |
 | Range: Why Generalists Triumph in a Specialized World | David Epstein |
-
+| Average Is Over | Tyler Cowen |
+| | |
 
 
 
