@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Text - Tag - TechZerker</title><link>https://techzerker.com/tags/text/</link><description>Text - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/text/" rel="self" type="application/rss+xml"/><item><title>VIM Expedition</title><link>https://techzerker.com/2019-05-08-vim/</link><pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-05-08-vim/</guid><description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Text - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/text/</link>
+        <description>Text - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 May 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/text/" rel="self" type="application/rss+xml" /><item>
+    <title>VIM Expedition</title>
+    <link>https://techzerker.com/2019-05-08-vim/</link>
+    <pubDate>Wed, 08 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-05-08-vim/</guid>
+    <description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
 <p></p>
 <p>Up until a few days ago, my previous experience with VIM was limited. I&rsquo;ve been using Linux heavily for years now, and it was just an annoyance. In the past my only exposure to VIM was AUR install scripts or source builds that forced me to check build files via VIM. What that really meant was it was that annoying text program, that I had no clue how to quit when it suddenly was on my screen! <strong>:w</strong> to save, and <strong>:q</strong> to quit, but not if your in insert mode&hellip;what?</p>
 <p>Well, now that&rsquo;s changing, progressively.</p>
@@ -7,4 +18,6 @@
 <p>The end result of all this?</p>
 <p>Well, this post was written in VIM with MarkDown syntax highlighting.</p>
 <p>It was a very distraction free writing environment. Finally, even at my novice level, it was easy to move around the document and get familiar with the commands. It&rsquo;s not hard to see that it has a steep learning curve, but especially on longer articles and research notes, how easy it can make working with text.</p>
-<p>I am not a committed VIM user yet, but this is definitely an extended expedition into foreign lands, and other than the confusing signs, is quite intriguing and worth further exploration.</p>]]></description></item></channel></rss>
+<p>I am not a committed VIM user yet, but this is definitely an extended expedition into foreign lands, and other than the confusing signs, is quite intriguing and worth further exploration.</p>]]></description>
+</item></channel>
+</rss>

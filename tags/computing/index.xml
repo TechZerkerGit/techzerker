@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Computing - Tag - TechZerker</title><link>https://techzerker.com/tags/computing/</link><description>Computing - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/computing/" rel="self" type="application/rss+xml"/><item><title>PaperSpace and Future Hyper-Converged Computing (Link)</title><link>https://techzerker.com/2020-06-08-paperspace/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-06-08-paperspace/</guid><description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Computing - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/computing/</link>
+        <description>Computing - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/computing/" rel="self" type="application/rss+xml" /><item>
+    <title>PaperSpace and Future Hyper-Converged Computing (Link)</title>
+    <link>https://techzerker.com/2020-06-08-paperspace/</link>
+    <pubDate>Mon, 08 Jun 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-06-08-paperspace/</guid>
+    <description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
 <p></p>
 <p><a href="https://twitter.com/nrose/status/1210698393355460608" target="_blank" rel="noopener noreffer">Source Twitter Post</a></p>
 <p><em>Copied in full below for easier reading</em></p>
@@ -41,4 +52,6 @@
 <p>In the same way Catalyst brought small-screen compute to the desktop, eventually there’ll be a path for block-based to get to phones, from the glasses.</p>
 <p>Less interesting to think about where this will all go – it’s clear and inevitable – but what are the PATHS to get there and how can we each contribute along the way? What can you build today to anticipate this tomorrow?</p>
 </blockquote>
-]]></description></item></channel></rss>
+]]></description>
+</item></channel>
+</rss>

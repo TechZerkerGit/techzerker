@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Pinebook - Tag - TechZerker</title><link>https://techzerker.com/tags/pinebook/</link><description>Pinebook - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/pinebook/" rel="self" type="application/rss+xml"/><item><title>ARM Systems and the 2019 Pinebook Pro</title><link>https://techzerker.com/2020-02-18-pinebook-pro/</link><pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid><description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L" target="_blank" rel="noopener noreffer">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Pinebook - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/pinebook/</link>
+        <description>Pinebook - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/pinebook/" rel="self" type="application/rss+xml" /><item>
+    <title>ARM Systems and the 2019 Pinebook Pro</title>
+    <link>https://techzerker.com/2020-02-18-pinebook-pro/</link>
+    <pubDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid>
+    <description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L" target="_blank" rel="noopener noreffer">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
 <p>As we&rsquo;re getting into 2020, I&rsquo;m seeing a lot more articles and posts of the <a href="https://amzn.to/2UZn7yT" target="_blank" rel="noopener noreffer">Pi4</a>, at least the 4GB model, making a decent basic workstation and office computer. This is assuming that use case is similar to that of a Chromebook, focused on web and terminal type software. Along the same vein is a system like the Pinebook Pro, which has been getting a fair amount of attention for making the right decisions for a budget system that does not feel budget. I was prompted to post this tonight because I really enjoyed this longer Vice article on the Pinebook Pro and its market in general:</p>
 <blockquote>
 <p>The Pinebook Pro, a community-built Linux laptop that runs on ARM hardware, offers a few surprises. Fairly inexpensive, it’s the perfect machine for tinkerers.</p>
@@ -8,4 +19,6 @@
 </blockquote>
 <p>Currently, getting your hands on a Pinebook Pro at its original price point is challenging. The Pinebook Pro has been popular and not mass-produced, with even lower production volumes for the ISO North American keyboard variant. Knowing that, unless a new batch comes in soon, I&rsquo;ll likely acquire either a Raspberry Pi4 or a <a href="https://www.pine64.org/rockpro64/" target="_blank" rel="noopener noreffer">Pine64 - ROCKPro64</a> for a small home workstation and tinker box for <a href="ArchLinux.Org" rel="">Arch Linux</a> and i3wm.</p>
 <p>When I do acquire something, I will definitely write about any projects I plan, such as a Plex media server, maybe a small in-home Minecraft box, not to mention a NAS system at some point!</p>
-]]></description></item></channel></rss>
+]]></description>
+</item></channel>
+</rss>

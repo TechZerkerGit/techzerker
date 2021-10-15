@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Arch Linux - Tag - TechZerker</title><link>https://techzerker.com/tags/arch-linux/</link><description>Arch Linux - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/arch-linux/" rel="self" type="application/rss+xml"/><item><title>Arch Linux – Conflicting Files and the Arch Wiki</title><link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link><pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid><description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org" target="_blank" rel="noopener noreffer">Arch Linux</a>.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Arch Linux - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/arch-linux/</link>
+        <description>Arch Linux - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/arch-linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch Linux – Conflicting Files and the Arch Wiki</title>
+    <link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link>
+    <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
+    <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org" target="_blank" rel="noopener noreffer">Arch Linux</a>.</p>
 <p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
 <p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>
 <p>A search for <a href="https://duckduckgo.com/?q=arch&#43;pacman&#43;%2B&#43;conflicting&#43;files" target="_blank" rel="noopener noreffer"><em>Arch Pacman + Conflicting Files</em></a> returns all sorts of results, from various BBS Sites, Reddit, and Forums, with the Arch Wiki nestled tightly among them.</p>
@@ -11,7 +22,14 @@
 </blockquote>
 <p>Sure enough, in my case, I ran <code>pacman -Qo /usr/lib/thefileinquestion</code>, and it returned that no package owned that file. So following the wiki, I did a quick rename of that file (not delete, in case it does end up being needed!). I re-ran my update process, no conflicts, and everything appears to be working! Simple :)</p>
 <p>In the case of Arch, when in doubt, <em>start</em> with the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>, and then ask for elaborations on those solutions if they are not working, or not solving your problem, and you likely will save yourself a lot of headache!</p>
-<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description></item><item><title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title><link>https://techzerker.com/2019-11-27-arch-server-updates/</link><pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid><description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
+<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
+</item><item>
+    <title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title>
+    <link>https://techzerker.com/2019-11-27-arch-server-updates/</link>
+    <pubDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid>
+    <description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
 <p>That little VPS runs a few different services:</p>
 <ul>
 <li>Minecraft server for a group of friends, which is the heavy memory user</li>
@@ -33,4 +51,6 @@
 <p>If you don&rsquo;t yet #Self-Host and are looking for a project, I run my projects currently on Vultr, and sticking with plain <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">direct referral link</a>, you can help me out by giving <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">Vultr</a> a try with $50 worth of hosting, and it helps me out as well.</p>
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
-</blockquote>]]></description></item></channel></rss>
+</blockquote>]]></description>
+</item></channel>
+</rss>

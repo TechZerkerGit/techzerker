@@ -7,7 +7,7 @@ As we're getting into 2020, I'm seeing a lot more articles and posts of the [Pi4
 
 > The Pinebook Pro, a community-built Linux laptop that runs on ARM hardware, offers a few surprises. Fairly inexpensive, it’s the perfect machine for tinkerers.
 
-> [**This $200 Laptop Is Like a Chromebook You Can Hack**](https://www.vice.com/en_us/article/n7jdvd/this-dollar200-laptop-is-like-a-chromebook-you-can-hack)
+> [**This $200 Laptop Is Like a Chromebook You Can Hack**](https://www.vice.com/en_us/article/n7jdvd/this-dollar200-laptop-is-like-a-chromebook-you-can-hack) 
 
 Currently, getting your hands on a Pinebook Pro at its original price point is challenging. The Pinebook Pro has been popular and not mass-produced, with even lower production volumes for the ISO North American keyboard variant. Knowing that, unless a new batch comes in soon, I'll likely acquire either a Raspberry Pi4 or a [Pine64 - ROCKPro64](https://www.pine64.org/rockpro64/) for a small home workstation and tinker box for [Arch Linux](ArchLinux.Org) and i3wm.
 

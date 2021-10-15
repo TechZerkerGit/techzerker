@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>PostgreSQL - Tag - TechZerker</title><link>https://techzerker.com/tags/postgresql/</link><description>PostgreSQL - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/postgresql/" rel="self" type="application/rss+xml"/><item><title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title><link>https://techzerker.com/2019-11-27-arch-server-updates/</link><pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid><description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>PostgreSQL - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/postgresql/</link>
+        <description>PostgreSQL - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/postgresql/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title>
+    <link>https://techzerker.com/2019-11-27-arch-server-updates/</link>
+    <pubDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid>
+    <description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
 <p>That little VPS runs a few different services:</p>
 <ul>
 <li>Minecraft server for a group of friends, which is the heavy memory user</li>
@@ -20,4 +31,6 @@
 <p>If you don&rsquo;t yet #Self-Host and are looking for a project, I run my projects currently on Vultr, and sticking with plain <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">direct referral link</a>, you can help me out by giving <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">Vultr</a> a try with $50 worth of hosting, and it helps me out as well.</p>
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
-</blockquote>]]></description></item></channel></rss>
+</blockquote>]]></description>
+</item></channel>
+</rss>

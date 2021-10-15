@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Gaming - Tag - TechZerker</title><link>https://techzerker.com/tags/gaming/</link><description>Gaming - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/gaming/" rel="self" type="application/rss+xml"/><item><title>Elder Scrolls: Blades - The 20's and Great Gear</title><link>https://techzerker.com/2019-04-29-blades-20s-gear/</link><pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-04-29-blades-20s-gear/</guid><description><![CDATA[<p>I have continued to play Elder Scrolls: Blades, mainly on my iPhone for the past month in bursts. Overall, it is still holding up, although obviously it is not remotely like a full Elder Scrolls PC game.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gaming - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/gaming/</link>
+        <description>Gaming - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 29 Apr 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/gaming/" rel="self" type="application/rss+xml" /><item>
+    <title>Elder Scrolls: Blades - The 20&#39;s and Great Gear</title>
+    <link>https://techzerker.com/2019-04-29-blades-20s-gear/</link>
+    <pubDate>Mon, 29 Apr 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-04-29-blades-20s-gear/</guid>
+    <description><![CDATA[<p>I have continued to play Elder Scrolls: Blades, mainly on my iPhone for the past month in bursts. Overall, it is still holding up, although obviously it is not remotely like a full Elder Scrolls PC game.</p>
 <p>I found I had very little trouble through the single digits and into the teen levels. The occasional level had some minor grind spots for difficulty, but nothing too bad. The early 20&rsquo;s levels however, started off pretty rough. Granted, this was in part because around level 19, I chose to re-spec skills towards light weapons and magic. Learning curve with magic converting to it later in the game was a bit harder, so more enemies beat me around.</p>
 <p>The real sweet spot from my current play came around level 23-24, when most of this gear combo below came together.</p>
 <p>
@@ -11,7 +22,14 @@
 <p>As I continue playing, my next grind and really challenging point was when I hit level 29. At twenty-nine, all the sudden the difficulty jumped and I was struggling to out heal the damage a lot of opponents could deal. For the most part I simply had to slow down my pace of fighting and be a bit more defensive then I was being.</p>
 <p>Now, I&rsquo;m sitting at level 31, and my newest gear that is chewing through opponents has been a <em>Glass Dagger</em>, enchanted with the bonus combo damage. Previously all my weapons were elemental damage, but with a fast weapon, that bonus combo damage is laying waste even to enemies resistant to slashing damage!</p>
 <p>Beyond that, my town is coming along nicely, my various production buildings are between level five and seven. I&rsquo;m just starting to work into Glass and Charus gear, and already eyeing beyond it towards Ebony with the level eight smithy.</p>
-<p>I&rsquo;m curious what the long term future of the game will be, if the Arena will turn it into an aggressive pay-to-win formula, or if they&rsquo;ll be able to add more exploration and story element so that the end-game is not just Arena matches.</p>]]></description></item><item><title>Elder Scrolls: Blades - Early Access</title><link>https://techzerker.com/2019-04-02-bladesearlyaccess/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-04-02-bladesearlyaccess/</guid><description><![CDATA[<p>As many will have seen, the originally announced last year mobile <em>Elder Scrolls</em> game has finally landed! Granted, they&rsquo;ve labelled it as <em>Early Access</em> and are slowly rolling out invites to iOS and Android Users. That being said, I was invited a little over forty-eight hours ago.</p>
+<p>I&rsquo;m curious what the long term future of the game will be, if the Arena will turn it into an aggressive pay-to-win formula, or if they&rsquo;ll be able to add more exploration and story element so that the end-game is not just Arena matches.</p>]]></description>
+</item><item>
+    <title>Elder Scrolls: Blades - Early Access</title>
+    <link>https://techzerker.com/2019-04-02-bladesearlyaccess/</link>
+    <pubDate>Tue, 02 Apr 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-04-02-bladesearlyaccess/</guid>
+    <description><![CDATA[<p>As many will have seen, the originally announced last year mobile <em>Elder Scrolls</em> game has finally landed! Granted, they&rsquo;ve labelled it as <em>Early Access</em> and are slowly rolling out invites to iOS and Android Users. That being said, I was invited a little over forty-eight hours ago.</p>
 <h3 id="in-brief">In Brief</h3>
 <p>It&rsquo;s really good. It looks absolutely gorgeous on my iPhone 8, and only slightly less so on my older iPad Air 2. Character design is more flexible than most mobile games, and starting out, it does actually have a story. Unfortunately, it is <em>Free to Play</em> model, but it feels fine. It&rsquo;s definitely worth a try for Elder Scrolls on the go!</p>
 <h3 id="game-play">Game-play</h3>
@@ -37,4 +55,6 @@
 </ul>
 <hr>
 <p>There you have it, I think Elder Scrolls: Blades is off to a good start with the <em>Early Access</em> tag. It has some good potential, looks great, didn&rsquo;t murder my battery life and the Free to Play model is not invasive at all and has no advertisements.</p>
-<hr>]]></description></item></channel></rss>
+<hr>]]></description>
+</item></channel>
+</rss>

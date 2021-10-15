@@ -1,7 +1,25 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Miniflux - Tag - TechZerker</title><link>https://techzerker.com/tags/miniflux/</link><description>Miniflux - Tag - TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/tags/miniflux/" rel="self" type="application/rss+xml"/><item><title>RSS: Controlling Your Feed (Link)</title><link>https://techzerker.com/2020-12-08-rss-in-control/</link><pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-12-08-rss-in-control/</guid><description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Miniflux - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/miniflux/</link>
+        <description>Miniflux - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 08 Dec 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/miniflux/" rel="self" type="application/rss+xml" /><item>
+    <title>RSS: Controlling Your Feed (Link)</title>
+    <link>https://techzerker.com/2020-12-08-rss-in-control/</link>
+    <pubDate>Tue, 08 Dec 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-12-08-rss-in-control/</guid>
+    <description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
 <p>I used RSS via Google Reader heavily when it was popular, that being pre or early Facebook days. When it was shutdown, I moved onto Feedly, before finally rolling my own Self-Hosted <a href="MiniFlux.app" rel="">MiniFlux RSS</a> reader instance. Similar to Ibrahim, my site built with Hugo has RSS available and encouraged.</p>
 <p>Article: <a href="https://idiallo.com/blog/rss-is-dead-please-subscribe?src=feed" target="_blank" rel="noopener noreffer">With RSS, You are in Control</a></p>
-]]></description></item><item><title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title><link>https://techzerker.com/2019-11-27-arch-server-updates/</link><pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid><description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
+]]></description>
+</item><item>
+    <title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title>
+    <link>https://techzerker.com/2019-11-27-arch-server-updates/</link>
+    <pubDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid>
+    <description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
 <p>That little VPS runs a few different services:</p>
 <ul>
 <li>Minecraft server for a group of friends, which is the heavy memory user</li>
@@ -23,7 +41,14 @@
 <p>If you don&rsquo;t yet #Self-Host and are looking for a project, I run my projects currently on Vultr, and sticking with plain <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">direct referral link</a>, you can help me out by giving <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">Vultr</a> a try with $50 worth of hosting, and it helps me out as well.</p>
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
-</blockquote>]]></description></item><item><title>Self Hosting Migration Rush</title><link>https://techzerker.com/2019-03-24-self-host-migration/</link><pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-03-24-self-host-migration/</guid><description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
+</blockquote>]]></description>
+</item><item>
+    <title>Self Hosting Migration Rush</title>
+    <link>https://techzerker.com/2019-03-24-self-host-migration/</link>
+    <pubDate>Sun, 24 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-03-24-self-host-migration/</guid>
+    <description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
 <p>If you visited this site at all in the past year, it was still a very busy &lsquo;news magazine&rsquo; looking WordPress site. It liked it at the time. I am shifting more to quick, personal writing on my tech adventures.</p>
 <p>Hence, TechZerker.com has moved to the reading focused <a href="https://writefreely.org" target="_blank" rel="noopener noreffer">WriteFreely</a> platform. It&rsquo;s open source, light on server resources, and was a breeze to implement! It is the project that powers the more well known <a href="https://write.as" target="_blank" rel="noopener noreffer">Write.As</a> platform.</p>
 <p>While I was at it, I also moved my cloud storage system from it&rsquo;s existing VPS to this new <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> VPS. I have been using Resilio Sync to that end for nearly a year now. It has been working great for my needs and I will do a better write-up on it, and it&rsquo;s installation.</p>
@@ -31,4 +56,6 @@
 <p>All those services are now up and running, and are now on my preferred pure Arch Linux distro. The last project on the plate is to migrate an existing MineCraft. For that project I&rsquo;m going to test out MineOS to simplify the management.</p>
 <p>I will do additional write-ups or commentary on each of the applications when I am ready to write about them. In the meantime, enjoy the cleaner and way faster loading TechZerker!</p>
 <p>&ndash;Scott</p>
-]]></description></item></channel></rss>
+]]></description>
+</item></channel>
+</rss>

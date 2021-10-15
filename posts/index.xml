@@ -1,4 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - TechZerker</title><link>https://techzerker.com/posts/</link><description>All Posts | TechZerker</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml"/><item><title>Toxicity in Linux Community (Link)</title><link>https://techzerker.com/2021-02-11-toxic-linux/</link><pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2021-02-11-toxic-linux/</guid><description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - TechZerker</title>
+        <link>https://techzerker.com/posts/</link>
+        <description>All Posts | TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 14 Oct 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Test Publish</title>
+    <link>https://techzerker.com/2021-10-14-test/</link>
+    <pubDate>Thu, 14 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2021-10-14-test/</guid>
+    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
 <p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
 <p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
 <p>My core approach with Linux and encouraging adoption has been to talk about my own system and what works (and what does not) and show it off a little. If anyone reaches out and shows some interest, I will gadly answer what questions I can, understand their needs, and attempt to help and steer them in the right direction. However, the core philosphy is:</p>
@@ -7,10 +18,40 @@
 </blockquote>
 <p>If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that&rsquo;s fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you&rsquo;ve tried before and hit a <em>&ldquo;Wall of Toxicity&rdquo;</em>, then here are a few great places to join and ask questions where we&rsquo;ll be friendly and helpful, regardless of your experience level:</p>
 <p><a href="https://fosstodon.org" target="_blank" rel="noopener noreffer"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
-<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description></item><item><title>RSS: Controlling Your Feed (Link)</title><link>https://techzerker.com/2020-12-08-rss-in-control/</link><pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-12-08-rss-in-control/</guid><description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
+<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
+</item><item>
+    <title>Toxicity in Linux Community (Link)</title>
+    <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
+    <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2021-02-11-toxic-linux/</guid>
+    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
+<p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
+<p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
+<p>My core approach with Linux and encouraging adoption has been to talk about my own system and what works (and what does not) and show it off a little. If anyone reaches out and shows some interest, I will gadly answer what questions I can, understand their needs, and attempt to help and steer them in the right direction. However, the core philosphy is:</p>
+<blockquote>
+<p><em>Use what works for you. Period.</em></p>
+</blockquote>
+<p>If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that&rsquo;s fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you&rsquo;ve tried before and hit a <em>&ldquo;Wall of Toxicity&rdquo;</em>, then here are a few great places to join and ask questions where we&rsquo;ll be friendly and helpful, regardless of your experience level:</p>
+<p><a href="https://fosstodon.org" target="_blank" rel="noopener noreffer"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
+<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
+</item><item>
+    <title>RSS: Controlling Your Feed (Link)</title>
+    <link>https://techzerker.com/2020-12-08-rss-in-control/</link>
+    <pubDate>Tue, 08 Dec 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-12-08-rss-in-control/</guid>
+    <description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
 <p>I used RSS via Google Reader heavily when it was popular, that being pre or early Facebook days. When it was shutdown, I moved onto Feedly, before finally rolling my own Self-Hosted <a href="MiniFlux.app" rel="">MiniFlux RSS</a> reader instance. Similar to Ibrahim, my site built with Hugo has RSS available and encouraged.</p>
 <p>Article: <a href="https://idiallo.com/blog/rss-is-dead-please-subscribe?src=feed" target="_blank" rel="noopener noreffer">With RSS, You are in Control</a></p>
-]]></description></item><item><title>PaperSpace and Future Hyper-Converged Computing (Link)</title><link>https://techzerker.com/2020-06-08-paperspace/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-06-08-paperspace/</guid><description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
+]]></description>
+</item><item>
+    <title>PaperSpace and Future Hyper-Converged Computing (Link)</title>
+    <link>https://techzerker.com/2020-06-08-paperspace/</link>
+    <pubDate>Mon, 08 Jun 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-06-08-paperspace/</guid>
+    <description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
 <p></p>
 <p><a href="https://twitter.com/nrose/status/1210698393355460608" target="_blank" rel="noopener noreffer">Source Twitter Post</a></p>
 <p><em>Copied in full below for easier reading</em></p>
@@ -53,11 +94,25 @@
 <p>In the same way Catalyst brought small-screen compute to the desktop, eventually there’ll be a path for block-based to get to phones, from the glasses.</p>
 <p>Less interesting to think about where this will all go – it’s clear and inevitable – but what are the PATHS to get there and how can we each contribute along the way? What can you build today to anticipate this tomorrow?</p>
 </blockquote>
-]]></description></item><item><title>The Bomb Didn't Beat Japan (Link)</title><link>https://techzerker.com/2020-06-07-japan-atomic-bomb/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-06-07-japan-atomic-bomb/</guid><description><![CDATA[<p>This story already circulated plenty in months past, but I decided to link it today after a good co-worker discussion on who writes history, and always being willing to learn facts. In our case, our discussion started with referring to <em>Hunting Hitler</em>, and understanding at the close of the war, people needed to hear <strong>we got him!</strong>, even if it wasn&rsquo;t accurate, and he was actively being searched for. The same goes for Japan in 1945, the American public, at least in the short term, needed to hear that the Atomic Bomb developed at great expense and sacrifice ended the war. This article is a great read to remind us all to read and analyze facts for ourselves, and remember who writes history.</p>
+]]></description>
+</item><item>
+    <title>The Bomb Didn&#39;t Beat Japan (Link)</title>
+    <link>https://techzerker.com/2020-06-07-japan-atomic-bomb/</link>
+    <pubDate>Sun, 07 Jun 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-06-07-japan-atomic-bomb/</guid>
+    <description><![CDATA[<p>This story already circulated plenty in months past, but I decided to link it today after a good co-worker discussion on who writes history, and always being willing to learn facts. In our case, our discussion started with referring to <em>Hunting Hitler</em>, and understanding at the close of the war, people needed to hear <strong>we got him!</strong>, even if it wasn&rsquo;t accurate, and he was actively being searched for. The same goes for Japan in 1945, the American public, at least in the short term, needed to hear that the Atomic Bomb developed at great expense and sacrifice ended the war. This article is a great read to remind us all to read and analyze facts for ourselves, and remember who writes history.</p>
 <blockquote>
 <p><a href="https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/" target="_blank" rel="noopener noreffer">The Bomb Didn&rsquo;t Beat Japan … Stalin Did (Foreign Policy)</a></p>
 </blockquote>
-]]></description></item><item><title>Arch Linux – Conflicting Files and the Arch Wiki</title><link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link><pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid><description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org" target="_blank" rel="noopener noreffer">Arch Linux</a>.</p>
+]]></description>
+</item><item>
+    <title>Arch Linux – Conflicting Files and the Arch Wiki</title>
+    <link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link>
+    <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
+    <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org" target="_blank" rel="noopener noreffer">Arch Linux</a>.</p>
 <p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
 <p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>
 <p>A search for <a href="https://duckduckgo.com/?q=arch&#43;pacman&#43;%2B&#43;conflicting&#43;files" target="_blank" rel="noopener noreffer"><em>Arch Pacman + Conflicting Files</em></a> returns all sorts of results, from various BBS Sites, Reddit, and Forums, with the Arch Wiki nestled tightly among them.</p>
@@ -70,7 +125,14 @@
 </blockquote>
 <p>Sure enough, in my case, I ran <code>pacman -Qo /usr/lib/thefileinquestion</code>, and it returned that no package owned that file. So following the wiki, I did a quick rename of that file (not delete, in case it does end up being needed!). I re-ran my update process, no conflicts, and everything appears to be working! Simple :)</p>
 <p>In the case of Arch, when in doubt, <em>start</em> with the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>, and then ask for elaborations on those solutions if they are not working, or not solving your problem, and you likely will save yourself a lot of headache!</p>
-<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description></item><item><title>Running i3 Desktop with WSL on Windows 10</title><link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link><pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid><description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
+<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
+</item><item>
+    <title>Running i3 Desktop with WSL on Windows 10</title>
+    <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
+    <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
+    <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
 <p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/" target="_blank" rel="noopener noreffer">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
 <p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
 <p>Once you have that up and running, so that you can get to your basic WSL command prompt&hellip;</p>
@@ -82,7 +144,7 @@
 <p><strong>wsl.vbs</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -94,7 +156,7 @@
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">&#39; This script is meant to be launched from the Windows side, to start up a decorationless
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&#39; This script is meant to be launched from the Windows side, to start up a decorationless
 &#39; VcXsrv container for the environment.
 &#39;
 &#39; You may need to change this to reflect your VcXsrv install path as well as screen resolution.
@@ -110,7 +172,7 @@ shell.Run &#34;ubuntu -c &#34;&#34;~/.scripts/wlaunch&#34;&#34;&#34;, 0
 <p><strong>wlaunch</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -120,7 +182,7 @@ shell.Run &#34;ubuntu -c &#34;&#34;~/.scripts/wlaunch&#34;&#34;&#34;, 0
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
 </span><span class="cp"></span>
 <span class="c1"># meant to be run with `bash -c &#34;/path/to/wlaunch&#34;` when running from e.g. a Windows shortcut</span>
 
@@ -135,7 +197,14 @@ i3
 <p></p>
 <p>After more than a year of this setup, I have yet to have any issues with any program. I&rsquo;ve run things like Sublime Text, Firefox and Spacemacs all within this desktop environment without any issues, and with way better performance than I had on a VM. For easy workflow between the base Windows 10 system and this WSL i3, I&rsquo;ve simply created symlinks for my core folders like <em>Documents</em> and my mapped network drive, given all drives in WSL1 are available at <strong>/mnt/driveletter</strong></p>
 <p>Hopefully this article was helpful to those that need it, it&rsquo;s certainly made my day to day usage on a Windows 10 machine be that much less&hellip;well&hellip;Windows!</p>
-<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Warhammer 40k Black Library</a> reading.</p>]]></description></item><item><title>Pixelfed with Docker and Nginx Reverse Proxy</title><link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link><pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid><description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
+<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Warhammer 40k Black Library</a> reading.</p>]]></description>
+</item><item>
+    <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
+    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
+    <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
+    <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
 <p>I had already dabbled a bit in <a href="https://pixelfed.org" target="_blank" rel="noopener noreffer">Pixelfed</a>, by joining <a href="https://pixelfed.social" target="_blank" rel="noopener noreffer">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
 <p></p>
 <p>On my Arch VPS that I host on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, I had already tried in previous weeks to direct install Pixelfed. Unfortunately, likely because of other self-hosted apps or packages in place, it was a struggle and I just could not get Pixelfed fully operational. In steps Docker, and the <a href="https://jonnev.se/pixelfed-beta-with-docker-and-traefik/" target="_blank" rel="noopener noreffer">article here</a> that inspired this updated version with what I had to do differently, as well as more details on the Nginx reverse proxy portion.</p>
@@ -153,23 +222,23 @@ i3
 <p>First, a directory to pull the source to, using /opt/ is a good best practice vs. installing it to a specific users /home directory.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed_source
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed_source
 sudo chown $USER:$USER /opt_pixelfed_source
 </code></pre></td></tr></table>
 </div>
 </div><p>Next is pulling down the repository, in my case it&rsquo;s been active development, so I just pulled the most recent, but you can also pull an older <em>stable</em> build too if you prefer.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/pixelfed/pixelfed.git /opt/pixelfed_source
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/pixelfed/pixelfed.git /opt/pixelfed_source
 cd /opt/pixelfed_source
 git checkout dev
 </code></pre></td></tr></table>
@@ -177,22 +246,22 @@ git checkout dev
 </div><p>This was the first difference I had to work through, where just trying a straight <em>docker build</em> was failing, because in the current versions, the <em>dockerfile</em> files are not in the root, so the command to build has to be updated to reflect that. I also tagged my build with the pull date, given it&rsquo;s dev so does not have a release number (like v0.10.8) and a commit tag is long and ugly.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker build . -t pixelfed:20200302 -f contrib/docker/Dockerfile.apache
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker build . -t pixelfed:20200302 -f contrib/docker/Dockerfile.apache
 </code></pre></td></tr></table>
 </div>
 </div><p>There is also a <em>Dockerfile.fpm</em> file there for a php-fpm based version, but as of this writing date, I confirmed it is not complete/functioning yet.</p>
 <p>Once the docker has built, we can create a directory that the docker compose will run from, which will contain it&rsquo;s settings, as well as the Pixelfed .env settings file.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed
 sudo chown $USER:$USER /opt/pixelfed
 cd /opt/pixelfed
 </code></pre></td></tr></table>
@@ -200,18 +269,18 @@ cd /opt/pixelfed
 </div><p>To copy the example configuration file over:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cp ../pixelfed_source/.env.example .env
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cp ../pixelfed_source/.env.example .env
 nano .env
 </code></pre></td></tr></table>
 </div>
 </div><p>Rather then snippets of key settings, I&rsquo;m removing sensitive parts and posting up my entire .env config file, as the parts I struggled with the most were the ones where documentation is still a work in progress. Like the article I learned from, I stuck with pgsql within Docker.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -268,7 +337,7 @@ nano .env
 </span><span class="lnt">55
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">APP_NAME=&#34;Pixelfed&#34;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">APP_NAME=&#34;Pixelfed&#34;
 APP_ENV=production
 APP_KEY=**blank, we&#39;ll generate this further down**
 APP_DEBUG=false
@@ -329,14 +398,14 @@ HORIZON_EMBED=true
 <p>With that file saved and done, the next step is to setup the docker network and build the <code>docker-compose</code> file for the whole process.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker network create pixelfed
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker network create pixelfed
 docker network create web
 
 touch docker-compose.yml
@@ -346,7 +415,7 @@ nano docker-compose.yml
 </div><p>Below is my docker compose file, with sensitive details removed and key points highlighted. Of worthy note in my install, I have host mapped the storage in place of an internal docker volume, to a Fuse S3FS mount point for my <a href="https://wasabi.com/cloud-storage-pricing/" target="_blank" rel="noopener noreffer">S3</a> storage, which will also make it easier for me to at minimum, backup the raw photo content, and it&rsquo;s cheaper storage than my VPS SSD.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -408,7 +477,7 @@ nano docker-compose.yml
 </span><span class="lnt">60
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">version: &#39;3&#39;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">version: &#39;3&#39;
 services:
 
   app:
@@ -474,14 +543,14 @@ networks:
 <p>Now we should be able to spin up the image and get it ready for deployment, before we go and sort out Nginx:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
 docker-compose exec app php artisan key:generate
 
 cat .env | grep APP_KEY 
@@ -491,13 +560,13 @@ cat .env | grep APP_KEY
 </div><p>Then the container can be restarted, and some final Pixelfed prep tasks complete to have it ready to go.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose restart app
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose restart app
 docker-compose exec app php artisan config:cache
 docker-compose exec app php artisan migrate
 # Answer yes
@@ -509,7 +578,7 @@ docker-compose exec app php artisan migrate
 <p>As such, my base <code>/etc/nginx/nginx.conf</code> is default install, with just these key settings, everything else being commented out or removed.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -530,7 +599,7 @@ docker-compose exec app php artisan migrate
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">worker_processes  1;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">worker_processes  1;
 
 error_log  logs/error.log;
 
@@ -554,7 +623,7 @@ http {
 </div><p>Then I have the file, <code>/etc/nginx/conf.d/pixelfed.conf</code> setup as below, with placing your correct domain name in place, as well as the path to your certificates.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -582,7 +651,7 @@ http {
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">server {
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">server {
   listen 80;
   server_name **your-domain.name**;
   return 301 https://$server_name$request_uri;
@@ -614,21 +683,21 @@ server {
 <p>With the <em>pixelfed.conf</em> file generated and filled, hopefully correctly, you should now be able to restart Nginx so that it picks up the file changes. In the case of Arch (and most modern systems), it&rsquo;s using Systemd, so:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl restart nginx
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl restart nginx
 </code></pre></td></tr></table>
 </div>
-</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
+</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name" target="_blank" rel="noopener noreffer">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
 <h2 id="user-creation">User Creation</h2>
 <p>If the site loaded for you, and if like myself you&rsquo;re building this primarily for private or small group usage, so turned off Open Registration, you can now use the terminal to create you first user, presumably as an admin:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose exec app php artisan user:create
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose exec app php artisan user:create
 </code></pre></td></tr></table>
 </div>
 </div><p>That command above will walk you through several requests to build a user, including asking if the user should be an admin (probably <em>yes</em>). Of worthy note, when it asks for <strong>Over-ride manual e-mail verification</strong> (my wording might be off), enter <strong>yes</strong>. This marks the accounts e-mail as already verified, so for a small instance you don&rsquo;t have to focus on e-mail setup right away.</p>
@@ -642,14 +711,14 @@ server {
 <p>This process I am mostly copying direct from the original article I followed, as this install has been recent enough, there have not been any updates yet for me to validate if this creates problems for me. That being said, the commands all look correct, so I don&rsquo;t anticipate issues. Before updating, especially on <em>Dev</em> branch, it&rsquo;s a good practice on your VPS to either take a backup or a snapshot <em>just in case</em>. To update to the current Dev:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed_source
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed_source
 git checkout dev
 git pull origin dev
 git checkout dev
@@ -659,7 +728,7 @@ docker build . -t pixelfed:todaysdate -f contrib/docker/Dockerfile.apache
 </div><p>Then once that has pulled and built, with the updated today&rsquo;s date to help identify it, it&rsquo;s just two lines to update in the <em>docker-compose.yml</em> file:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -669,7 +738,7 @@ docker build . -t pixelfed:todaysdate -f contrib/docker/Dockerfile.apache
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed
 nano docker-compose.yml
 
 app:
@@ -682,12 +751,12 @@ app:
 </div><p>Then restart the docker-compose, and run the artisan migrate command. Worthy warning if you&rsquo;re new to docker, when we say restart, do <strong>not</strong> run <code>docker-compose down</code>, as that deletes this container and wipes the volume data as well, meaning the next <em>docker-compose up -d</em> would be like a fresh install (without your images or users), so:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
 docker-compose exec app php artisan migrate
 # Answer yes
 </code></pre></td></tr></table>
@@ -695,7 +764,14 @@ docker-compose exec app php artisan migrate
 </div><h2 id="wrap-up">Wrap Up</h2>
 <p>At this point, if everything worked (and I know, it often takes several attempts, this took me a while to get all sorted and running!), you should have a fully functioning PixelFed, and can either open registration, or terminal create users for your own small community to post to.</p>
 <p>For updates to the Project, keep an eye on <a href="https://github.com/pixelfed/pixelfed" target="_blank" rel="noopener noreffer">Pixelfed GitHub</a>, and as they detail on that page, there is a semi-active group on their Riot Matrix.Org channel for help, which I&rsquo;ve been over-active in during my install struggles.</p>
-<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description></item><item><title>ARM Systems and the 2019 Pinebook Pro</title><link>https://techzerker.com/2020-02-18-pinebook-pro/</link><pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid><description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L" target="_blank" rel="noopener noreffer">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
+<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
+</item><item>
+    <title>ARM Systems and the 2019 Pinebook Pro</title>
+    <link>https://techzerker.com/2020-02-18-pinebook-pro/</link>
+    <pubDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid>
+    <description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L" target="_blank" rel="noopener noreffer">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
 <p>As we&rsquo;re getting into 2020, I&rsquo;m seeing a lot more articles and posts of the <a href="https://amzn.to/2UZn7yT" target="_blank" rel="noopener noreffer">Pi4</a>, at least the 4GB model, making a decent basic workstation and office computer. This is assuming that use case is similar to that of a Chromebook, focused on web and terminal type software. Along the same vein is a system like the Pinebook Pro, which has been getting a fair amount of attention for making the right decisions for a budget system that does not feel budget. I was prompted to post this tonight because I really enjoyed this longer Vice article on the Pinebook Pro and its market in general:</p>
 <blockquote>
 <p>The Pinebook Pro, a community-built Linux laptop that runs on ARM hardware, offers a few surprises. Fairly inexpensive, it’s the perfect machine for tinkerers.</p>
@@ -705,7 +781,14 @@ docker-compose exec app php artisan migrate
 </blockquote>
 <p>Currently, getting your hands on a Pinebook Pro at its original price point is challenging. The Pinebook Pro has been popular and not mass-produced, with even lower production volumes for the ISO North American keyboard variant. Knowing that, unless a new batch comes in soon, I&rsquo;ll likely acquire either a Raspberry Pi4 or a <a href="https://www.pine64.org/rockpro64/" target="_blank" rel="noopener noreffer">Pine64 - ROCKPro64</a> for a small home workstation and tinker box for <a href="ArchLinux.Org" rel="">Arch Linux</a> and i3wm.</p>
 <p>When I do acquire something, I will definitely write about any projects I plan, such as a Plex media server, maybe a small in-home Minecraft box, not to mention a NAS system at some point!</p>
-]]></description></item><item><title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title><link>https://techzerker.com/2019-11-27-arch-server-updates/</link><pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid><description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
+]]></description>
+</item><item>
+    <title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title>
+    <link>https://techzerker.com/2019-11-27-arch-server-updates/</link>
+    <pubDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid>
+    <description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
 <p>That little VPS runs a few different services:</p>
 <ul>
 <li>Minecraft server for a group of friends, which is the heavy memory user</li>
@@ -727,7 +810,14 @@ docker-compose exec app php artisan migrate
 <p>If you don&rsquo;t yet #Self-Host and are looking for a project, I run my projects currently on Vultr, and sticking with plain <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">direct referral link</a>, you can help me out by giving <a href="https://www.vultr.com/?ref=7975116-4F" target="_blank" rel="noopener noreffer">Vultr</a> a try with $50 worth of hosting, and it helps me out as well.</p>
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
-</blockquote>]]></description></item><item><title>Concepts of Time</title><link>https://techzerker.com/2019-09-05-timeconcepts/</link><pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-09-05-timeconcepts/</guid><description><![CDATA[<p>My writing here is mostly focused on technology and gaming. Being a general geek into all sorts of subjects and thought, sometimes an idea just sticks in your head and needs to be written.</p>
+</blockquote>]]></description>
+</item><item>
+    <title>Concepts of Time</title>
+    <link>https://techzerker.com/2019-09-05-timeconcepts/</link>
+    <pubDate>Thu, 05 Sep 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-09-05-timeconcepts/</guid>
+    <description><![CDATA[<p>My writing here is mostly focused on technology and gaming. Being a general geek into all sorts of subjects and thought, sometimes an idea just sticks in your head and needs to be written.</p>
 <p>I don&rsquo;t know the genesis of the idea forming in my head, probably watching sci-fi shows too late, but my mind starting musing on the concept of time. Specifically, how we measure it, account for it, and place meaning on it despite a limited view of it.</p>
 <p>The idea in my head when I&rsquo;m stating limited view of time is focused on the fact that every method we use to measure time is relative. It&rsquo;s relative to the rotation of the earth, relative to our orbit around our sun. All the significance we place on it&rsquo;s passage is not measured the same without this relative constant of earth.</p>
 <p>An example to elaborate this can focus on something as core to most of us as our age. I am nearing my thirty fifth birthday, but that is still an arbitrary number based on when I was born followed by thirty five rotations of the earth around our sun. What if as humanity expands I was born and raised on Mars? Following the same relative basis I would be only half way through my eighteenth year of existence! So does my age as a number really mean anything?</p>
@@ -735,7 +825,14 @@ docker-compose exec app php artisan migrate
 <p>The concept and thoughts are still developing and expanding even as I write, and I expect will continue to do so.</p>
 <p>The argument holds for all measurements of time that we use. The length of a day is based on the earths rotation, and in near expansion, Mars is similar, other planets a day may be longer or shorter. The division of a day into smaller and smaller units from hours to minutes is an arbitrary and universally agreed to standard simply invented by powerful governments or religions through history.</p>
 <p>In summary, at least for now, all of time is measured only be relative means. I&rsquo;m certain quantum science or other think tank machines have and continue to dissect these concepts in significant detail beyond my comprehension. That however does not preclude my own exploration on the subject. Maybe time really is just wibbly-wobbly, timey-wimey stuff&hellip;</p>
-]]></description></item><item><title>Elementary OS 5 (Juno) Review</title><link>https://techzerker.com/2019-08-02-elementary-5-review/</link><pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-08-02-elementary-5-review/</guid><description><![CDATA[<p>When I first really transitioned into the Linux world from Windows, I started with Ubuntu. That is a very common introductory point for many, or was, and from there I was an aggressive distro-hopper. I shifted through the Kubuntu&rsquo;s and Xubuntu&rsquo;s of the day, into ArchLabs on one laptop. At some point about two years ago took a stop at <a href="https://elementary.io" target="_blank" rel="noopener noreffer"><em>elementary OS</em></a> in it&rsquo;s 0.4 version (just one version before 5, they dropped the decimals).</p>
+]]></description>
+</item><item>
+    <title>Elementary OS 5 (Juno) Review</title>
+    <link>https://techzerker.com/2019-08-02-elementary-5-review/</link>
+    <pubDate>Mon, 05 Aug 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-08-02-elementary-5-review/</guid>
+    <description><![CDATA[<p>When I first really transitioned into the Linux world from Windows, I started with Ubuntu. That is a very common introductory point for many, or was, and from there I was an aggressive distro-hopper. I shifted through the Kubuntu&rsquo;s and Xubuntu&rsquo;s of the day, into ArchLabs on one laptop. At some point about two years ago took a stop at <a href="https://elementary.io" target="_blank" rel="noopener noreffer"><em>elementary OS</em></a> in it&rsquo;s 0.4 version (just one version before 5, they dropped the decimals).</p>
 <p>When I first ran elementary OS 0.4, I liked the style and cohesive design. Compared to some of the distros I had tried it took some of that raw linux feel away, as far as what a normal end user might experience. Overall, I liked it and was going to install it on my main system. The full stop point I hit was the distro was based on Ubuntu 16.04 LTS. The kicker with that was the system I was using was UEFI only, and the linux kernel for 16.04 LTS did not yet natively support UEFI, nor had I discovered tools like <a href="https://www.rodsbooks.com/refind/" target="_blank" rel="noopener noreffer">ReFind</a>. As such, I continued on hopping until falling into my current Arch Linux and i3wm realm, which I&rsquo;ll talk on seperatly.</p>
 <p>Forward to this past week, and I was sorting our a personal laptop for a co-worker that was collecting dust with a very disliked Windows 10 install. As a very non-tech user, I convinved him I could make the system run way better, and for his mostly browser based usage, be easier to use as well. My target was the clean looking elementary OS.</p>
 <p>The install on the roughly two year old HP laptop went quick and smooth. The only mandatory post-install task that was a bit convuluted was getting to an option to enable restricted/proprietary drivers to get the broadcom wireless to work. I found <em>Juno</em> was still new enough that searching online was giving a fair volume of 0.3 and 0.4 version answers which did not directly apply to version 5.</p>
@@ -768,7 +865,14 @@ docker-compose exec app php artisan migrate
 <blockquote>
 <p>Without a doubt I&rsquo;m really liking what I&rsquo;m seeing with a mature elementary OS, the install I&rsquo;m writing on right now on my Cube i7 Book is staying with elementary, and I&rsquo;ll be circling back to several of the apps I downloaded free and using the <em>Pay What You Want</em> to pitch in to a few developers. Regarding my main Republic of Gamers laptop&hellip;I&rsquo;m still undecided. I&rsquo;ll detail my setup in another post, but that system is doing all my heavy work and all my gaming with an Arch Linux build and i3 window manager, meaning it&rsquo;s very customized. I really enjoy i3 and the rolling release model of Arch, but it&rsquo;s also hard to turn down the out of the box polish of elementary OS.</p>
 </blockquote>
-<p>Needless to say, elementary is a very easy pick to install or show off if your trying to bring over any windows users to a smoother, more secure and stable system. I&rsquo;m at a loss to suggest anything other than elementary for converting skeptics to linux, even avid PC gamers like myself.</p>]]></description></item><item><title>VIM Expedition</title><link>https://techzerker.com/2019-05-08-vim/</link><pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-05-08-vim/</guid><description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
+<p>Needless to say, elementary is a very easy pick to install or show off if your trying to bring over any windows users to a smoother, more secure and stable system. I&rsquo;m at a loss to suggest anything other than elementary for converting skeptics to linux, even avid PC gamers like myself.</p>]]></description>
+</item><item>
+    <title>VIM Expedition</title>
+    <link>https://techzerker.com/2019-05-08-vim/</link>
+    <pubDate>Wed, 08 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-05-08-vim/</guid>
+    <description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
 <p></p>
 <p>Up until a few days ago, my previous experience with VIM was limited. I&rsquo;ve been using Linux heavily for years now, and it was just an annoyance. In the past my only exposure to VIM was AUR install scripts or source builds that forced me to check build files via VIM. What that really meant was it was that annoying text program, that I had no clue how to quit when it suddenly was on my screen! <strong>:w</strong> to save, and <strong>:q</strong> to quit, but not if your in insert mode&hellip;what?</p>
 <p>Well, now that&rsquo;s changing, progressively.</p>
@@ -777,7 +881,14 @@ docker-compose exec app php artisan migrate
 <p>The end result of all this?</p>
 <p>Well, this post was written in VIM with MarkDown syntax highlighting.</p>
 <p>It was a very distraction free writing environment. Finally, even at my novice level, it was easy to move around the document and get familiar with the commands. It&rsquo;s not hard to see that it has a steep learning curve, but especially on longer articles and research notes, how easy it can make working with text.</p>
-<p>I am not a committed VIM user yet, but this is definitely an extended expedition into foreign lands, and other than the confusing signs, is quite intriguing and worth further exploration.</p>]]></description></item><item><title>Elder Scrolls: Blades - The 20's and Great Gear</title><link>https://techzerker.com/2019-04-29-blades-20s-gear/</link><pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-04-29-blades-20s-gear/</guid><description><![CDATA[<p>I have continued to play Elder Scrolls: Blades, mainly on my iPhone for the past month in bursts. Overall, it is still holding up, although obviously it is not remotely like a full Elder Scrolls PC game.</p>
+<p>I am not a committed VIM user yet, but this is definitely an extended expedition into foreign lands, and other than the confusing signs, is quite intriguing and worth further exploration.</p>]]></description>
+</item><item>
+    <title>Elder Scrolls: Blades - The 20&#39;s and Great Gear</title>
+    <link>https://techzerker.com/2019-04-29-blades-20s-gear/</link>
+    <pubDate>Mon, 29 Apr 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-04-29-blades-20s-gear/</guid>
+    <description><![CDATA[<p>I have continued to play Elder Scrolls: Blades, mainly on my iPhone for the past month in bursts. Overall, it is still holding up, although obviously it is not remotely like a full Elder Scrolls PC game.</p>
 <p>I found I had very little trouble through the single digits and into the teen levels. The occasional level had some minor grind spots for difficulty, but nothing too bad. The early 20&rsquo;s levels however, started off pretty rough. Granted, this was in part because around level 19, I chose to re-spec skills towards light weapons and magic. Learning curve with magic converting to it later in the game was a bit harder, so more enemies beat me around.</p>
 <p>The real sweet spot from my current play came around level 23-24, when most of this gear combo below came together.</p>
 <p>
@@ -790,7 +901,14 @@ docker-compose exec app php artisan migrate
 <p>As I continue playing, my next grind and really challenging point was when I hit level 29. At twenty-nine, all the sudden the difficulty jumped and I was struggling to out heal the damage a lot of opponents could deal. For the most part I simply had to slow down my pace of fighting and be a bit more defensive then I was being.</p>
 <p>Now, I&rsquo;m sitting at level 31, and my newest gear that is chewing through opponents has been a <em>Glass Dagger</em>, enchanted with the bonus combo damage. Previously all my weapons were elemental damage, but with a fast weapon, that bonus combo damage is laying waste even to enemies resistant to slashing damage!</p>
 <p>Beyond that, my town is coming along nicely, my various production buildings are between level five and seven. I&rsquo;m just starting to work into Glass and Charus gear, and already eyeing beyond it towards Ebony with the level eight smithy.</p>
-<p>I&rsquo;m curious what the long term future of the game will be, if the Arena will turn it into an aggressive pay-to-win formula, or if they&rsquo;ll be able to add more exploration and story element so that the end-game is not just Arena matches.</p>]]></description></item><item><title>Elder Scrolls: Blades - Early Access</title><link>https://techzerker.com/2019-04-02-bladesearlyaccess/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-04-02-bladesearlyaccess/</guid><description><![CDATA[<p>As many will have seen, the originally announced last year mobile <em>Elder Scrolls</em> game has finally landed! Granted, they&rsquo;ve labelled it as <em>Early Access</em> and are slowly rolling out invites to iOS and Android Users. That being said, I was invited a little over forty-eight hours ago.</p>
+<p>I&rsquo;m curious what the long term future of the game will be, if the Arena will turn it into an aggressive pay-to-win formula, or if they&rsquo;ll be able to add more exploration and story element so that the end-game is not just Arena matches.</p>]]></description>
+</item><item>
+    <title>Elder Scrolls: Blades - Early Access</title>
+    <link>https://techzerker.com/2019-04-02-bladesearlyaccess/</link>
+    <pubDate>Tue, 02 Apr 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-04-02-bladesearlyaccess/</guid>
+    <description><![CDATA[<p>As many will have seen, the originally announced last year mobile <em>Elder Scrolls</em> game has finally landed! Granted, they&rsquo;ve labelled it as <em>Early Access</em> and are slowly rolling out invites to iOS and Android Users. That being said, I was invited a little over forty-eight hours ago.</p>
 <h3 id="in-brief">In Brief</h3>
 <p>It&rsquo;s really good. It looks absolutely gorgeous on my iPhone 8, and only slightly less so on my older iPad Air 2. Character design is more flexible than most mobile games, and starting out, it does actually have a story. Unfortunately, it is <em>Free to Play</em> model, but it feels fine. It&rsquo;s definitely worth a try for Elder Scrolls on the go!</p>
 <h3 id="game-play">Game-play</h3>
@@ -816,7 +934,14 @@ docker-compose exec app php artisan migrate
 </ul>
 <hr>
 <p>There you have it, I think Elder Scrolls: Blades is off to a good start with the <em>Early Access</em> tag. It has some good potential, looks great, didn&rsquo;t murder my battery life and the Free to Play model is not invasive at all and has no advertisements.</p>
-<hr>]]></description></item><item><title>Self Hosting Migration Rush</title><link>https://techzerker.com/2019-03-24-self-host-migration/</link><pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate><author>Author</author><guid>https://techzerker.com/2019-03-24-self-host-migration/</guid><description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
+<hr>]]></description>
+</item><item>
+    <title>Self Hosting Migration Rush</title>
+    <link>https://techzerker.com/2019-03-24-self-host-migration/</link>
+    <pubDate>Sun, 24 Mar 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-03-24-self-host-migration/</guid>
+    <description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
 <p>If you visited this site at all in the past year, it was still a very busy &lsquo;news magazine&rsquo; looking WordPress site. It liked it at the time. I am shifting more to quick, personal writing on my tech adventures.</p>
 <p>Hence, TechZerker.com has moved to the reading focused <a href="https://writefreely.org" target="_blank" rel="noopener noreffer">WriteFreely</a> platform. It&rsquo;s open source, light on server resources, and was a breeze to implement! It is the project that powers the more well known <a href="https://write.as" target="_blank" rel="noopener noreffer">Write.As</a> platform.</p>
 <p>While I was at it, I also moved my cloud storage system from it&rsquo;s existing VPS to this new <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> VPS. I have been using Resilio Sync to that end for nearly a year now. It has been working great for my needs and I will do a better write-up on it, and it&rsquo;s installation.</p>
@@ -824,4 +949,6 @@ docker-compose exec app php artisan migrate
 <p>All those services are now up and running, and are now on my preferred pure Arch Linux distro. The last project on the plate is to migrate an existing MineCraft. For that project I&rsquo;m going to test out MineOS to simplify the management.</p>
 <p>I will do additional write-ups or commentary on each of the applications when I am ready to write about them. In the meantime, enjoy the cleaner and way faster loading TechZerker!</p>
 <p>&ndash;Scott</p>
-]]></description></item></channel></rss>
+]]></description>
+</item></channel>
+</rss>
