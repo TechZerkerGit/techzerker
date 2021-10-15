@@ -3,25 +3,9 @@
         <title>TechZerker</title>
         <link>https://techzerker.com/</link>
         <description>A Tech Professional With Occasional Sanity</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 14 Oct 2021 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://techzerker.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Test Publish</title>
-    <link>https://techzerker.com/2021-10-14-test/</link>
-    <pubDate>Thu, 14 Oct 2021 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2021-10-14-test/</guid>
-    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
-<p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
-<p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
-<p>My core approach with Linux and encouraging adoption has been to talk about my own system and what works (and what does not) and show it off a little. If anyone reaches out and shows some interest, I will gadly answer what questions I can, understand their needs, and attempt to help and steer them in the right direction. However, the core philosphy is:</p>
-<blockquote>
-<p><em>Use what works for you. Period.</em></p>
-</blockquote>
-<p>If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that&rsquo;s fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you&rsquo;ve tried before and hit a <em>&ldquo;Wall of Toxicity&rdquo;</em>, then here are a few great places to join and ask questions where we&rsquo;ll be friendly and helpful, regardless of your experience level:</p>
-<p><a href="https://fosstodon.org" target="_blank" rel="noopener noreffer"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
-<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
-</item><item>
     <title>Toxicity in Linux Community (Link)</title>
     <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
     <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
@@ -813,5 +797,20 @@ docker-compose exec app php artisan migrate
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
 </blockquote>]]></description>
+</item><item>
+    <title>Concepts of Time</title>
+    <link>https://techzerker.com/2019-09-05-timeconcepts/</link>
+    <pubDate>Thu, 05 Sep 2019 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2019-09-05-timeconcepts/</guid>
+    <description><![CDATA[<p>My writing here is mostly focused on technology and gaming. Being a general geek into all sorts of subjects and thought, sometimes an idea just sticks in your head and needs to be written.</p>
+<p>I don&rsquo;t know the genesis of the idea forming in my head, probably watching sci-fi shows too late, but my mind starting musing on the concept of time. Specifically, how we measure it, account for it, and place meaning on it despite a limited view of it.</p>
+<p>The idea in my head when I&rsquo;m stating limited view of time is focused on the fact that every method we use to measure time is relative. It&rsquo;s relative to the rotation of the earth, relative to our orbit around our sun. All the significance we place on it&rsquo;s passage is not measured the same without this relative constant of earth.</p>
+<p>An example to elaborate this can focus on something as core to most of us as our age. I am nearing my thirty fifth birthday, but that is still an arbitrary number based on when I was born followed by thirty five rotations of the earth around our sun. What if as humanity expands I was born and raised on Mars? Following the same relative basis I would be only half way through my eighteenth year of existence! So does my age as a number really mean anything?</p>
+<p>One could attempt to make the argument that humanity as we know it originates from earth, and as such, any expansion we would logically still keep time based on our home world. But would we? Carry on the Mars thought. What if we&rsquo;re in a situation like The Expanse and Earth and Mars do not really get along, and have fought wars in the past to form very different cultures. Why would anyone born on Mars measure time as it occurs on Earth that they&rsquo;ve never been too and maybe even have conflicts with?</p>
+<p>The concept and thoughts are still developing and expanding even as I write, and I expect will continue to do so.</p>
+<p>The argument holds for all measurements of time that we use. The length of a day is based on the earths rotation, and in near expansion, Mars is similar, other planets a day may be longer or shorter. The division of a day into smaller and smaller units from hours to minutes is an arbitrary and universally agreed to standard simply invented by powerful governments or religions through history.</p>
+<p>In summary, at least for now, all of time is measured only be relative means. I&rsquo;m certain quantum science or other think tank machines have and continue to dissect these concepts in significant detail beyond my comprehension. That however does not preclude my own exploration on the subject. Maybe time really is just wibbly-wobbly, timey-wimey stuff&hellip;</p>
+]]></description>
 </item></channel>
 </rss>
