@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Community - Tag - TechZerker</title>
-        <link>https://techzerker.com/tags/community/</link>
-        <description>Community - Tag - TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 21 Oct 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/community/" rel="self" type="application/rss+xml" /><item>
+        <title>Blog - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/blog/</link>
+        <description>Blog - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 21 Oct 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>Personal Blogs and Community Support</title>
     <link>https://techzerker.com/2021-10-21-blog-community/</link>
     <pubDate>Thu, 21 Oct 2021 00:00:00 &#43;0000</pubDate>
@@ -41,21 +41,5 @@
 </div>
 </div><p>Once I realized this solved my problems, and I could get back to writingi, I was excited. I reached out to Matt to give a quick Thank You for his posted solution, and recieved a pleasant response back equally agreeing that often this type of writing feels like shouting into the void. So hey, if you&rsquo;re reading a small site like this, especially one not pushing advertising and tracking, and you find it useful, reach out to the author and let them know it helped, it&rsquo;s always appreciated.</p>
 <p>If you are looking for more reading, I maintain my own <a href="https://techzerker.com/blogroll/" target="_blank" rel="noopener noreffer">Blogroll listing</a> here on the site, mostly generated from my MiniFlux RSS Feed. Some of the entries in other categories are larger sites with tracking and advertising, but first on the list is personal Blogs that I like to follow, and I occasionaly update the list when I find new entries. In the next few days, I&rsquo;ll get onto that planned article (now that everything is working) on my development history/education, and my plans for the future.</p>]]></description>
-</item><item>
-    <title>Toxicity in Linux Community (Link)</title>
-    <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
-    <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2021-02-11-toxic-linux/</guid>
-    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
-<p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
-<p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
-<p>My core approach with Linux and encouraging adoption has been to talk about my own system and what works (and what does not) and show it off a little. If anyone reaches out and shows some interest, I will gadly answer what questions I can, understand their needs, and attempt to help and steer them in the right direction. However, the core philosphy is:</p>
-<blockquote>
-<p><em>Use what works for you. Period.</em></p>
-</blockquote>
-<p>If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that&rsquo;s fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you&rsquo;ve tried before and hit a <em>&ldquo;Wall of Toxicity&rdquo;</em>, then here are a few great places to join and ask questions where we&rsquo;ll be friendly and helpful, regardless of your experience level:</p>
-<p><a href="https://fosstodon.org" target="_blank" rel="noopener noreffer"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
-<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
 </item></channel>
 </rss>

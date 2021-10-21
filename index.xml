@@ -3,9 +3,47 @@
         <title>TechZerker</title>
         <link>https://techzerker.com/</link>
         <description>A Tech Professional With Occasional Sanity</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 21 Oct 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://techzerker.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Personal Blogs and Community Support</title>
+    <link>https://techzerker.com/2021-10-21-blog-community/</link>
+    <pubDate>Thu, 21 Oct 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2021-10-21-blog-community/</guid>
+    <description><![CDATA[<p>My love for small, personal blogs and writing that is not SEO or advertising focused has always been strong, mostly calling back to my 90&rsquo;s internet roots. From the era before the big central platforms like Facebook, when we all had independant sites, free GeoCities blogs, and the like. In that world, which still exists today, albeit smaller, easy quick sharing and <em>likes</em> did not exist. This meant that in most cases, as far as any specific blog author knew, you were writing into a void that no one was reading, which can still be the case.</p>
+<p>The inspiration for this little commentary was the recent events as I started returning to some writing (and coding) plans. This site is built with the <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer">Hugo</a> framework, and hosted via <strong>GitHub Pages</strong>. When I returned to start writing a bit of a history and way forward artcile on trying to get back into Coding, and tackling a #100DaysofCode challenge, I found my <em>GitHub Actions</em> tasks that publish these posts were failing. Hours of searching and mucking about, and the action workflow that had previously worked just kept failing, and every element of documentation I could find for the most common workflow scripts, pointed to the same failing solutions. Because these most common solutions relied on importing other components/scripts, I was not getting decent or useful error logs to explain why the failure was occuring. I know there are methods to further pull those workflows and components apart to troubleshoot, but I wanted to keep searching, and that&rsquo;s where another personal blog, more or less shouting into the void of the internet, solved my problem.</p>
+<p>In my searching, results came up pointing to a personal blog <a href="https://matt-harrison.com/" target="_blank" rel="noopener noreffer">Matt Harrison</a>, a fellow advertising free, Hugo built and GitHub Pages hosted blog. Like myself, the writing is sometimes sporadic because it&rsquo;s not designed as a source of income directly, and it&rsquo;s not built to encourage agressive likes/favorites/shares. The article itself was <a href="https://matt-harrison.com/posts/github-actions-hugo/" target="_blank" rel="noopener noreffer">Automating this Hugo Blog with GitHub Actions</a>. Matt gave a well written summary of GitHub actions, and then provided his own actions workflow script. The main script was followed by a nice breakout summary of the key stages of the script and what they were doing, which solidified by understanding of the process. Because it did not rely on other pre-build actions, beyond the standard git checkout action, it was easy to understand what was going on, and it solved my own problems perfectly!</p>
+<p>For my use case, the only change I had to select a different Hugo version required for my theme, as well as update the curl download to pull Hugo Extended, also required for my theme:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">    steps:
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: 0.86.1
+        run: |
+          mkdir ~/hugo
+          cd ~/hugo
+          curl -L &#34;https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz&#34; --output hugo.tar.gz
+          tar -xvzf hugo.tar.gz
+          sudo mv hugo /usr/local/bin
+</code></pre></td></tr></table>
+</div>
+</div><p>Once I realized this solved my problems, and I could get back to writingi, I was excited. I reached out to Matt to give a quick Thank You for his posted solution, and recieved a pleasant response back equally agreeing that often this type of writing feels like shouting into the void. So hey, if you&rsquo;re reading a small site like this, especially one not pushing advertising and tracking, and you find it useful, reach out to the author and let them know it helped, it&rsquo;s always appreciated.</p>
+<p>If you are looking for more reading, I maintain my own <a href="https://techzerker.com/blogroll/" target="_blank" rel="noopener noreffer">Blogroll listing</a> here on the site, mostly generated from my MiniFlux RSS Feed. Some of the entries in other categories are larger sites with tracking and advertising, but first on the list is personal Blogs that I like to follow, and I occasionaly update the list when I find new entries. In the next few days, I&rsquo;ll get onto that planned article (now that everything is working) on my development history/education, and my plans for the future.</p>]]></description>
+</item><item>
     <title>Toxicity in Linux Community (Link)</title>
     <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
     <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
@@ -797,20 +835,5 @@ docker-compose exec app php artisan migrate
 <blockquote>
 <p>I have a About / Privacy page linked at the top where I talk about my privacy rules: Text only referral links, no cookies/trackers, no ugly banners or graphics interrupting the writing.</p>
 </blockquote>]]></description>
-</item><item>
-    <title>Concepts of Time</title>
-    <link>https://techzerker.com/2019-09-05-timeconcepts/</link>
-    <pubDate>Thu, 05 Sep 2019 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2019-09-05-timeconcepts/</guid>
-    <description><![CDATA[<p>My writing here is mostly focused on technology and gaming. Being a general geek into all sorts of subjects and thought, sometimes an idea just sticks in your head and needs to be written.</p>
-<p>I don&rsquo;t know the genesis of the idea forming in my head, probably watching sci-fi shows too late, but my mind starting musing on the concept of time. Specifically, how we measure it, account for it, and place meaning on it despite a limited view of it.</p>
-<p>The idea in my head when I&rsquo;m stating limited view of time is focused on the fact that every method we use to measure time is relative. It&rsquo;s relative to the rotation of the earth, relative to our orbit around our sun. All the significance we place on it&rsquo;s passage is not measured the same without this relative constant of earth.</p>
-<p>An example to elaborate this can focus on something as core to most of us as our age. I am nearing my thirty fifth birthday, but that is still an arbitrary number based on when I was born followed by thirty five rotations of the earth around our sun. What if as humanity expands I was born and raised on Mars? Following the same relative basis I would be only half way through my eighteenth year of existence! So does my age as a number really mean anything?</p>
-<p>One could attempt to make the argument that humanity as we know it originates from earth, and as such, any expansion we would logically still keep time based on our home world. But would we? Carry on the Mars thought. What if we&rsquo;re in a situation like The Expanse and Earth and Mars do not really get along, and have fought wars in the past to form very different cultures. Why would anyone born on Mars measure time as it occurs on Earth that they&rsquo;ve never been too and maybe even have conflicts with?</p>
-<p>The concept and thoughts are still developing and expanding even as I write, and I expect will continue to do so.</p>
-<p>The argument holds for all measurements of time that we use. The length of a day is based on the earths rotation, and in near expansion, Mars is similar, other planets a day may be longer or shorter. The division of a day into smaller and smaller units from hours to minutes is an arbitrary and universally agreed to standard simply invented by powerful governments or religions through history.</p>
-<p>In summary, at least for now, all of time is measured only be relative means. I&rsquo;m certain quantum science or other think tank machines have and continue to dissect these concepts in significant detail beyond my comprehension. That however does not preclude my own exploration on the subject. Maybe time really is just wibbly-wobbly, timey-wimey stuff&hellip;</p>
-]]></description>
 </item></channel>
 </rss>
