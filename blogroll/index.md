@@ -23,6 +23,8 @@ I primarily read other content via my RSS Feed Reader, which is a Self-Hosted [M
 - [Salman Ansari](https://salman.io) *[(Feed)](https://salman.io/feed.xml)*
 - [The New Oil](https://write.as/thenewoil/) *[(Feed)](https://write.as/thenewoil/feed/)*
 - [zerokspot.com](https://zerokspot.com) *[(Feed)](https://zerokspot.com/index.xml)*
+- [Matt Harrison](https://matt-harrison.com/)
+- [fs Blog](https://fs.blog/start/)
 
 ## Comics
 
