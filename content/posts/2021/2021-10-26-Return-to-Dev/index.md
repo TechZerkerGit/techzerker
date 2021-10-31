@@ -12,8 +12,6 @@ resources:
 #- name: featured-image-preview
 #  src: bmwtest.jpg
 ---
-
-Android
-
+It is true in my belief that we can possess many careers throughout life. In the same vein, we all have many hobbies and interests. These are often outside the stereotypes of said careers. 
 <!--more-->
 
