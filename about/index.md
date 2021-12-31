@@ -7,9 +7,14 @@ Thanks for reading *TechZerker!*
 I'm Scott, a Canadian tech professional in the industry since 2005. I have been passionate about technology long before it became my profession, starting off with an Apple IIC back in the early 90's!
 
 <center>
-<img src="https://techzerker.com/ScottPortrait-RockPaperCynic_Trans.png" alt="Portrait-RPC" width="200"/>
+<figure>
+ <img src="https://techzerker.com/ScottPortrait-RockPaperCynic_Trans.png" alt="Portrait by Rock Paper Cynic" width="200" />
+ <figcaption style="font-size: 12px">
+ Portrait created by: <a href="https://www.rockpapercynic.com/">Peter @ Rock Paper Cynic<br></a>
+ </figcaption>
+</figure>
 </center>
-  
+<p>
 Over time I've evolved from a regular tech user on the windows flavor of the day, to a die-hard windows fan (including Windows Phone!). After that mess, I finally have settled comfortably into open source
 and the linux world for my needs, including gaming on Linux full time. When it comes to gaming, I am a mix between modern-ish gaming and what is best described as nostalgic gaming (late 90's and 2000's), 
 which rarely counts as *retro*, at least not yet.
