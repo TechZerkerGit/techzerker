@@ -1,8 +1,8 @@
 ---
 title: "Using LTE Tablet as a Phone"
 #subtitle: ""
-date: 2021-04-12
-draft: true
+date: 2021-12-29
+draft: false
 # images: []
 tags: ["Tablet","Phone",”Android”,”Mobile”]
 categories: ["Android","Mobile"]
@@ -13,11 +13,7 @@ resources:
 #  src: bmwtest.jpg
 ---
 
-<<<<<<< HEAD
-After reading [Digital Minimalism]() several times when it was first released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone.
-=======
-After reading [Digital Minimalism]() several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone.
->>>>>>> c363c454b5965875a69474a110087a08454926c7
+After reading [Digital Minimalism]() several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.
 <!--more-->
 
 ## The Setup
@@ -28,11 +24,7 @@ After reading [Digital Minimalism]() several times when it was released, I looke
 
 ### ZTE Tablet
 
-<<<<<<< HEAD
 The ZTE Grand X View 3 was selected, as I was targeting a budget device. I wasn’t ready to commit to the cost of an iPad Mini, and was focusing on smaller tablets to remain semi-portable. In that range, this ZTE Tablet had the highest resolution screen and more memory than most other LTE 7-8” Tablets that supported Canadian carriers. 
-=======
-The ZTE Grand X View 3 was selected, as I was targeting a budget device. I wasn’t ready to commit to the cost of an iPad Mini, and was focusing on smallertablets to remain semi-portable. In that range, this ZTE Tablet had the highest resolution screen and more memory than most other LTE 7-8” Tablets that supported Canadian carriers. 
->>>>>>> c363c454b5965875a69474a110087a08454926c7
 
 *Cost: $6/mo - Two Year Contract*
 
@@ -46,7 +38,7 @@ I shopped around for a few VOiP providers before selecting Ooma. One of my key c
 
 ### Virgin Mobile Data Plan
 
-The selection of the carrier came down to the device selection, as I wasn’t interested in buying upfront. In this case, the core carriers all had more outdated entry level small Android tablets, for the same price that Virgin had the ZTE. In addition, Virgin had a decent offer of 4 GB data for $15/mo. At the time of purchase, other carriers were all running *scaling* tablet plans that started at $5 for 100mb, and quickly scaled to $20 for 2 GB and up. 
+The selection of the carrier came down to the device selection, as I wasn’t interested in buying up front. In this case, the core carriers all had more outdated entry level small Android tablets, for the same price that Virgin had the ZTE. In addition, Virgin had a decent offer of 4 GB data for $15/mo. At the time of purchase, other carriers were all running *scaling* tablet plans that started at $5 for 100mb, and quickly scaled to $20 for 2 GB and up. 
 
 *Cost: $15/mo*
 
@@ -57,8 +49,6 @@ These components together formed the plan, and would double up as a budget savin
 
 *Total Cost: **$31.00/mo***
 
-<<<<<<< HEAD
-=======
 
 ## Why Use a Tablet as a Phone?
 
@@ -72,5 +62,12 @@ After about eight months with this deployment, I would rank it as a success. My 
 
 Did it have complications? Absolutely! Phone call usage meant always having earbuds with a mic available, otherwise I would have to obnoxiously use speakerphone in public. I had a handful of times in stores that I wanted a quick picture, or wanted to text my spouse a question, but the tablet was in the vehicle. However, none of these were serious problems. Battery life was excellent, the LTE speeds were as fast as any device, and the larger screen was a plus.
 
-Regarding call quality itself, Ooma did the job as well as most home phone VoIP services. On decent LTE, generally I could be heard, with the exception of call centers, which either struggled to hear me on had a very long lag time.
->>>>>>> c363c454b5965875a69474a110087a08454926c7
+The most noticeable drawback was being VoIP, it has no support for SMS. This had little impact for me, as I operate more on Telegram. A few financial services have given issue due to only supporting SMS for two factor, instead of my preferred TOTP options, so those took some hoops to jump through.
+
+Regarding call quality itself, Ooma does the job as well as most home phone VoIP services. On decent LTE, I could be heard, with the exception of call centers, which either struggled to hear me or had a very long lag time. But in all honesty, most of those call centers have had issues with my work Bell service when it is on *wifi calling mode*, so I’m not knocking it against Ooma.
+
+## Conclusion 
+
+I believe using a VOIP service on a cellular tablet as a viable option. It does have its drawbacks, but then, that was the point being inspired by digital minimalism ideals. The cost savings vs a full cellular plan (in Canada at least) were obvious, and I still had access often enough to apps I might need on the road. 
+
+I still partially have the service, both the tablet and the Ooma service are active, but I also carry an iPhone provided by my workplace. As such, the Ooma app for my personal number is installed and works great on both devices. It’s an option worth considering in my books!
