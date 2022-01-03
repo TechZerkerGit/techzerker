@@ -75,7 +75,7 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
-    # custom = ''
+    custom = '<b>PH</b>'
     # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
     hugo = true
     # LoveIt NEW | 0.2.0 whether to show copyright info
@@ -285,11 +285,11 @@ theme = "LoveIt"
       enable = true
       Twitter = true
       Facebook = false
-      Linkedin = false
+      Linkedin = true
       Whatsapp = true
       Pinterest = false
       Tumblr = false
-      HackerNews = false
+      HackerNews = true
       Reddit = true
       VK = false
       Buffer = false
@@ -297,9 +297,9 @@ theme = "LoveIt"
       Line = false
       Instapaper = true
       Pocket = true
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
+      Digg = true
+      Stumbleupon = true
+      Flipboard = true
       Weibo = false
       Renren = false
       Myspace = false
@@ -313,7 +313,7 @@ theme = "LoveIt"
 
     # LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
-      enable = true
+      enable = false
 
       # Disqus comment config
       [params.page.comment.disqus]
@@ -359,8 +359,8 @@ theme = "LoveIt"
         languageCode = ""
       # LoveIt NEW | 0.2.0 Telegram comments config
       [params.page.comment.telegram]
-        enable = true
-        siteID = "J7GCT83C"
+        enable = false
+        siteID = ""
         limit = 5
         height = "150"
         color = ""
