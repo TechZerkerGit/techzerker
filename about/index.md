@@ -9,7 +9,7 @@ I'm Scott, a Canadian tech professional in the industry since 2005. I have been 
 <center>
 <figure>
  <img src="https://techzerker.com/ScottPortrait-RockPaperCynic_Trans.png" alt="Portrait by Rock Paper Cynic" width="200" />
- <figcaption style="font-size: 12px">
+ <figcaption style="font-size: 10px">
  Portrait created by: <a href="https://www.rockpapercynic.com/">Peter @ Rock Paper Cynic<br></a>
  </figcaption>
 </figure>
