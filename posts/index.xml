@@ -3,7 +3,28 @@
         <title>All Posts - TechZerker</title>
         <link>https://techzerker.com/posts/</link>
         <description>All Posts | TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>202007262035</title>
+    <link>https://techzerker.com/202007262035-zettelkasten-method-imhoff/</link>
+    <pubDate>Sat, 15 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202007262035-zettelkasten-method-imhoff/</guid>
+    <description><![CDATA[<h1 id="zettelkasten-method-imhoff">Zettelkasten Method Imhoff</h1>
+<h2 id="202007262035">202007262035</h2>
+<p>Stefan started Zettelkasten in 2019, and in his case found the Mac/iOS <a href="" rel="">Devonthink</a> software fit his design best.</p>
+<p>Stefan does not do regular #Tags, as his focus on Devonthink as the software, it does the equivalent of tags, but apparently smarter.</p>
+<p>Stefans version of workflow into his Zettelkasten is to have a handful of <em>Inboxes</em> to gather rough notes, things to reference and ideas. He then generally processes the inbox once a day into useful notes.</p>
+<p>Stefan had excellent rules listed for selecting privacy focused software.
+</p>
+<h3 id="links">Links</h3>
+<p><a href="Zettelkasten-Method.md" rel="">Zettelkasten-Method</a></p>
+<h3 id="references">References</h3>
+<p><a href="https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125" target="_blank" rel="noopener noreffer">Zettelkasten — How One German Scholar Was So Freakishly Productive</a></p>
+<p><a href="https://omxi.se/2015-06-21-living-with-a-zettelkasten.html" target="_blank" rel="noopener noreffer">Living with a Zettelkasten</a></p>
+<p>#Zettel #Notes #Zettelkasten</p>
+<p>|</p>
+]]></description>
+</item><item>
     <title>Using LTE Tablet as a Phone</title>
     <link>https://techzerker.com/2021-12-29-tabletphone/</link>
     <pubDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</pubDate>
