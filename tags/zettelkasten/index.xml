@@ -3,28 +3,21 @@
         <title>Zettelkasten - Tag - TechZerker</title>
         <link>https://techzerker.com/tags/zettelkasten/</link>
         <description>Zettelkasten - Tag - TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/zettelkasten/" rel="self" type="application/rss+xml" /><item>
-    <title>File01</title>
-    <link>https://techzerker.com/file01/</link>
-    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/zettelkasten/" rel="self" type="application/rss+xml" /><item>
+    <title>Zettelkasten Github Readme</title>
+    <link>https://techzerker.com/readme/</link>
+    <pubDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/file01/</guid>
-    <description><![CDATA[<h1 id="file-01">File 01</h1>
-<p>Just a temporary test file linking to <a href="/file02/">File02</a></p>
-]]></description>
-</item><item>
-    <title>File02</title>
-    <link>https://techzerker.com/file02/</link>
-    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/file02/</guid>
-    <description><![CDATA[<h1 id="file-02">File 02</h1>
-<p>A temporary test file for Hugo post test that receives a relative link from <a href="/file01/">File01</a>, to validate internal links work when pushed to Hugo via Obsidian-Export tool.</p>
+    <guid>https://techzerker.com/readme/</guid>
+    <description><![CDATA[<h1 id="zettelkasten-on-obsidian-on-github">Zettelkasten on Obsidian on GitHub</h1>
+<p>Private Github I sync my Obsidian Zettelkasten to, and then use seperate zoni/obsidian-export for pulling notes out to my Hugo / GitHub Pages site at <a href="https://techzerker.com">https://techzerker.com</a></p>
+<h2 id="comments">Comments</h2>
+<p><a href="https://ryan.himmelwright.net/post/obsidian-ios-setup/">Link on Obsidian and iOS Working Copy</a></p>
 ]]></description>
 </item><item>
     <title>Zettlekaten Index</title>
     <link>https://techzerker.com/posts/zettelkasten/</link>
-    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://techzerker.com/posts/zettelkasten/</guid>
     <description><![CDATA[<h1 id="zettelkasten">Zettelkasten</h1>

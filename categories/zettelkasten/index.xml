@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Zettlekaten Index - TechZerker</title>
-        <link>https://techzerker.com/posts/zettelkasten/</link>
-        <description>All Zettlekaten Index | TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/zettelkasten/" rel="self" type="application/rss+xml" /><item>
+        <title>Zettelkasten - Category - TechZerker</title>
+        <link>https://techzerker.com/categories/zettelkasten/</link>
+        <description>Zettelkasten - Category - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/zettelkasten/" rel="self" type="application/rss+xml" /><item>
     <title>Zettelkasten Github Readme</title>
     <link>https://techzerker.com/readme/</link>
     <pubDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</pubDate>
