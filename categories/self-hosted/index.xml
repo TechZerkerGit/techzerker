@@ -5,10 +5,10 @@
         <description>Self-Hosted - Category - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/self-hosted/" rel="self" type="application/rss+xml" /><item>
     <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
-    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
+    <link>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</link>
     <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
+    <guid>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</guid>
     <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
 <p>I had already dabbled a bit in <a href="https://pixelfed.org">Pixelfed</a>, by joining <a href="https://pixelfed.social">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
 <p></p>
@@ -572,10 +572,10 @@ docker-compose exec app php artisan migrate
 <p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
 </item><item>
     <title>Self Hosting Migration Rush</title>
-    <link>https://techzerker.com/2019-03-24-self-host-migration/</link>
+    <link>https://techzerker.com/posts/2019-03-24-self-host-migration/2019-03-24-self-host-migration/</link>
     <pubDate>Sun, 24 Mar 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2019-03-24-self-host-migration/</guid>
+    <guid>https://techzerker.com/posts/2019-03-24-self-host-migration/2019-03-24-self-host-migration/</guid>
     <description><![CDATA[<p>The last few evenings after work I have kept very occupied as I tackled a variety of #SelfHosting projects on my plate.</p>
 <p>If you visited this site at all in the past year, it was still a very busy &lsquo;news magazine&rsquo; looking WordPress site. It liked it at the time. I am shifting more to quick, personal writing on my tech adventures.</p>
 <p>Hence, TechZerker.com has moved to the reading focused <a href="https://writefreely.org">WriteFreely</a> platform. It&rsquo;s open source, light on server resources, and was a breeze to implement! It is the project that powers the more well known <a href="https://write.as">Write.As</a> platform.</p>
@@ -583,7 +583,7 @@ docker-compose exec app php artisan migrate
 <p>Last on the list, and easier than I expected, I deployed <a href="https://miniflux.app/">MiniFlux</a> to replace Feedly. I continue to prefer a curated RSS feed over what social media services try to serve me. I had one or two small bumps with steps not really documented, but they were simple to figure out!</p>
 <p>All those services are now up and running, and are now on my preferred pure Arch Linux distro. The last project on the plate is to migrate an existing MineCraft. For that project I&rsquo;m going to test out MineOS to simplify the management.</p>
 <p>I will do additional write-ups or commentary on each of the applications when I am ready to write about them. In the meantime, enjoy the cleaner and way faster loading TechZerker!</p>
-<p>&ndash;Scott</p>
+<p>&ndash;Scott&ndash;</p>
 ]]></description>
 </item></channel>
 </rss>

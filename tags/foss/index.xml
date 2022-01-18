@@ -5,10 +5,10 @@
         <description>FOSS - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/foss/" rel="self" type="application/rss+xml" /><item>
     <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
-    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
+    <link>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</link>
     <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
+    <guid>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</guid>
     <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
 <p>I had already dabbled a bit in <a href="https://pixelfed.org">Pixelfed</a>, by joining <a href="https://pixelfed.social">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
 <p></p>

@@ -5,10 +5,10 @@
         <description>Arch Wiki - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/arch-wiki/" rel="self" type="application/rss+xml" /><item>
     <title>Arch Linux – Conflicting Files and the Arch Wiki</title>
-    <link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link>
+    <link>https://techzerker.com/posts/2020/2020-04-24-arch-wiki-conflicts/</link>
     <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
+    <guid>https://techzerker.com/posts/2020/2020-04-24-arch-wiki-conflicts/</guid>
     <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org">Arch Linux</a>.</p>
 <p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
 <p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>

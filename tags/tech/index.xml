@@ -5,10 +5,10 @@
         <description>Tech - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 May 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/tech/" rel="self" type="application/rss+xml" /><item>
     <title>VIM Expedition</title>
-    <link>https://techzerker.com/2019-05-08-vim/</link>
+    <link>https://techzerker.com/posts/2019-05-08-vim/</link>
     <pubDate>Wed, 08 May 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2019-05-08-vim/</guid>
+    <guid>https://techzerker.com/posts/2019-05-08-vim/</guid>
     <description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
 <p></p>
 <p>Up until a few days ago, my previous experience with VIM was limited. I&rsquo;ve been using Linux heavily for years now, and it was just an annoyance. In the past my only exposure to VIM was AUR install scripts or source builds that forced me to check build files via VIM. What that really meant was it was that annoying text program, that I had no clue how to quit when it suddenly was on my screen! <strong>:w</strong> to save, and <strong>:q</strong> to quit, but not if your in insert mode&hellip;what?</p>

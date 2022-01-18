@@ -5,10 +5,10 @@
         <description>Windows Subsystem for Linux - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/windows-subsystem-for-linux/" rel="self" type="application/rss+xml" /><item>
     <title>Running i3 Desktop with WSL on Windows 10</title>
-    <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
+    <link>https://techzerker.com/posts/2020/2020-04-19-wsl-i3-windows/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
+    <guid>https://techzerker.com/posts/2020/2020-04-19-wsl-i3-windows/</guid>
     <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
 <p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
 <p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
