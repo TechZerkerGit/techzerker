@@ -16,4 +16,3 @@ These rules are one good guideline that came out of an article on Zettelkasten, 
 [Zettelkasten Method by Stefan Imhoff](https://www.stefanimhoff.de/zettelkasten-note-taking-devonthink/)
 
 
-Tags: #Privacy #Software 
