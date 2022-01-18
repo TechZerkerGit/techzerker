@@ -5,10 +5,10 @@
         <description>Linux - Category - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/linux/" rel="self" type="application/rss+xml" /><item>
     <title>Toxicity in Linux Community (Link)</title>
-    <link>https://techzerker.com/posts/2021/2021-02-11-toxic-linux/</link>
+    <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
     <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2021/2021-02-11-toxic-linux/</guid>
+    <guid>https://techzerker.com/2021-02-11-toxic-linux/</guid>
     <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860">toxicity in the Linux community</a>.</p>
 <p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
 <p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
@@ -21,10 +21,10 @@
 <p><a href="https://t.me/linux4everyone"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
 </item><item>
     <title>Arch Linux – Conflicting Files and the Arch Wiki</title>
-    <link>https://techzerker.com/posts/2020/2020-04-24-arch-wiki-conflicts/</link>
+    <link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link>
     <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-04-24-arch-wiki-conflicts/</guid>
+    <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
     <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org">Arch Linux</a>.</p>
 <p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
 <p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>
@@ -41,10 +41,10 @@
 <p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
 </item><item>
     <title>Running i3 Desktop with WSL on Windows 10</title>
-    <link>https://techzerker.com/posts/2020/2020-04-19-wsl-i3-windows/</link>
+    <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
     <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-04-19-wsl-i3-windows/</guid>
+    <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
     <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
 <p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
 <p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
@@ -113,10 +113,10 @@ i3
 <p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Warhammer 40k Black Library</a> reading.</p>]]></description>
 </item><item>
     <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
-    <link>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</link>
+    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
     <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-03-02-pixelfed-docker-nginx/</guid>
+    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
     <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
 <p>I had already dabbled a bit in <a href="https://pixelfed.org">Pixelfed</a>, by joining <a href="https://pixelfed.social">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
 <p></p>
@@ -680,10 +680,10 @@ docker-compose exec app php artisan migrate
 <p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
 </item><item>
     <title>ARM Systems and the 2019 Pinebook Pro</title>
-    <link>https://techzerker.com/posts/2020/2020-02-18-pinebook-pro/</link>
+    <link>https://techzerker.com/2020-02-18-pinebook-pro/</link>
     <pubDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-02-18-pinebook-pro/</guid>
+    <guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid>
     <description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
 <p>As we&rsquo;re getting into 2020, I&rsquo;m seeing a lot more articles and posts of the <a href="https://amzn.to/2UZn7yT">Pi4</a>, at least the 4GB model, making a decent basic workstation and office computer. This is assuming that use case is similar to that of a Chromebook, focused on web and terminal type software. Along the same vein is a system like the Pinebook Pro, which has been getting a fair amount of attention for making the right decisions for a budget system that does not feel budget. I was prompted to post this tonight because I really enjoyed this longer Vice article on the Pinebook Pro and its market in general:</p>
 <blockquote>
@@ -697,10 +697,10 @@ docker-compose exec app php artisan migrate
 ]]></description>
 </item><item>
     <title>Arch Linux: Blind Updating, PostgreSQL and MiniFlux</title>
-    <link>https://techzerker.com/posts/2019-11-27-arch-server-updates/</link>
+    <link>https://techzerker.com/2019-11-27-arch-server-updates/</link>
     <pubDate>Wed, 27 Nov 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2019-11-27-arch-server-updates/</guid>
+    <guid>https://techzerker.com/2019-11-27-arch-server-updates/</guid>
     <description><![CDATA[<p>Among the #self-hosted projects that I run just for my own usage, I have a <a href="https://www.vultr.com/?ref=7975116-4F">VPS server running Arch Linux</a>. (Yes, I&rsquo;m running an Arch server, instead of Ubuntu/Debian)</p>
 <p>That little VPS runs a few different services:</p>
 <ul>
@@ -726,10 +726,10 @@ docker-compose exec app php artisan migrate
 </blockquote>]]></description>
 </item><item>
     <title>Elementary OS 5 (Juno) Review</title>
-    <link>https://techzerker.com/posts/2019-08-02-elementary-5-review/</link>
+    <link>https://techzerker.com/2019-08-02-elementary-5-review/</link>
     <pubDate>Mon, 05 Aug 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2019-08-02-elementary-5-review/</guid>
+    <guid>https://techzerker.com/2019-08-02-elementary-5-review/</guid>
     <description><![CDATA[<p>When I first really transitioned into the Linux world from Windows, I started with Ubuntu. That is a very common introductory point for many, or was, and from there I was an aggressive distro-hopper. I shifted through the Kubuntu&rsquo;s and Xubuntu&rsquo;s of the day, into ArchLabs on one laptop. At some point about two years ago took a stop at <a href="https://elementary.io"><em>elementary OS</em></a> in it&rsquo;s 0.4 version (just one version before 5, they dropped the decimals).</p>
 <p>When I first ran elementary OS 0.4, I liked the style and cohesive design. Compared to some of the distros I had tried it took some of that raw linux feel away, as far as what a normal end user might experience. Overall, I liked it and was going to install it on my main system. The full stop point I hit was the distro was based on Ubuntu 16.04 LTS. The kicker with that was the system I was using was UEFI only, and the linux kernel for 16.04 LTS did not yet natively support UEFI, nor had I discovered tools like <a href="https://www.rodsbooks.com/refind/">ReFind</a>. As such, I continued on hopping until falling into my current Arch Linux and i3wm realm, which I&rsquo;ll talk on seperatly.</p>
 <p>Forward to this past week, and I was sorting our a personal laptop for a co-worker that was collecting dust with a very disliked Windows 10 install. As a very non-tech user, I convinved him I could make the system run way better, and for his mostly browser based usage, be easier to use as well. My target was the clean looking elementary OS.</p>
@@ -766,10 +766,10 @@ docker-compose exec app php artisan migrate
 <p>Needless to say, elementary is a very easy pick to install or show off if your trying to bring over any windows users to a smoother, more secure and stable system. I&rsquo;m at a loss to suggest anything other than elementary for converting skeptics to linux, even avid PC gamers like myself.</p>]]></description>
 </item><item>
     <title>VIM Expedition</title>
-    <link>https://techzerker.com/posts/2019-05-08-vim/</link>
+    <link>https://techzerker.com/2019-05-08-vim/</link>
     <pubDate>Wed, 08 May 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2019-05-08-vim/</guid>
+    <guid>https://techzerker.com/2019-05-08-vim/</guid>
     <description><![CDATA[<p>Why couldn&rsquo;t I just be fine with Nano and Sublime Text? I guess I can&rsquo;t help but be curious!</p>
 <p></p>
 <p>Up until a few days ago, my previous experience with VIM was limited. I&rsquo;ve been using Linux heavily for years now, and it was just an annoyance. In the past my only exposure to VIM was AUR install scripts or source builds that forced me to check build files via VIM. What that really meant was it was that annoying text program, that I had no clue how to quit when it suddenly was on my screen! <strong>:w</strong> to save, and <strong>:q</strong> to quit, but not if your in insert mode&hellip;what?</p>

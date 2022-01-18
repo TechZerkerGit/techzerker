@@ -5,10 +5,10 @@
         <description>ARM - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/arm/" rel="self" type="application/rss+xml" /><item>
     <title>ARM Systems and the 2019 Pinebook Pro</title>
-    <link>https://techzerker.com/posts/2020/2020-02-18-pinebook-pro/</link>
+    <link>https://techzerker.com/2020-02-18-pinebook-pro/</link>
     <pubDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-02-18-pinebook-pro/</guid>
+    <guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid>
     <description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
 <p>As we&rsquo;re getting into 2020, I&rsquo;m seeing a lot more articles and posts of the <a href="https://amzn.to/2UZn7yT">Pi4</a>, at least the 4GB model, making a decent basic workstation and office computer. This is assuming that use case is similar to that of a Chromebook, focused on web and terminal type software. Along the same vein is a system like the Pinebook Pro, which has been getting a fair amount of attention for making the right decisions for a budget system that does not feel budget. I was prompted to post this tonight because I really enjoyed this longer Vice article on the Pinebook Pro and its market in general:</p>
 <blockquote>

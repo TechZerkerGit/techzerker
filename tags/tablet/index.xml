@@ -5,10 +5,10 @@
         <description>Tablet - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/tablet/" rel="self" type="application/rss+xml" /><item>
     <title>Using LTE Tablet as a Phone</title>
-    <link>https://techzerker.com/posts/2021/2021-12-29-tabletphone/</link>
+    <link>https://techzerker.com/2021-12-29-tabletphone/</link>
     <pubDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2021/2021-12-29-tabletphone/</guid>
+    <guid>https://techzerker.com/2021-12-29-tabletphone/</guid>
     <description><![CDATA[<p>After reading <a href="https://www.anrdoezrs.net/click-100549456-13710612?url=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9780525536512-item.html&amp;cjsku=978052553651">Digital Minimalism</a> several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.</p>
 <h2 id="the-setup">The Setup</h2>
 <ul>

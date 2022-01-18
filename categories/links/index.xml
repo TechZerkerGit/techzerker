@@ -5,10 +5,10 @@
         <description>Links - Category - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/links/" rel="self" type="application/rss+xml" /><item>
     <title>Toxicity in Linux Community (Link)</title>
-    <link>https://techzerker.com/posts/2021/2021-02-11-toxic-linux/</link>
+    <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
     <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2021/2021-02-11-toxic-linux/</guid>
+    <guid>https://techzerker.com/2021-02-11-toxic-linux/</guid>
     <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860">toxicity in the Linux community</a>.</p>
 <p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
 <p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
@@ -21,20 +21,20 @@
 <p><a href="https://t.me/linux4everyone"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
 </item><item>
     <title>RSS: Controlling Your Feed (Link)</title>
-    <link>https://techzerker.com/posts/2020/2020-12-08-rss-in-control/</link>
+    <link>https://techzerker.com/2020-12-08-rss-in-control/</link>
     <pubDate>Tue, 08 Dec 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-12-08-rss-in-control/</guid>
+    <guid>https://techzerker.com/2020-12-08-rss-in-control/</guid>
     <description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
 <p>I used RSS via Google Reader heavily when it was popular, that being pre or early Facebook days. When it was shutdown, I moved onto Feedly, before finally rolling my own Self-Hosted <a href="https://MiniFlux.app">MiniFlux RSS</a> reader instance. Similar to Ibrahim, my site built with Hugo has RSS available and encouraged.</p>
 <p>Article: <a href="https://idiallo.com/blog/rss-is-dead-please-subscribe?src=feed">With RSS, You are in Control</a></p>
 ]]></description>
 </item><item>
     <title>PaperSpace and Future Hyper-Converged Computing (Link)</title>
-    <link>https://techzerker.com/posts/2020/2020-06-08-paperspace/</link>
+    <link>https://techzerker.com/2020-06-08-paperspace/</link>
     <pubDate>Mon, 08 Jun 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-06-08-paperspace/</guid>
+    <guid>https://techzerker.com/2020-06-08-paperspace/</guid>
     <description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
 <p></p>
 <p><a href="https://twitter.com/nrose/status/1210698393355460608">Source Twitter Post</a></p>
@@ -81,10 +81,10 @@
 ]]></description>
 </item><item>
     <title>The Bomb Didn&#39;t Beat Japan (Link)</title>
-    <link>https://techzerker.com/posts/2020/2020-06-07-japan-atomic-bomb/</link>
+    <link>https://techzerker.com/2020-06-07-japan-atomic-bomb/</link>
     <pubDate>Sun, 07 Jun 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2020/2020-06-07-japan-atomic-bomb/</guid>
+    <guid>https://techzerker.com/2020-06-07-japan-atomic-bomb/</guid>
     <description><![CDATA[<p>This story already circulated plenty in months past, but I decided to link it today after a good co-worker discussion on who writes history, and always being willing to learn facts. In our case, our discussion started with referring to <em>Hunting Hitler</em>, and understanding at the close of the war, people needed to hear <strong>we got him!</strong>, even if it wasn&rsquo;t accurate, and he was actively being searched for. The same goes for Japan in 1945, the American public, at least in the short term, needed to hear that the Atomic Bomb developed at great expense and sacrifice ended the war. This article is a great read to remind us all to read and analyze facts for ourselves, and remember who writes history.</p>
 <blockquote>
 <p><a href="https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/">The Bomb Didn&rsquo;t Beat Japan … Stalin Did (Foreign Policy)</a></p>

@@ -5,10 +5,10 @@
         <description>Juno - Tag - TechZerker</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/juno/" rel="self" type="application/rss+xml" /><item>
     <title>Elementary OS 5 (Juno) Review</title>
-    <link>https://techzerker.com/posts/2019-08-02-elementary-5-review/</link>
+    <link>https://techzerker.com/2019-08-02-elementary-5-review/</link>
     <pubDate>Mon, 05 Aug 2019 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://techzerker.com/posts/2019-08-02-elementary-5-review/</guid>
+    <guid>https://techzerker.com/2019-08-02-elementary-5-review/</guid>
     <description><![CDATA[<p>When I first really transitioned into the Linux world from Windows, I started with Ubuntu. That is a very common introductory point for many, or was, and from there I was an aggressive distro-hopper. I shifted through the Kubuntu&rsquo;s and Xubuntu&rsquo;s of the day, into ArchLabs on one laptop. At some point about two years ago took a stop at <a href="https://elementary.io"><em>elementary OS</em></a> in it&rsquo;s 0.4 version (just one version before 5, they dropped the decimals).</p>
 <p>When I first ran elementary OS 0.4, I liked the style and cohesive design. Compared to some of the distros I had tried it took some of that raw linux feel away, as far as what a normal end user might experience. Overall, I liked it and was going to install it on my main system. The full stop point I hit was the distro was based on Ubuntu 16.04 LTS. The kicker with that was the system I was using was UEFI only, and the linux kernel for 16.04 LTS did not yet natively support UEFI, nor had I discovered tools like <a href="https://www.rodsbooks.com/refind/">ReFind</a>. As such, I continued on hopping until falling into my current Arch Linux and i3wm realm, which I&rsquo;ll talk on seperatly.</p>
 <p>Forward to this past week, and I was sorting our a personal laptop for a co-worker that was collecting dust with a very disliked Windows 10 install. As a very non-tech user, I convinved him I could make the system run way better, and for his mostly browser based usage, be easier to use as well. My target was the clean looking elementary OS.</p>
