@@ -103,4 +103,7 @@
             <loc>https://techzerker.com/categories/gaming/</loc><lastmod>2019-04-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://techzerker.com/tags/blades/</loc><lastmod>2019-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://techzerker.com/2019-04-02-bladesearlyaccess/</loc><lastmod>2019-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://techzerker.com/2019-03-24-self-host-migration/</loc><lastmod>2019-03-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://techzerker.com/2019-03-24-self-host-migration/</loc><lastmod>2019-03-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://techzerker.com/file01/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://techzerker.com/file02/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://techzerker.com/readme/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
