@@ -20,4 +20,4 @@ All those services are now up and running, and are now on my preferred pure Arch
 
 I will do additional write-ups or commentary on each of the applications when I am ready to write about them. In the meantime, enjoy the cleaner and way faster loading TechZerker!
 
---Scott
+--Scott--
