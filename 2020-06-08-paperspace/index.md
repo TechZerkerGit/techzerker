@@ -3,7 +3,7 @@
 
 Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? **Will it run EMACS or VIM?!?** ...
 
-![Noah](Noah.jpg)
+![Noah](/Noah.jpg)
 
 [Source Twitter Post](https://twitter.com/nrose/status/1210698393355460608)
 
