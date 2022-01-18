@@ -24,5 +24,24 @@
 <p>#Zettel #Notes #Zettelkasten</p>
 <p>|</p>
 ]]></description>
+</item><item>
+    <title>202007262114</title>
+    <link>https://techzerker.com/202007262114-selecting-software-privacy/</link>
+    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202007262114-selecting-software-privacy/</guid>
+    <description><![CDATA[<h1 id="202007262114-selecting-software-for-privacy">202007262114 Selecting Software for Privacy</h1>
+<p>These rules are one good guideline that came out of an article on Zettelkasten, but apply in many areas. This is a rare direct copy, as it can&rsquo;t really be rephrased:</p>
+<ul>
+<li>Never use a tool or service which does not allow exporting my content easily.</li>
+<li>Never store valuable information only on an external server which might disappear or be inaccessible.</li>
+<li>Never use a proprietary format that is depending on a specific company or tool or is hard or impossible to convert into another format.</li>
+<li>If possible don’t use a service or software that doesn’t support encrypting my data.</li>
+<li>If possible don’t use a service or software that has a monthly fee. Monthly fees make it easy for developers to not deliver good software while the user is not being able to stop paying without losing access to the software.</li>
+</ul>
+<h2 id="reference">Reference</h2>
+<p><a href="https://www.stefanimhoff.de/zettelkasten-note-taking-devonthink/" target="_blank" rel="noopener noreffer">Zettelkasten Method by Stefan Imhoff</a></p>
+<p>Tags: #Privacy #Software</p>
+]]></description>
 </item></channel>
 </rss>
