@@ -12,7 +12,7 @@ Stefan does not do regular #Tags, as his focus on Devonthink as the software, it
 Stefans version of workflow into his Zettelkasten is to have a handful of *Inboxes* to gather rough notes, things to reference and ideas. He then generally processes the inbox once a day into useful notes.
 
 Stefan had excellent rules listed for selecting privacy focused software.
-[202007262114-Selecting-Software-Privacy](202007262114-Selecting-Software-Privacy)
+[202007262114-Selecting-Software-Privacy](/202007262114-Selecting-Software-Privacy)
 
 
 ### Links
