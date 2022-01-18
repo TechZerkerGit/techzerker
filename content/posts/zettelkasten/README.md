@@ -1,25 +1,16 @@
 ---
 title: Zettelkasten Github Readme
-# subtitle: Selecting Software for Privacy
-date: 2022-01-12
-tags: 
-- Zettelkasten
+date: 2022-01-01
+tags:
+  - Zettelkasten
 categories:
-- Zettelkasten
+  - Zettelkasten
 draft: false
-# images: []
-resources:
-#- name: featured-image
-#  src: bmwtest.jpg
-#- name: featured-image-preview
-#  src: bmwtest.jpg
+resources: ~
 ---
 
+# Obsidian Zettelkasten
 
-# Zettelkasten on Obsidian on GitHub
+I maintain my reading notes and knowledge base via [Obsidian](https://obsidian.md), which is software for maintaining a Zettelkasten. This specific file is just the basic GitHub readme file, which I use to sync, and also use with [Obsidian Export](https://github.com/zoni/obsidian-export) to create these notes in my Hugo based site (where your viewing this) on [Techzerker](https://techzerker.com). 
 
-Private Github I sync my Obsidian Zettelkasten to, and then use seperate zoni/obsidian-export for pulling notes out to my Hugo / GitHub Pages site at https://techzerker.com
-
-## Comments
-
-[Link on Obsidian and iOS Working Copy](https://ryan.himmelwright.net/post/obsidian-ios-setup/)
+I also use Obsidian Mobile on iOS with *Working Copy* to sync to the GitHub repo, which was [easy to setup](https://ryan.himmelwright.net/post/obsidian-ios-setup/).
