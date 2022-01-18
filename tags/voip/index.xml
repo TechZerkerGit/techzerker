@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Phone - Tag - TechZerker</title>
-        <link>https://techzerker.com/tags/phone/</link>
-        <description>Phone - Tag - TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/phone/" rel="self" type="application/rss+xml" /><item>
+        <title>VoIP - Tag - TechZerker</title>
+        <link>https://techzerker.com/tags/voip/</link>
+        <description>VoIP - Tag - TechZerker</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/tags/voip/" rel="self" type="application/rss+xml" /><item>
     <title>Using LTE Tablet as a Phone</title>
     <link>https://techzerker.com/2021-12-29-tabletphone/</link>
     <pubDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</pubDate>

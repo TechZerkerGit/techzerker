@@ -1,7 +1,7 @@
 # Using LTE Tablet as a Phone
 
 
-After reading [Digital Minimalism]() several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.
+After reading [Digital Minimalism](https://www.anrdoezrs.net/click-100549456-13710612?url=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9780525536512-item.html&cjsku=978052553651) several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.
 <!--more-->
 
 ## The Setup

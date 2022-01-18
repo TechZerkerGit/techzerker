@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zettelkastens on TechZerker</title>
+    <link>https://techzerker.com/zettelkasten/</link>
+    <description>Recent content in Zettelkastens on TechZerker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://techzerker.com/zettelkasten/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>202007262035</title>
+      <link>https://techzerker.com/zettelkasten/202007262035-zettelkasten-method-imhoff/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://techzerker.com/zettelkasten/202007262035-zettelkasten-method-imhoff/</guid>
+      <description>Zettelkasten Method Imhoff 202007262035 Stefan started Zettelkasten in 2019, and in his case found the Mac/iOS Devonthink software fit his design best.
+Stefan does not do regular #Tags, as his focus on Devonthink as the software, it does the equivalent of tags, but apparently smarter.
+Stefans version of workflow into his Zettelkasten is to have a handful of Inboxes to gather rough notes, things to reference and ideas. He then generally processes the inbox once a day into useful notes.</description>
+    </item>
+    
+  </channel>
+</rss>
