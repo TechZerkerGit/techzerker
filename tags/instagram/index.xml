@@ -10,16 +10,16 @@
     <author>Author</author>
     <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
     <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
-<p>I had already dabbled a bit in <a href="https://pixelfed.org" target="_blank" rel="noopener noreffer">Pixelfed</a>, by joining <a href="https://pixelfed.social" target="_blank" rel="noopener noreffer">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
+<p>I had already dabbled a bit in <a href="https://pixelfed.org">Pixelfed</a>, by joining <a href="https://pixelfed.social">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
 <p></p>
-<p>On my Arch VPS that I host on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, I had already tried in previous weeks to direct install Pixelfed. Unfortunately, likely because of other self-hosted apps or packages in place, it was a struggle and I just could not get Pixelfed fully operational. In steps Docker, and the <a href="https://jonnev.se/pixelfed-beta-with-docker-and-traefik/" target="_blank" rel="noopener noreffer">article here</a> that inspired this updated version with what I had to do differently, as well as more details on the Nginx reverse proxy portion.</p>
-<p><em>If you are interested in using Vultr to host a VPS for this or any other self-hosted projects, depending on your project size and plans, you can either get <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">$10 of VPS Credit</a> for a small project, or if you&rsquo;re looking for a larger project, you can get <a href="https://www.vultr.com/?ref=8473015-6G" target="_blank" rel="noopener noreffer">$100 of VPS Credit for 30 days</a>. Both help me out and keep tracking based ads and services off my site.</em></p>
+<p>On my Arch VPS that I host on <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, I had already tried in previous weeks to direct install Pixelfed. Unfortunately, likely because of other self-hosted apps or packages in place, it was a struggle and I just could not get Pixelfed fully operational. In steps Docker, and the <a href="https://jonnev.se/pixelfed-beta-with-docker-and-traefik/">article here</a> that inspired this updated version with what I had to do differently, as well as more details on the Nginx reverse proxy portion.</p>
+<p><em>If you are interested in using Vultr to host a VPS for this or any other self-hosted projects, depending on your project size and plans, you can either get <a href="https://www.vultr.com/?ref=7975115">$10 of VPS Credit</a> for a small project, or if you&rsquo;re looking for a larger project, you can get <a href="https://www.vultr.com/?ref=8473015-6G">$100 of VPS Credit for 30 days</a>. Both help me out and keep tracking based ads and services off my site.</em></p>
 <h2 id="requirements">Requirements</h2>
 <ul>
-<li>VPS <a href="https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers" target="_blank" rel="noopener noreffer">Operational &amp; Secure</a></li>
+<li>VPS <a href="https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers">Operational &amp; Secure</a></li>
 <li>Docker &amp; Docker-Compose Installed</li>
 <li>Nginx Installed</li>
-<li><a href="https://www.cloudflare.com/en-ca/products/registrar/" target="_blank" rel="noopener noreffer">Domain Name</a> Setup, and Ideally SSL Certificates ready</li>
+<li><a href="https://www.cloudflare.com/en-ca/products/registrar/">Domain Name</a> Setup, and Ideally SSL Certificates ready</li>
 </ul>
 <p><em>Of note, in this install, Nginx is direct installed on the host, as it fit with my existing environment. It is also common to deploy Nginx with Docker as well, which would change these instructions to some extent.</em></p>
 <h2 id="pixelfed-setup">Pixelfed Setup</h2>
@@ -217,7 +217,7 @@ touch docker-compose.yml
 nano docker-compose.yml
 </code></pre></td></tr></table>
 </div>
-</div><p>Below is my docker compose file, with sensitive details removed and key points highlighted. Of worthy note in my install, I have host mapped the storage in place of an internal docker volume, to a Fuse S3FS mount point for my <a href="https://wasabi.com/cloud-storage-pricing/" target="_blank" rel="noopener noreffer">S3</a> storage, which will also make it easier for me to at minimum, backup the raw photo content, and it&rsquo;s cheaper storage than my VPS SSD.</p>
+</div><p>Below is my docker compose file, with sensitive details removed and key points highlighted. Of worthy note in my install, I have host mapped the storage in place of an internal docker volume, to a Fuse S3FS mount point for my <a href="https://wasabi.com/cloud-storage-pricing/">S3</a> storage, which will also make it easier for me to at minimum, backup the raw photo content, and it&rsquo;s cheaper storage than my VPS SSD.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -494,7 +494,7 @@ server {
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl restart nginx
 </code></pre></td></tr></table>
 </div>
-</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name" target="_blank" rel="noopener noreffer">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
+</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
 <h2 id="user-creation">User Creation</h2>
 <p>If the site loaded for you, and if like myself you&rsquo;re building this primarily for private or small group usage, so turned off Open Registration, you can now use the terminal to create you first user, presumably as an admin:</p>
 <div class="highlight"><div class="chroma">
@@ -568,7 +568,7 @@ docker-compose exec app php artisan migrate
 </div>
 </div><h2 id="wrap-up">Wrap Up</h2>
 <p>At this point, if everything worked (and I know, it often takes several attempts, this took me a while to get all sorted and running!), you should have a fully functioning PixelFed, and can either open registration, or terminal create users for your own small community to post to.</p>
-<p>For updates to the Project, keep an eye on <a href="https://github.com/pixelfed/pixelfed" target="_blank" rel="noopener noreffer">Pixelfed GitHub</a>, and as they detail on that page, there is a semi-active group on their Riot Matrix.Org channel for help, which I&rsquo;ve been over-active in during my install struggles.</p>
-<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
+<p>For updates to the Project, keep an eye on <a href="https://github.com/pixelfed/pixelfed">Pixelfed GitHub</a>, and as they detail on that page, there is a semi-active group on their Riot Matrix.Org channel for help, which I&rsquo;ve been over-active in during my install struggles.</p>
+<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
 </item></channel>
 </rss>

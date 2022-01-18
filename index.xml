@@ -3,54 +3,15 @@
         <title>TechZerker</title>
         <link>https://techzerker.com/</link>
         <description>A Tech Professional With Occasional Sanity</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://techzerker.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>202007262035</title>
-    <link>https://techzerker.com/202007262035-zettelkasten-method-imhoff/</link>
-    <pubDate>Sat, 15 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/202007262035-zettelkasten-method-imhoff/</guid>
-    <description><![CDATA[<h1 id="zettelkasten-method-imhoff">Zettelkasten Method Imhoff</h1>
-<h2 id="202007262035">202007262035</h2>
-<p>Stefan started Zettelkasten in 2019, and in his case found the Mac/iOS <a href="" rel="">Devonthink</a> software fit his design best.</p>
-<p>Stefan does not do regular #Tags, as his focus on Devonthink as the software, it does the equivalent of tags, but apparently smarter.</p>
-<p>Stefans version of workflow into his Zettelkasten is to have a handful of <em>Inboxes</em> to gather rough notes, things to reference and ideas. He then generally processes the inbox once a day into useful notes.</p>
-<p>Stefan had excellent rules listed for selecting privacy focused software.
-<a href="202007262114-selecting-software-privacy" rel="">202007262114-Selecting-Software-Privacy</a></p>
-<h3 id="links">Links</h3>
-<p><a href="Zettelkasten-Method.md" rel="">Zettelkasten-Method</a></p>
-<h3 id="references">References</h3>
-<p><a href="https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125" target="_blank" rel="noopener noreffer">Zettelkasten — How One German Scholar Was So Freakishly Productive</a></p>
-<p><a href="https://omxi.se/2015-06-21-living-with-a-zettelkasten.html" target="_blank" rel="noopener noreffer">Living with a Zettelkasten</a></p>
-<p>#Zettel #Notes #Zettelkasten</p>
-<p>|</p>
-]]></description>
-</item><item>
-    <title>202007262114</title>
-    <link>https://techzerker.com/202007262114-selecting-software-privacy/</link>
-    <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/202007262114-selecting-software-privacy/</guid>
-    <description><![CDATA[<h1 id="202007262114-selecting-software-for-privacy">202007262114 Selecting Software for Privacy</h1>
-<p>These rules are one good guideline that came out of an article on Zettelkasten, but apply in many areas. This is a rare direct copy, as it can&rsquo;t really be rephrased:</p>
-<ul>
-<li>Never use a tool or service which does not allow exporting my content easily.</li>
-<li>Never store valuable information only on an external server which might disappear or be inaccessible.</li>
-<li>Never use a proprietary format that is depending on a specific company or tool or is hard or impossible to convert into another format.</li>
-<li>If possible don’t use a service or software that doesn’t support encrypting my data.</li>
-<li>If possible don’t use a service or software that has a monthly fee. Monthly fees make it easy for developers to not deliver good software while the user is not being able to stop paying without losing access to the software.</li>
-</ul>
-<h2 id="reference">Reference</h2>
-<p><a href="https://www.stefanimhoff.de/zettelkasten-note-taking-devonthink/" target="_blank" rel="noopener noreffer">Zettelkasten Method by Stefan Imhoff</a></p>
-]]></description>
-</item><item>
     <title>Using LTE Tablet as a Phone</title>
     <link>https://techzerker.com/2021-12-29-tabletphone/</link>
     <pubDate>Wed, 29 Dec 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://techzerker.com/2021-12-29-tabletphone/</guid>
-    <description><![CDATA[<p>After reading <a href="https://www.anrdoezrs.net/click-100549456-13710612?url=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9780525536512-item.html&amp;cjsku=978052553651" target="_blank" rel="noopener noreffer">Digital Minimalism</a> several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.</p>
+    <description><![CDATA[<p>After reading <a href="https://www.anrdoezrs.net/click-100549456-13710612?url=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fproduct%2F9780525536512-item.html&amp;cjsku=978052553651">Digital Minimalism</a> several times when it was released, I looked for ways to implement the ideas presented. They ranged from minor changes to the existing smartphone all the way to the realm of no mobile device. The first serious solution I settled on was using an LTE Tablet in place of the smartphone, circa 2019.</p>
 <h2 id="the-setup">The Setup</h2>
 <ul>
 <li>ZTE Grand X View 3 8” Tablet (LTE)</li>
@@ -87,8 +48,8 @@
     <author>Author</author>
     <guid>https://techzerker.com/2021-10-21-blog-community/</guid>
     <description><![CDATA[<p>My love for small, personal blogs and writing that is not SEO or advertising focused has always been strong, mostly calling back to my 90&rsquo;s internet roots. From the era before the big central platforms like Facebook, when we all had independant sites, free GeoCities blogs, and the like. In that world, which still exists today, albeit smaller, easy quick sharing and <em>likes</em> did not exist. This meant that in most cases, as far as any specific blog author knew, you were writing into a void that no one was reading, which can still be the case.</p>
-<p>The inspiration for this little commentary was the recent events as I started returning to some writing (and coding) plans. This site is built with the <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer">Hugo</a> framework, and hosted via <strong>GitHub Pages</strong>. When I returned to start writing a bit of a history and way forward artcile on trying to get back into Coding, and tackling a #100DaysofCode challenge, I found my <em>GitHub Actions</em> tasks that publish these posts were failing. Hours of searching and mucking about, and the action workflow that had previously worked just kept failing, and every element of documentation I could find for the most common workflow scripts, pointed to the same failing solutions. Because these most common solutions relied on importing other components/scripts, I was not getting decent or useful error logs to explain why the failure was occuring. I know there are methods to further pull those workflows and components apart to troubleshoot, but I wanted to keep searching, and that&rsquo;s where another personal blog, more or less shouting into the void of the internet, solved my problem.</p>
-<p>In my searching, results came up pointing to a personal blog <a href="https://matt-harrison.com/" target="_blank" rel="noopener noreffer">Matt Harrison</a>, a fellow advertising free, Hugo built and GitHub Pages hosted blog. Like myself, the writing is sometimes sporadic because it&rsquo;s not designed as a source of income directly, and it&rsquo;s not built to encourage agressive likes/favorites/shares. The article itself was <a href="https://matt-harrison.com/posts/github-actions-hugo/" target="_blank" rel="noopener noreffer">Automating this Hugo Blog with GitHub Actions</a>. Matt gave a well written summary of GitHub actions, and then provided his own actions workflow script. The main script was followed by a nice breakout summary of the key stages of the script and what they were doing, which solidified by understanding of the process. Because it did not rely on other pre-build actions, beyond the standard git checkout action, it was easy to understand what was going on, and it solved my own problems perfectly!</p>
+<p>The inspiration for this little commentary was the recent events as I started returning to some writing (and coding) plans. This site is built with the <a href="https://gohugo.io/">Hugo</a> framework, and hosted via <strong>GitHub Pages</strong>. When I returned to start writing a bit of a history and way forward artcile on trying to get back into Coding, and tackling a #100DaysofCode challenge, I found my <em>GitHub Actions</em> tasks that publish these posts were failing. Hours of searching and mucking about, and the action workflow that had previously worked just kept failing, and every element of documentation I could find for the most common workflow scripts, pointed to the same failing solutions. Because these most common solutions relied on importing other components/scripts, I was not getting decent or useful error logs to explain why the failure was occuring. I know there are methods to further pull those workflows and components apart to troubleshoot, but I wanted to keep searching, and that&rsquo;s where another personal blog, more or less shouting into the void of the internet, solved my problem.</p>
+<p>In my searching, results came up pointing to a personal blog <a href="https://matt-harrison.com/">Matt Harrison</a>, a fellow advertising free, Hugo built and GitHub Pages hosted blog. Like myself, the writing is sometimes sporadic because it&rsquo;s not designed as a source of income directly, and it&rsquo;s not built to encourage agressive likes/favorites/shares. The article itself was <a href="https://matt-harrison.com/posts/github-actions-hugo/">Automating this Hugo Blog with GitHub Actions</a>. Matt gave a well written summary of GitHub actions, and then provided his own actions workflow script. The main script was followed by a nice breakout summary of the key stages of the script and what they were doing, which solidified by understanding of the process. Because it did not rely on other pre-build actions, beyond the standard git checkout action, it was easy to understand what was going on, and it solved my own problems perfectly!</p>
 <p>For my use case, the only change I had to select a different Hugo version required for my theme, as well as update the curl download to pull Hugo Extended, also required for my theme:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -117,14 +78,14 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>Once I realized this solved my problems, and I could get back to writingi, I was excited. I reached out to Matt to give a quick Thank You for his posted solution, and recieved a pleasant response back equally agreeing that often this type of writing feels like shouting into the void. So hey, if you&rsquo;re reading a small site like this, especially one not pushing advertising and tracking, and you find it useful, reach out to the author and let them know it helped, it&rsquo;s always appreciated.</p>
-<p>If you are looking for more reading, I maintain my own <a href="https://techzerker.com/blogroll/" target="_blank" rel="noopener noreffer">Blogroll listing</a> here on the site, mostly generated from my MiniFlux RSS Feed. Some of the entries in other categories are larger sites with tracking and advertising, but first on the list is personal Blogs that I like to follow, and I occasionaly update the list when I find new entries. In the next few days, I&rsquo;ll get onto that planned article (now that everything is working) on my development history/education, and my plans for the future.</p>]]></description>
+<p>If you are looking for more reading, I maintain my own <a href="https://techzerker.com/blogroll/">Blogroll listing</a> here on the site, mostly generated from my MiniFlux RSS Feed. Some of the entries in other categories are larger sites with tracking and advertising, but first on the list is personal Blogs that I like to follow, and I occasionaly update the list when I find new entries. In the next few days, I&rsquo;ll get onto that planned article (now that everything is working) on my development history/education, and my plans for the future.</p>]]></description>
 </item><item>
     <title>Toxicity in Linux Community (Link)</title>
     <link>https://techzerker.com/2021-02-11-toxic-linux/</link>
     <pubDate>Thu, 11 Feb 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://techzerker.com/2021-02-11-toxic-linux/</guid>
-    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone" target="_blank" rel="noopener noreffer"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm" target="_blank" rel="noopener noreffer">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com" target="_blank" rel="noopener noreffer">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860" target="_blank" rel="noopener noreffer">toxicity in the Linux community</a>.</p>
+    <description><![CDATA[<p>The <a href="https://medium.com/linuxforeveryone"><em>Linux For Everyone</em></a> channel, founded by <a href="https://layer8.space/@killyourfm">Jason Evangelho</a> today posted an excellent commentary, written by <a href="https://schykle.medium.com">Alan Diggs</a> on the recurring challenges of the <a href="https://medium.com/linuxforeveryone/windows-is-sh-t-linux-users-and-the-technical-superiority-problem-196a597aa860">toxicity in the Linux community</a>.</p>
 <p>While there are some amazing and supportive groups throughout the Linux community, it is easy to agree with this commentary that the toxicity is a scar that consistently hurts the overall image of Linux and Open Source.</p>
 <p>Working in enterprise IT, I personally know a selection of working IT folks who at my encouragement have <em>tried</em> Linux, and if they couldn&rsquo;t reach me, gone to a forum for questions, and then texted me <em>quitting Linux</em> because of how agressivly they were berated.</p>
 <p>My core approach with Linux and encouraging adoption has been to talk about my own system and what works (and what does not) and show it off a little. If anyone reaches out and shows some interest, I will gadly answer what questions I can, understand their needs, and attempt to help and steer them in the right direction. However, the core philosphy is:</p>
@@ -132,8 +93,8 @@
 <p><em>Use what works for you. Period.</em></p>
 </blockquote>
 <p>If your Windows 10 system is getting the job (or game) done for you, and anything the community has shown in Linux (or BSD) has not grabbed your attention, that&rsquo;s fine, live and let live. If your interested in the systems the positive users in the community talk about and demonstrate, reach out with questions. If you&rsquo;ve tried before and hit a <em>&ldquo;Wall of Toxicity&rdquo;</em>, then here are a few great places to join and ask questions where we&rsquo;ll be friendly and helpful, regardless of your experience level:</p>
-<p><a href="https://fosstodon.org" target="_blank" rel="noopener noreffer"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
-<p><a href="https://t.me/linux4everyone" target="_blank" rel="noopener noreffer"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
+<p><a href="https://fosstodon.org"><strong>Fosstodon</strong></a> (Mastodon Instance)</p>
+<p><a href="https://t.me/linux4everyone"><strong>Telegram: Linux For Everyone</strong></a></p>]]></description>
 </item><item>
     <title>RSS: Controlling Your Feed (Link)</title>
     <link>https://techzerker.com/2020-12-08-rss-in-control/</link>
@@ -141,8 +102,8 @@
     <author>Author</author>
     <guid>https://techzerker.com/2020-12-08-rss-in-control/</guid>
     <description><![CDATA[<p>This article is a concise summary on RSS, and why it is a great way to syndicate content. It also hits the nail on the head for why it&rsquo;s being &ldquo;killed&rdquo; (marked as dead) by the content providers most are familiar with. (Twitter, Facebook, etc.) In short, with RSS, everything is chronological from when it was published, no algorithims deciding what you should read. Generally, when a site I have followed has removed RSS, I don&rsquo;t intentionally stop reading it (aka: I&rsquo;m not boycotting it), it mostly just falls off my radar, as there are very few sites I directly visit on a regular basis.</p>
-<p>I used RSS via Google Reader heavily when it was popular, that being pre or early Facebook days. When it was shutdown, I moved onto Feedly, before finally rolling my own Self-Hosted <a href="MiniFlux.app" rel="">MiniFlux RSS</a> reader instance. Similar to Ibrahim, my site built with Hugo has RSS available and encouraged.</p>
-<p>Article: <a href="https://idiallo.com/blog/rss-is-dead-please-subscribe?src=feed" target="_blank" rel="noopener noreffer">With RSS, You are in Control</a></p>
+<p>I used RSS via Google Reader heavily when it was popular, that being pre or early Facebook days. When it was shutdown, I moved onto Feedly, before finally rolling my own Self-Hosted <a href="MiniFlux.app">MiniFlux RSS</a> reader instance. Similar to Ibrahim, my site built with Hugo has RSS available and encouraged.</p>
+<p>Article: <a href="https://idiallo.com/blog/rss-is-dead-please-subscribe?src=feed">With RSS, You are in Control</a></p>
 ]]></description>
 </item><item>
     <title>PaperSpace and Future Hyper-Converged Computing (Link)</title>
@@ -152,7 +113,7 @@
     <guid>https://techzerker.com/2020-06-08-paperspace/</guid>
     <description><![CDATA[<p>Through an old article in my RSS, I came across this very long twitter post. I found it worth sharing as it expands one of the directions tech is moving in, rapidly. Will we all welcome it? Will it blend well with FOSS? <strong>Will it run EMACS or VIM?!?</strong> &hellip;</p>
 <p></p>
-<p><a href="https://twitter.com/nrose/status/1210698393355460608" target="_blank" rel="noopener noreffer">Source Twitter Post</a></p>
+<p><a href="https://twitter.com/nrose/status/1210698393355460608">Source Twitter Post</a></p>
 <p><em>Copied in full below for easier reading</em></p>
 <hr>
 <blockquote>
@@ -202,7 +163,7 @@
     <guid>https://techzerker.com/2020-06-07-japan-atomic-bomb/</guid>
     <description><![CDATA[<p>This story already circulated plenty in months past, but I decided to link it today after a good co-worker discussion on who writes history, and always being willing to learn facts. In our case, our discussion started with referring to <em>Hunting Hitler</em>, and understanding at the close of the war, people needed to hear <strong>we got him!</strong>, even if it wasn&rsquo;t accurate, and he was actively being searched for. The same goes for Japan in 1945, the American public, at least in the short term, needed to hear that the Atomic Bomb developed at great expense and sacrifice ended the war. This article is a great read to remind us all to read and analyze facts for ourselves, and remember who writes history.</p>
 <blockquote>
-<p><a href="https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/" target="_blank" rel="noopener noreffer">The Bomb Didn&rsquo;t Beat Japan … Stalin Did (Foreign Policy)</a></p>
+<p><a href="https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/">The Bomb Didn&rsquo;t Beat Japan … Stalin Did (Foreign Policy)</a></p>
 </blockquote>
 ]]></description>
 </item><item>
@@ -211,20 +172,20 @@
     <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
-    <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org" target="_blank" rel="noopener noreffer">Arch Linux</a>.</p>
-<p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
+    <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org">Arch Linux</a>.</p>
+<p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
 <p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>
-<p>A search for <a href="https://duckduckgo.com/?q=arch&#43;pacman&#43;%2B&#43;conflicting&#43;files" target="_blank" rel="noopener noreffer"><em>Arch Pacman + Conflicting Files</em></a> returns all sorts of results, from various BBS Sites, Reddit, and Forums, with the Arch Wiki nestled tightly among them.</p>
+<p>A search for <a href="https://duckduckgo.com/?q=arch&#43;pacman&#43;%2B&#43;conflicting&#43;files"><em>Arch Pacman + Conflicting Files</em></a> returns all sorts of results, from various BBS Sites, Reddit, and Forums, with the Arch Wiki nestled tightly among them.</p>
 <p>However, in a rather large number of the forums I took a quick browse at, were suggestions like: <code>pacman -Syuf</code> and <code>pacman -Suf</code>, among others, which most importantly are encouraging the <code>f</code> <em>force</em> flag. In some cases, other responses speak up right away much as I am, and suggest not taking that approach, as it&rsquo;s a very strong-handed and dangerous approach to updating an Arch system.</p>
-<p>Sure enough, in a bunch of cases (not a scientific sampling), there are follow-up posts of panic stricken users, who range from <em>system won&rsquo;t boot</em> to <em>pacman is completely broken</em>, and other results. Where a quick search for this same problem to the Arch Wiki, leads you down the <em>Pacman</em> page to it&rsquo;s <a href="https://wiki.archlinux.org/index.php/Pacman#%22Failed_to_commit_transaction_%28conflicting_files%29%22_error" target="_blank" rel="noopener noreffer">troubleshooting section</a>.</p>
+<p>Sure enough, in a bunch of cases (not a scientific sampling), there are follow-up posts of panic stricken users, who range from <em>system won&rsquo;t boot</em> to <em>pacman is completely broken</em>, and other results. Where a quick search for this same problem to the Arch Wiki, leads you down the <em>Pacman</em> page to it&rsquo;s <a href="https://wiki.archlinux.org/index.php/Pacman#%22Failed_to_commit_transaction_%28conflicting_files%29%22_error">troubleshooting section</a>.</p>
 <p>The core solution detailed:</p>
 <blockquote>
 <p>This is happening because pacman has detected a file conflict, and by design, will not overwrite files for you. This is by design, not a flaw.</p>
 <p>The problem is usually trivial to solve. A safe way is to first check if another package owns the file (<code>pacman -Qo /path/to/file</code>). If the file is owned by another package, file a bug report. If the file is not owned by another package, rename the file which &lsquo;exists in filesystem&rsquo; and re-issue the update command. If all goes well, the file may then be removed.</p>
 </blockquote>
 <p>Sure enough, in my case, I ran <code>pacman -Qo /usr/lib/thefileinquestion</code>, and it returned that no package owned that file. So following the wiki, I did a quick rename of that file (not delete, in case it does end up being needed!). I re-ran my update process, no conflicts, and everything appears to be working! Simple :)</p>
-<p>In the case of Arch, when in doubt, <em>start</em> with the <a href="https://wiki.archlinux.org/" target="_blank" rel="noopener noreffer">Arch Wiki</a>, and then ask for elaborations on those solutions if they are not working, or not solving your problem, and you likely will save yourself a lot of headache!</p>
-<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115" target="_blank" rel="noopener noreffer">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
+<p>In the case of Arch, when in doubt, <em>start</em> with the <a href="https://wiki.archlinux.org/">Arch Wiki</a>, and then ask for elaborations on those solutions if they are not working, or not solving your problem, and you likely will save yourself a lot of headache!</p>
+<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
 </item><item>
     <title>Running i3 Desktop with WSL on Windows 10</title>
     <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
@@ -232,12 +193,12 @@
     <author>Author</author>
     <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
     <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
-<p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/" target="_blank" rel="noopener noreffer">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
+<p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
 <p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
 <p>Once you have that up and running, so that you can get to your basic WSL command prompt&hellip;</p>
 <p></p>
 <p>Obviously in my example, I&rsquo;ve added a few things to my <em>.bashrc</em>, and in windows I&rsquo;ve told it to let this window be a bit transparent.</p>
-<p>Next up, you need a functioning X Server on windows that we can use to create the display. I tried a few, but in the end had the best luck with <a href="https://sourceforge.net/projects/vcxsrv/" target="_blank" rel="noopener noreffer">VcXsrv</a>, which you can download from that link at <em>SourceForge</em>. No special instructions needed beyond getting it installed, ideally in the default paths.</p>
+<p>Next up, you need a functioning X Server on windows that we can use to create the display. I tried a few, but in the end had the best luck with <a href="https://sourceforge.net/projects/vcxsrv/">VcXsrv</a>, which you can download from that link at <em>SourceForge</em>. No special instructions needed beyond getting it installed, ideally in the default paths.</p>
 <p>Once that is installed, you can also go ahead and install your DE (Desktop Environment) in your WSL install. In my case, because it&rsquo;s my preference and it&rsquo;s light weight, I stuck with <strong>i3</strong>, so that&rsquo;s what I&rsquo;ve tested here. That means your mileage may vary with other DE&rsquo;s. No special considerations for the install, in this case it was a standard <code>apt install i3</code> on a fully updated system.</p>
 <p>Now comes the fun part of pulling it all together, these scripts are dirty and simple, I guarantee someone could write them to be cleaner or better looking, but they were written just for myself originally to this end. On my desktop I have:</p>
 <p><strong>wsl.vbs</strong></p>
@@ -296,6 +257,590 @@ i3
 <p></p>
 <p>After more than a year of this setup, I have yet to have any issues with any program. I&rsquo;ve run things like Sublime Text, Firefox and Spacemacs all within this desktop environment without any issues, and with way better performance than I had on a VM. For easy workflow between the base Windows 10 system and this WSL i3, I&rsquo;ve simply created symlinks for my core folders like <em>Documents</em> and my mapped network drive, given all drives in WSL1 are available at <strong>/mnt/driveletter</strong></p>
 <p>Hopefully this article was helpful to those that need it, it&rsquo;s certainly made my day to day usage on a Windows 10 machine be that much less&hellip;well&hellip;Windows!</p>
-<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker" target="_blank" rel="noopener noreffer">Warhammer 40k Black Library</a> reading.</p>]]></description>
+<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Warhammer 40k Black Library</a> reading.</p>]]></description>
+</item><item>
+    <title>Pixelfed with Docker and Nginx Reverse Proxy</title>
+    <link>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</link>
+    <pubDate>Mon, 02 Mar 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-03-02-pixelfed-docker-nginx/</guid>
+    <description><![CDATA[<p>As I have continued my expansion into self-hosting as well as the fediverse, the one challenge I still had was image posting and sharing in an <em>easy</em> and clean looking way. For images on websites like this, especially from a mobile device, FTP uploading has just been inconvenient and disrupts the focused writing activity.</p>
+<p>I had already dabbled a bit in <a href="https://pixelfed.org">Pixelfed</a>, by joining <a href="https://pixelfed.social">Pixelfed.Social</a> when it was still open for registration. This let me test the functionality for a service similar to Instagram or Imgr, but without ads or tracking. The final leap was setting it up self-hosted so that I could fully own that image data.</p>
+<p></p>
+<p>On my Arch VPS that I host on <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, I had already tried in previous weeks to direct install Pixelfed. Unfortunately, likely because of other self-hosted apps or packages in place, it was a struggle and I just could not get Pixelfed fully operational. In steps Docker, and the <a href="https://jonnev.se/pixelfed-beta-with-docker-and-traefik/">article here</a> that inspired this updated version with what I had to do differently, as well as more details on the Nginx reverse proxy portion.</p>
+<p><em>If you are interested in using Vultr to host a VPS for this or any other self-hosted projects, depending on your project size and plans, you can either get <a href="https://www.vultr.com/?ref=7975115">$10 of VPS Credit</a> for a small project, or if you&rsquo;re looking for a larger project, you can get <a href="https://www.vultr.com/?ref=8473015-6G">$100 of VPS Credit for 30 days</a>. Both help me out and keep tracking based ads and services off my site.</em></p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>VPS <a href="https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers">Operational &amp; Secure</a></li>
+<li>Docker &amp; Docker-Compose Installed</li>
+<li>Nginx Installed</li>
+<li><a href="https://www.cloudflare.com/en-ca/products/registrar/">Domain Name</a> Setup, and Ideally SSL Certificates ready</li>
+</ul>
+<p><em>Of note, in this install, Nginx is direct installed on the host, as it fit with my existing environment. It is also common to deploy Nginx with Docker as well, which would change these instructions to some extent.</em></p>
+<h2 id="pixelfed-setup">Pixelfed Setup</h2>
+<p>The Pixelfed install will be built directly as a new image, as similar to Jon in the article I referenced, the only pre-built docker images while recent, had no details or notes, so did not inspire the most confidence. Ideally, the steps below should all be run as a non-root user that has <em>Sudo</em> capability.</p>
+<p>First, a directory to pull the source to, using /opt/ is a good best practice vs. installing it to a specific users /home directory.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed_source
+sudo chown $USER:$USER /opt_pixelfed_source
+</code></pre></td></tr></table>
+</div>
+</div><p>Next is pulling down the repository, in my case it&rsquo;s been active development, so I just pulled the most recent, but you can also pull an older <em>stable</em> build too if you prefer.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git clone https://github.com/pixelfed/pixelfed.git /opt/pixelfed_source
+cd /opt/pixelfed_source
+git checkout dev
+</code></pre></td></tr></table>
+</div>
+</div><p>This was the first difference I had to work through, where just trying a straight <em>docker build</em> was failing, because in the current versions, the <em>dockerfile</em> files are not in the root, so the command to build has to be updated to reflect that. I also tagged my build with the pull date, given it&rsquo;s dev so does not have a release number (like v0.10.8) and a commit tag is long and ugly.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker build . -t pixelfed:20200302 -f contrib/docker/Dockerfile.apache
+</code></pre></td></tr></table>
+</div>
+</div><p>There is also a <em>Dockerfile.fpm</em> file there for a php-fpm based version, but as of this writing date, I confirmed it is not complete/functioning yet.</p>
+<p>Once the docker has built, we can create a directory that the docker compose will run from, which will contain it&rsquo;s settings, as well as the Pixelfed .env settings file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo mkdir -p /opt/pixelfed
+sudo chown $USER:$USER /opt/pixelfed
+cd /opt/pixelfed
+</code></pre></td></tr></table>
+</div>
+</div><p>To copy the example configuration file over:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cp ../pixelfed_source/.env.example .env
+nano .env
+</code></pre></td></tr></table>
+</div>
+</div><p>Rather then snippets of key settings, I&rsquo;m removing sensitive parts and posting up my entire .env config file, as the parts I struggled with the most were the ones where documentation is still a work in progress. Like the article I learned from, I stuck with pgsql within Docker.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">APP_NAME=&#34;Pixelfed&#34;
+APP_ENV=production
+APP_KEY=**blank, we&#39;ll generate this further down**
+APP_DEBUG=false
+
+APP_URL=https://**your-domain.name**
+APP_DOMAIN=&#34;**your-domain.name**&#34;
+ADMIN_DOMAIN=&#34;**your-domain.name**&#34;
+SESSION_DOMAIN=&#34;**your-domain.name**&#34;
+TRUST_PROXIES=&#34;*&#34;
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=pgsql
+DB_HOST=db
+DB_PORT=5432
+DB_DATABASE=pixelfed
+DB_USERNAME=pixelfed
+DB_PASSWORD=**create a proper secure password!**
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=redis
+SESSION_DRIVER=redis
+QUEUE_DRIVER=redis
+
+REDIS_SCHEME=tcp
+REDIS_HOST=redis
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
+MAIL_PORT=587
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME=&#34;Pixelfed&#34;
+
+OPEN_REGISTRATION=false
+ENFORCE_EMAIL_VERIFICATION=false
+PF_MAX_USERS=100
+
+MAX_PHOTO_SIZE=64000
+MAX_CAPTION_LENGTH=150
+MAX_ALBUM_LENGTH=4
+MAX_ACCOUNT_SIZE=10000000
+IMAGE_QUALITY=100
+
+ACTIVITY_PUB=true
+AP_REMOTE_FOLLOW=true
+AP_INBOX=true
+PF_COSTAR_ENABLED=false
+
+HORIZON_EMBED=true
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="docker--docker-compose">Docker / Docker-Compose</h2>
+<p>With that file saved and done, the next step is to setup the docker network and build the <code>docker-compose</code> file for the whole process.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker network create pixelfed
+docker network create web
+
+touch docker-compose.yml
+nano docker-compose.yml
+</code></pre></td></tr></table>
+</div>
+</div><p>Below is my docker compose file, with sensitive details removed and key points highlighted. Of worthy note in my install, I have host mapped the storage in place of an internal docker volume, to a Fuse S3FS mount point for my <a href="https://wasabi.com/cloud-storage-pricing/">S3</a> storage, which will also make it easier for me to at minimum, backup the raw photo content, and it&rsquo;s cheaper storage than my VPS SSD.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">version: &#39;3&#39;
+services:
+
+  app:
+    image: pixelfed:20200302
+    restart: unless-stopped
+    ports:
+      - &#34;8080:80&#34;
+    env_file:
+      - ./.env
+    volumes:
+      - &#34;/path/to/s3-storage:/var/www/storage&#34;
+      - &#34;app-bootstrap:/var/www/bootstrap&#34;
+      - ./.env:/var/www/.env
+    networks:
+      - web
+      - pixelfed
+
+  db:
+    image: postgres:9.6.4
+    restart: unless-stopped
+    networks:
+     - pixelfed
+    volumes:
+     - db-data:/var/lib/postgresql/data
+    environment:
+     - POSTGRES_PASSWORD=${DB_PASSWORD}
+     - POSTGRES_USER=${DB_USERNAME}
+
+  worker:
+    image: pixelfed:20200302
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    volumes:
+      - &#34;/path/to/s3-storage:/var/www/storage&#34;
+      - &#34;app-bootstrap:/var/www/bootstrap&#34;
+    networks:
+      - web  # Required for ActivityPub
+      - pixelfed
+    command: gosu www-data php artisan horizon
+
+  redis:
+    image: redis:5-alpine
+    restart: unless-stopped
+    volumes:
+      - &#34;redis-data:/data&#34;
+    networks:
+      - pixelfed
+
+volumes:
+  redis-data:
+  app-bootstrap:
+  db-data:
+
+networks:
+  pixelfed:
+    internal: true
+  web:
+    external: true
+</code></pre></td></tr></table>
+</div>
+</div><p>If you are already running Nginx with other services on the same server, then you may need to adjust the <em>8080</em> Port in: <code>Ports: -8080:80</code> to a different available port, and mirror that change when we get to Nginx shortly.</p>
+<p>Now we should be able to spin up the image and get it ready for deployment, before we go and sort out Nginx:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+docker-compose exec app php artisan key:generate
+
+cat .env | grep APP_KEY 
+# Make sure there&#39;s a value
+</code></pre></td></tr></table>
+</div>
+</div><p>Then the container can be restarted, and some final Pixelfed prep tasks complete to have it ready to go.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose restart app
+docker-compose exec app php artisan config:cache
+docker-compose exec app php artisan migrate
+# Answer yes
+</code></pre></td></tr></table>
+</div>
+</div><p>At this point, technically, the Pixelfed instance should be up and running, so we&rsquo;ll need to sort out the Nginx portion so we can actually access it and verify that fact!</p>
+<h2 id="nginx-setup">Nginx Setup</h2>
+<p>There are a few different methods I&rsquo;ve seen used for Nginx .conf file locations, but they should all work with minor tweaks. In my case, there is a .conf file for each web application in <code>/etc/nginx/conf.d/nameofapp.conf</code></p>
+<p>As such, my base <code>/etc/nginx/nginx.conf</code> is default install, with just these key settings, everything else being commented out or removed.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">worker_processes  1;
+
+error_log  logs/error.log;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       mime.types;
+    include /etc/nginx/conf.d/*.conf;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+
+    gzip  on;
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>Then I have the file, <code>/etc/nginx/conf.d/pixelfed.conf</code> setup as below, with placing your correct domain name in place, as well as the path to your certificates.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">server {
+  listen 80;
+  server_name **your-domain.name**;
+  return 301 https://$server_name$request_uri;
+  client_max_body_size 100M;
+}
+server {
+  listen 443 ssl http2;
+  server_name **your-domain.name**;
+  client_max_body_size 100M;
+
+  ssl_protocols TLSv1.1 TLSv1.2;
+
+  # ** Adjust below to match your certs, mine were from CloudFlare, but there are plenty of guides for LetsEncrypt, etc. if you&#39;re not setting up   behind a CDN **
+
+  ssl_certificate /etc/nginx/ssl/**your-domain.name**-tld-cert.pem;
+  ssl_certificate_key /etc/nginx/ssl/**your-domain.name**-tld-key.pem;
+
+  access_log /var/log/nginx/**your-domain.name**.log;
+  location / {
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+      proxy_set_header X-Forwarded-For $remote_addr;
+      proxy_pass http://127.0.0.1:8080;
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>Note the <em>client_max_body_size 100M;</em> lines, I added these after hours digging through PixelFed and PHP.ini type options because I was able to upload pictures, but only if they were under 1MB, and with a very generic <em>failure</em> error. The end solution was that Nginx by default limits file transfers to 1MB if not defined. You can define this here just for Pixelfed, or you can define it globally in the main Nginx.conf file if you prefer.</p>
+<p>With the <em>pixelfed.conf</em> file generated and filled, hopefully correctly, you should now be able to restart Nginx so that it picks up the file changes. In the case of Arch (and most modern systems), it&rsquo;s using Systemd, so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">sudo systemctl restart nginx
+</code></pre></td></tr></table>
+</div>
+</div><p>If everything at this point has been configured correct, and assuming I have not forgotten any other catch points I ran into at this stage, you should be able to visit <em><a href="https://your-domain.name">https://your-domain.name</a></em>, and get the default Pixelfed home screen.</p>
+<h2 id="user-creation">User Creation</h2>
+<p>If the site loaded for you, and if like myself you&rsquo;re building this primarily for private or small group usage, so turned off Open Registration, you can now use the terminal to create you first user, presumably as an admin:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose exec app php artisan user:create
+</code></pre></td></tr></table>
+</div>
+</div><p>That command above will walk you through several requests to build a user, including asking if the user should be an admin (probably <em>yes</em>). Of worthy note, when it asks for <strong>Over-ride manual e-mail verification</strong> (my wording might be off), enter <strong>yes</strong>. This marks the accounts e-mail as already verified, so for a small instance you don&rsquo;t have to focus on e-mail setup right away.</p>
+<p>With the user created, you should be able to login and start using Pixelfed!</p>
+<h2 id="outstanding-issues">Outstanding Issues</h2>
+<p>The only issue I currently am still working on resolving, but it may be caused by a caching network appliance that I can&rsquo;t test bypassing right away, is <em>collections</em>.</p>
+<p>On my instance when I try to create a collection, it lets me add from recent or by URL posts to a collection, and even lets me <em>Save</em> the collection. But roughly 75% of the time when I attempt to <em>Publish</em> the collection, I get a generic error message and it does not Publish. When this occurs, my reason I suspect this caching appliance I&rsquo;m stuck behind, is I can&rsquo;t even delete the half-created collection, until I wait an hour or so. Selecting delete gives me the prompt, but nothing happens even though Nginx logs show is processed and passed the command through correctly.</p>
+<p>A handful of times while trying to test this, a collection created perfect without error and published. Once I&rsquo;ve been able to test this on a direct internet line, I&rsquo;ll be able to narrow down if I still have a configuration error, and/or if I have an issue I need to submit back to the Github project, given this is the Dev branch.</p>
+<p>I will also add, I have not yet confirmed if <em>Federation</em> is working for me, but will be validating that when possible, and updating the article if I have to change any settings.</p>
+<h2 id="updating-pixelfed">Updating Pixelfed</h2>
+<p>This process I am mostly copying direct from the original article I followed, as this install has been recent enough, there have not been any updates yet for me to validate if this creates problems for me. That being said, the commands all look correct, so I don&rsquo;t anticipate issues. Before updating, especially on <em>Dev</em> branch, it&rsquo;s a good practice on your VPS to either take a backup or a snapshot <em>just in case</em>. To update to the current Dev:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed_source
+git checkout dev
+git pull origin dev
+git checkout dev
+docker build . -t pixelfed:todaysdate -f contrib/docker/Dockerfile.apache
+</code></pre></td></tr></table>
+</div>
+</div><p>Then once that has pulled and built, with the updated today&rsquo;s date to help identify it, it&rsquo;s just two lines to update in the <em>docker-compose.yml</em> file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">cd /opt/pixelfed
+nano docker-compose.yml
+
+app:
+    image: pixelfed:todaysdate
+  #...
+  worker:
+    image: pixelfed:todaysdate
+</code></pre></td></tr></table>
+</div>
+</div><p>Then restart the docker-compose, and run the artisan migrate command. Worthy warning if you&rsquo;re new to docker, when we say restart, do <strong>not</strong> run <code>docker-compose down</code>, as that deletes this container and wipes the volume data as well, meaning the next <em>docker-compose up -d</em> would be like a fresh install (without your images or users), so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">docker-compose up -d
+docker-compose exec app php artisan migrate
+# Answer yes
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="wrap-up">Wrap Up</h2>
+<p>At this point, if everything worked (and I know, it often takes several attempts, this took me a while to get all sorted and running!), you should have a fully functioning PixelFed, and can either open registration, or terminal create users for your own small community to post to.</p>
+<p>For updates to the Project, keep an eye on <a href="https://github.com/pixelfed/pixelfed">Pixelfed GitHub</a>, and as they detail on that page, there is a semi-active group on their Riot Matrix.Org channel for help, which I&rsquo;ve been over-active in during my install struggles.</p>
+<p>If this article was helpful and you have not yet settled on a VPS provider, you can help me out by trying <a href="https://www.vultr.com/?ref=7975115">Vultr</a>, and we&rsquo;ll keep that whole mess of ads, data tracking, cookies and the like off this corner of the web!</p>]]></description>
+</item><item>
+    <title>ARM Systems and the 2019 Pinebook Pro</title>
+    <link>https://techzerker.com/2020-02-18-pinebook-pro/</link>
+    <pubDate>Tue, 18 Feb 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2020-02-18-pinebook-pro/</guid>
+    <description><![CDATA[<p>Over the last year, I&rsquo;m progressively been keeping a closer eye on ARM-based systems as they&rsquo;re growing in power and usability. I currently have a retro game system based on a <a href="https://amzn.to/38EqU8L">Raspberry Pi 3B+</a>, and it&rsquo;s already a great system.</p>
+<p>As we&rsquo;re getting into 2020, I&rsquo;m seeing a lot more articles and posts of the <a href="https://amzn.to/2UZn7yT">Pi4</a>, at least the 4GB model, making a decent basic workstation and office computer. This is assuming that use case is similar to that of a Chromebook, focused on web and terminal type software. Along the same vein is a system like the Pinebook Pro, which has been getting a fair amount of attention for making the right decisions for a budget system that does not feel budget. I was prompted to post this tonight because I really enjoyed this longer Vice article on the Pinebook Pro and its market in general:</p>
+<blockquote>
+<p>The Pinebook Pro, a community-built Linux laptop that runs on ARM hardware, offers a few surprises. Fairly inexpensive, it’s the perfect machine for tinkerers.</p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.vice.com/en_us/article/n7jdvd/this-dollar200-laptop-is-like-a-chromebook-you-can-hack"><strong>This $200 Laptop Is Like a Chromebook You Can Hack</strong></a></p>
+</blockquote>
+<p>Currently, getting your hands on a Pinebook Pro at its original price point is challenging. The Pinebook Pro has been popular and not mass-produced, with even lower production volumes for the ISO North American keyboard variant. Knowing that, unless a new batch comes in soon, I&rsquo;ll likely acquire either a Raspberry Pi4 or a <a href="https://www.pine64.org/rockpro64/">Pine64 - ROCKPro64</a> for a small home workstation and tinker box for <a href="ArchLinux.Org">Arch Linux</a> and i3wm.</p>
+<p>When I do acquire something, I will definitely write about any projects I plan, such as a Plex media server, maybe a small in-home Minecraft box, not to mention a NAS system at some point!</p>
+]]></description>
 </item></channel>
 </rss>
