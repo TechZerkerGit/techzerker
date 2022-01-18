@@ -1,6 +1,6 @@
 ---
 title: 202007262035
-subtitle: Zettelkasten Method Imhoff
+subtitle: "Zettelkasten Method Imhoff"
 date: 2022-01-15
 tags: Zettelkasten
 draft: false
