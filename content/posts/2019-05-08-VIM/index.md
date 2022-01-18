@@ -15,7 +15,7 @@ resources:
 
 Why couldn't I just be fine with Nano and Sublime Text? I guess I can't help but be curious!
 
-![VIM Logo](/2019-05-08-VIMLogo.png)
+![VIM Logo](2019-05-08-VIMLogo.png)
 
 Up until a few days ago, my previous experience with VIM was limited. I've been using Linux heavily for years now, and it was just an annoyance. In the past my only exposure to VIM was AUR install scripts or source builds that forced me to check build files via VIM. What that really meant was it was that annoying text program, that I had no clue how to quit when it suddenly was on my screen! **:w** to save, and **:q** to quit, but not if your in insert mode...what?
 <!--more-->
