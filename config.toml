@@ -18,7 +18,7 @@ theme = "LoveIt"
   # website images for Open Graph and Twitter Cards
   images = ["/TechzerkerE30_wText.png"]
   summaryLength = 50
-  # relativeURLs = true
+  relativeURLs = true
 
 # LoveIt NEW | 0.2.0 App icon config
   [params.app]
