@@ -10,6 +10,8 @@
             <loc>https://techzerker.com/posts/</loc><lastmod>2022-01-18T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://techzerker.com/tags/</loc><lastmod>2022-01-18T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://techzerker.com/</loc><lastmod>2022-01-18T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://techzerker.com/file01/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://techzerker.com/file02/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://techzerker.com/tags/zettelkasten/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://techzerker.com/posts/zettelkasten/</loc><lastmod>2022-01-14T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://techzerker.com/categories/android/</loc><lastmod>2021-12-29T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
@@ -104,6 +106,4 @@
             <loc>https://techzerker.com/tags/blades/</loc><lastmod>2019-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://techzerker.com/2019-04-02-bladesearlyaccess/</loc><lastmod>2019-04-02T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://techzerker.com/2019-03-24-self-host-migration/</loc><lastmod>2019-03-24T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://techzerker.com/file01/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://techzerker.com/file02/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://techzerker.com/readme/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
