@@ -4,6 +4,7 @@ subtitle: Selecting Software for Privacy
 date: 2022-01-14
 tags: 
 - Zettelkasten
+- Privacy
 draft: false
 # images: []
 resources:
@@ -27,5 +28,3 @@ These rules are one good guideline that came out of an article on Zettelkasten, 
 
 [Zettelkasten Method by Stefan Imhoff](https://www.stefanimhoff.de/zettelkasten-note-taking-devonthink/)
 
-
-Tags: #Privacy #Software 
