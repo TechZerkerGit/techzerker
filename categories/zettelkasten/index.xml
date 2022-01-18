@@ -3,16 +3,15 @@
         <title>Zettelkasten - Category - TechZerker</title>
         <link>https://techzerker.com/categories/zettelkasten/</link>
         <description>Zettelkasten - Category - TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/zettelkasten/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/zettelkasten/" rel="self" type="application/rss+xml" /><item>
     <title>Zettelkasten Github Readme</title>
     <link>https://techzerker.com/readme/</link>
-    <pubDate>Wed, 12 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://techzerker.com/readme/</guid>
-    <description><![CDATA[<h1 id="zettelkasten-on-obsidian-on-github">Zettelkasten on Obsidian on GitHub</h1>
-<p>Private Github I sync my Obsidian Zettelkasten to, and then use seperate zoni/obsidian-export for pulling notes out to my Hugo / GitHub Pages site at <a href="https://techzerker.com">https://techzerker.com</a></p>
-<h2 id="comments">Comments</h2>
-<p><a href="https://ryan.himmelwright.net/post/obsidian-ios-setup/">Link on Obsidian and iOS Working Copy</a></p>
+    <description><![CDATA[<h1 id="obsidian-zettelkasten">Obsidian Zettelkasten</h1>
+<p>I maintain my reading notes and knowledge base via <a href="https://obsidian.md">Obsidian</a>, which is software for maintaining a Zettelkasten. This specific file is just the basic GitHub readme file, which I use to sync, and also use with <a href="https://github.com/zoni/obsidian-export">Obsidian Export</a> to create these notes in my Hugo based site (where your viewing this) on <a href="https://techzerker.com">Techzerker</a>.</p>
+<p>I also use Obsidian Mobile on iOS with <em>Working Copy</em> to sync to the GitHub repo, which was <a href="https://ryan.himmelwright.net/post/obsidian-ios-setup/">easy to setup</a>.</p>
 ]]></description>
 </item></channel>
 </rss>
