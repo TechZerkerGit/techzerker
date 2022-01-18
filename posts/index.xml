@@ -3,7 +3,50 @@
         <title>All Posts - TechZerker</title>
         <link>https://techzerker.com/posts/</link>
         <description>All Posts | TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Handling Relative Images in Hugo</title>
+    <link>https://techzerker.com/2022-01-18-hugo-relative-image-reference/</link>
+    <pubDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/2022-01-18-hugo-relative-image-reference/</guid>
+    <description><![CDATA[<p>As I&rsquo;ve been refining my site, I am preparing to use the <a href="https://github.com/zoni/obsidian-export">Obsidian Export</a> project so that I can have a section within this Hugo based site with my Obsidian Zettelkasten notes. The issue I was running into trying to just put the .md note files directly into the content directory, was that Hugo natively does not play nice with relative links like Obsidian would use. That&rsquo;s where Obsidian Export comes into play to fix up the files as they get pushed to Hugo. <em>However</em>, once I setup the two layout <em>_markup</em> files needed for link processing, my existing method of referencing images with content broke.</p>
+<p>Before all this, I was doing simple paths like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">/content/posts/post-date/index.md
+/content/posts/post-date/image.png
+</code></pre></td></tr></table>
+</div>
+</div><p>With the image in the markdown file being referenced as:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[Image](image.png)
+</code></pre></td></tr></table>
+</div>
+</div><p>But once I made the changes to I can also play nice with Obsidian, the images were not posting in a way that works with the relative reference like before, so they were all just dead links with an icon, and no image.</p>
+<p>The end result that is working (after trying others things like placing the images in the root /static directory), was the following, from <a href="https://github.com/gohugoio/hugo/issues/1240#issuecomment-171722560">this github bug note</a>, which is to mirror the full path from the content directory within static. I am certain there may be better ways for this to work, but it&rsquo;s also likley an acceptable side effect from wanting Obsidian Export to work well, which is more important to me.</p>
+<p>Updated Structure:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">/content/posts/post-date/index.md
+/static/posts/post-date/image.png
+</code></pre></td></tr></table>
+</div>
+</div><p>Then thesame Markdown inline reference works again.</p>
+<p>As I&rsquo;m writing this, the next step now is to fully test Obsidian Export itself, and make sure with a few notes relative linking to each other in the Obsidian style, that those links properly generate so you can &ldquo;crawl&rdquo; the web of the Zettelkasten notes.</p>
+]]></description>
+</item><item>
     <title>Zettlekaten Index</title>
     <link>https://techzerker.com/posts/zettelkasten/</link>
     <pubDate>Fri, 14 Jan 2022 00:00:00 &#43;0000</pubDate>
