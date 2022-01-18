@@ -1,7 +1,7 @@
 ---
 title: Zettlekaten Index
 # subtitle: Selecting Software for Privacy
-date: 2022-01-14
+date: 2022-01-01
 tags: 
 - Zettelkasten
 draft: false
