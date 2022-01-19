@@ -8,6 +8,7 @@ tags:
 categories:
   - Zettelkasten
 resources: ~
+hiddenFromHomePage: true
 ---
 
 # Zettelkasten ID
@@ -20,7 +21,7 @@ resources: ~
 
 ## Links:
 
----
+## [202201191101-zettelkasten](202201191101-zettelkasten.md)
 
 ---
 
