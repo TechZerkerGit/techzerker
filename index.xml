@@ -3,9 +3,54 @@
         <title>TechZerker</title>
         <link>https://techzerker.com/</link>
         <description>A Tech Professional With Occasional Sanity</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://techzerker.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Atomic Notes</title>
+    <link>https://techzerker.com/202201191101-atomic-notes/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-atomic-notes/</guid>
+    <description><![CDATA[<h1 id="atomic-notes">Atomic Notes</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
+    <title>Zettelkasten</title>
+    <link>https://techzerker.com/202201191101-zettelkasten/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-zettelkasten/</guid>
+    <description><![CDATA[<h1 id="zettelkasten">Zettelkasten</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<p>A zettelkasten is a type of knowledge management system (KMS), originally created by <a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas Luhmann</a>, and popularised by the book <a href="https://amzn.to/3GJp6fT">How to Take Smart Notes by <em>Sonke Ahrens</em></a>, among many other online sources and guides.</p>
+<p>The core design of how the zettelkasten works is that no pre-defined structure or organisation is imposed, as that can limit idea and thought discovery. Instead, notes are assigned a unique <a href="/202201191101-zettelkasten-id/">Zettelkasten ID</a>, which digitally is most commonly (as here) based off timestamp, and then cross-linked to any other notes with related ideas. This is aided by the focus that notes should be <a href="/202201191101-atomic-notes/">Atomic Notes</a>.</p>
+<p>The <em>Links</em> section of this document is acting as a <em>hub note</em> to help identify some starting points to explore the zettelkasten, which is designed to be wandered. These links are not meant to imply rigid organisation or file structure, beyond some slight structure for rough reading notes and author tracking. By design, it is very possible to start down a chain of Linux IT notes and end up cross linking into Stoicism thoughts or any other subject as this keeps growing.</p>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
+    <title>Zettelkasten ID</title>
+    <link>https://techzerker.com/202201191101-zettelkasten-id/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-zettelkasten-id/</guid>
+    <description><![CDATA[<h1 id="zettelkasten-id">Zettelkasten ID</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
     <title>Handling Relative Images in Hugo</title>
     <link>https://techzerker.com/2022-01-18-hugo-relative-image-reference/</link>
     <pubDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</pubDate>
@@ -57,6 +102,7 @@
     <description><![CDATA[<h1 id="obsidian-zettelkasten">Obsidian Zettelkasten</h1>
 <p>I maintain my reading notes and knowledge base via <a href="https://obsidian.md">Obsidian</a>, which is software for maintaining a Zettelkasten. This specific file is just the basic GitHub readme file, which I use to sync, and also use with <a href="https://github.com/zoni/obsidian-export">Obsidian Export</a> to create these notes in my Hugo based site (where your viewing this) on <a href="https://techzerker.com">Techzerker</a>.</p>
 <p>I also use Obsidian Mobile on iOS with <em>Working Copy</em> to sync to the GitHub repo, which was <a href="https://ryan.himmelwright.net/post/obsidian-ios-setup/">easy to setup</a>.</p>
+<p>I have created a <em>hub note</em> (or structure note) that is both my <em>first</em> note in the system self-defining what the Zettelkasten is, and also acting as a bit of a top-level note to give some starting points into subjects I have notes on. A Zettelkasten is meant to be wandered and cross-linked, but from the digital sense, it helps to have a rough starting point for new discovery.</p>
 ]]></description>
 </item><item>
     <title>Using LTE Tablet as a Phone</title>
@@ -208,108 +254,5 @@
 <p>Less interesting to think about where this will all go – it’s clear and inevitable – but what are the PATHS to get there and how can we each contribute along the way? What can you build today to anticipate this tomorrow?</p>
 </blockquote>
 ]]></description>
-</item><item>
-    <title>The Bomb Didn&#39;t Beat Japan (Link)</title>
-    <link>https://techzerker.com/2020-06-07-japan-atomic-bomb/</link>
-    <pubDate>Sun, 07 Jun 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2020-06-07-japan-atomic-bomb/</guid>
-    <description><![CDATA[<p>This story already circulated plenty in months past, but I decided to link it today after a good co-worker discussion on who writes history, and always being willing to learn facts. In our case, our discussion started with referring to <em>Hunting Hitler</em>, and understanding at the close of the war, people needed to hear <strong>we got him!</strong>, even if it wasn&rsquo;t accurate, and he was actively being searched for. The same goes for Japan in 1945, the American public, at least in the short term, needed to hear that the Atomic Bomb developed at great expense and sacrifice ended the war. This article is a great read to remind us all to read and analyze facts for ourselves, and remember who writes history.</p>
-<blockquote>
-<p><a href="https://foreignpolicy.com/2013/05/30/the-bomb-didnt-beat-japan-stalin-did/">The Bomb Didn&rsquo;t Beat Japan … Stalin Did (Foreign Policy)</a></p>
-</blockquote>
-]]></description>
-</item><item>
-    <title>Arch Linux – Conflicting Files and the Arch Wiki</title>
-    <link>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</link>
-    <pubDate>Fri, 24 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2020-04-24-arch-wiki-conflicts/</guid>
-    <description><![CDATA[<p>It is no secret that my favorite distro for Linux after much trial and error, landed on <a href="https://archlinux.org">Arch Linux</a>.</p>
-<p>I found I prefer the rolling release model vs major version upgrades and the AUR (Arch User Repository) is incredible for finding and installing packages. That being said, it&rsquo;s biggest win is the <a href="https://wiki.archlinux.org/">Arch Wiki</a>. I find however, that no matter how often that is repeated in the Arch circles, you still find forums full of solutions that the Arch Wiki covers better, or even conflict the Wiki.</p>
-<p>I wrote this today, because I saw that example again in searching, where probably due to some previous mistake, when I went to update my system today, I was getting a failure for a pair of conflicting packages, which prevents updating as part of Arch giving you a chance to make sure you know what your doing&hellip;</p>
-<p>A search for <a href="https://duckduckgo.com/?q=arch&#43;pacman&#43;%2B&#43;conflicting&#43;files"><em>Arch Pacman + Conflicting Files</em></a> returns all sorts of results, from various BBS Sites, Reddit, and Forums, with the Arch Wiki nestled tightly among them.</p>
-<p>However, in a rather large number of the forums I took a quick browse at, were suggestions like: <code>pacman -Syuf</code> and <code>pacman -Suf</code>, among others, which most importantly are encouraging the <code>f</code> <em>force</em> flag. In some cases, other responses speak up right away much as I am, and suggest not taking that approach, as it&rsquo;s a very strong-handed and dangerous approach to updating an Arch system.</p>
-<p>Sure enough, in a bunch of cases (not a scientific sampling), there are follow-up posts of panic stricken users, who range from <em>system won&rsquo;t boot</em> to <em>pacman is completely broken</em>, and other results. Where a quick search for this same problem to the Arch Wiki, leads you down the <em>Pacman</em> page to it&rsquo;s <a href="https://wiki.archlinux.org/index.php/Pacman#%22Failed_to_commit_transaction_%28conflicting_files%29%22_error">troubleshooting section</a>.</p>
-<p>The core solution detailed:</p>
-<blockquote>
-<p>This is happening because pacman has detected a file conflict, and by design, will not overwrite files for you. This is by design, not a flaw.</p>
-<p>The problem is usually trivial to solve. A safe way is to first check if another package owns the file (<code>pacman -Qo /path/to/file</code>). If the file is owned by another package, file a bug report. If the file is not owned by another package, rename the file which &lsquo;exists in filesystem&rsquo; and re-issue the update command. If all goes well, the file may then be removed.</p>
-</blockquote>
-<p>Sure enough, in my case, I ran <code>pacman -Qo /usr/lib/thefileinquestion</code>, and it returned that no package owned that file. So following the wiki, I did a quick rename of that file (not delete, in case it does end up being needed!). I re-ran my update process, no conflicts, and everything appears to be working! Simple :)</p>
-<p>In the case of Arch, when in doubt, <em>start</em> with the <a href="https://wiki.archlinux.org/">Arch Wiki</a>, and then ask for elaborations on those solutions if they are not working, or not solving your problem, and you likely will save yourself a lot of headache!</p>
-<p>I even went so far for a while, as to run one of my self-hosted servers on <a href="https://www.vultr.com/?ref=7975115">Vultr</a> on Arch, given they allowed custom ISOs! It is not always the best solution for a server, depending on the applications running, but its worth evaluating, and again, it&rsquo;s hard to fault the documentation power of the Wiki.</p>]]></description>
-</item><item>
-    <title>Running i3 Desktop with WSL on Windows 10</title>
-    <link>https://techzerker.com/2020-04-19-wsl-i3-windows/</link>
-    <pubDate>Sun, 19 Apr 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/2020-04-19-wsl-i3-windows/</guid>
-    <description><![CDATA[<p>While all my personal systems are exclusively running Linux, as is the nature of working in most IT Support roles, the base of my shared company workstation in the office is <em>Windows 10</em>.</p>
-<p>After a bunch of article reading, research and testing, this is a quick summary of what I use to have what has worked for me as a fully functioning <a href="https://i3wm.org/">i3</a> graphical desktop, running via WSL (Windows Subsystem for Linux) on a functioning X-Server. For me at least, I&rsquo;ve found it works much better than when I tried to have a VM running on the workstation, as it&rsquo;s far from new or high performance.</p>
-<p>I won&rsquo;t re-hash instructions that are widely available for getting the base WSL system installed and running, as it&rsquo;s pretty straight forward to get WSL feature enabled, and then go through the process to in my case, setup the Ubuntu WSL version straight from the Windows Store.</p>
-<p>Once you have that up and running, so that you can get to your basic WSL command prompt&hellip;</p>
-<p></p>
-<p>Obviously in my example, I&rsquo;ve added a few things to my <em>.bashrc</em>, and in windows I&rsquo;ve told it to let this window be a bit transparent.</p>
-<p>Next up, you need a functioning X Server on windows that we can use to create the display. I tried a few, but in the end had the best luck with <a href="https://sourceforge.net/projects/vcxsrv/">VcXsrv</a>, which you can download from that link at <em>SourceForge</em>. No special instructions needed beyond getting it installed, ideally in the default paths.</p>
-<p>Once that is installed, you can also go ahead and install your DE (Desktop Environment) in your WSL install. In my case, because it&rsquo;s my preference and it&rsquo;s light weight, I stuck with <strong>i3</strong>, so that&rsquo;s what I&rsquo;ve tested here. That means your mileage may vary with other DE&rsquo;s. No special considerations for the install, in this case it was a standard <code>apt install i3</code> on a fully updated system.</p>
-<p>Now comes the fun part of pulling it all together, these scripts are dirty and simple, I guarantee someone could write them to be cleaner or better looking, but they were written just for myself originally to this end. On my desktop I have:</p>
-<p><strong>wsl.vbs</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">&#39; This script is meant to be launched from the Windows side, to start up a decorationless
-&#39; VcXsrv container for the environment.
-&#39;
-&#39; You may need to change this to reflect your VcXsrv install path as well as screen resolution.
-&#39; Then after the VcXsrv container is running, it pulls the WSL Ubuntu into it, along with a launch script.
-
-Set shell = CreateObject(&#34;WScript.Shell&#34; ) 
-shell.Run &#34;&#34;&#34;C:\Program Files\VcXsrv\vcxsrv.exe&#34;&#34; :0 -screen 0 @1 -ac +xinerama -engine 1 -nodecoration -wgl&#34;
-WScript.Sleep 200
-shell.Run &#34;ubuntu -c &#34;&#34;~/.scripts/wlaunch&#34;&#34;&#34;, 0
-</code></pre></td></tr></table>
-</div>
-</div><p>Following that, before this actually works, as you can see, inside my WSL Ubuntu home directory, I&rsquo;m calling a script called <em>wlaunch</em>:</p>
-<p><strong>wlaunch</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/bash
-</span><span class="cp"></span>
-<span class="c1"># meant to be run with `bash -c &#34;/path/to/wlaunch&#34;` when running from e.g. a Windows shortcut</span>
-
-<span class="c1"># explicitly needed when launching with bash -c from Windows</span>
-<span class="nb">source</span> ~/.bashrc
-<span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span>:0
-i3
-</code></pre></td></tr></table>
-</div>
-</div><p>Obviously, replace the last line calling i3 with something else if you are using a different environment, like XFCE, which I have not tested.</p>
-<p>When that&rsquo;s all in place, all things being equal, you should be able to run <em>wsl.vbs</em>, and after a few seconds, be staring at your desktop environment! In my case, because its i3, I have beyond that heavily setup my own i3 config files, polybar, etc. for the look I want:</p>
-<p></p>
-<p>After more than a year of this setup, I have yet to have any issues with any program. I&rsquo;ve run things like Sublime Text, Firefox and Spacemacs all within this desktop environment without any issues, and with way better performance than I had on a VM. For easy workflow between the base Windows 10 system and this WSL i3, I&rsquo;ve simply created symlinks for my core folders like <em>Documents</em> and my mapped network drive, given all drives in WSL1 are available at <strong>/mnt/driveletter</strong></p>
-<p>Hopefully this article was helpful to those that need it, it&rsquo;s certainly made my day to day usage on a Windows 10 machine be that much less&hellip;well&hellip;Windows!</p>
-<p>If this article was helpful, and you&rsquo;re looking for more tools to help you work from home, even if you have to use Windows 10, why not check out <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Humble Bundles <em>Remote Work</em> Bundle</a>, or take the rest of the day off, and catch up on some <a href="https://www.humblebundle.com/software/work-remote-software?partner=techzerker">Warhammer 40k Black Library</a> reading.</p>]]></description>
 </item></channel>
 </rss>

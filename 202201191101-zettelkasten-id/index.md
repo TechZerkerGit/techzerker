@@ -1,0 +1,21 @@
+# Zettelkasten ID
+
+
+# Zettelkasten ID
+
+## Zettel ID: 202201191101
+
+<!--more-->
+
+---
+
+## Links:
+
+---
+
+---
+
+## References:
+
+---
+

@@ -7,3 +7,5 @@ I maintain my reading notes and knowledge base via [Obsidian](https://obsidian.m
 
 I also use Obsidian Mobile on iOS with *Working Copy* to sync to the GitHub repo, which was [easy to setup](https://ryan.himmelwright.net/post/obsidian-ios-setup/).
 
+I have created a *hub note* (or structure note) that is both my *first* note in the system self-defining what the Zettelkasten is, and also acting as a bit of a top-level note to give some starting points into subjects I have notes on. A Zettelkasten is meant to be wandered and cross-linked, but from the digital sense, it helps to have a rough starting point for new discovery.
+

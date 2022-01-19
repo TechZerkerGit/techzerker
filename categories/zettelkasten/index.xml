@@ -3,7 +3,52 @@
         <title>Zettelkasten - Category - TechZerker</title>
         <link>https://techzerker.com/categories/zettelkasten/</link>
         <description>Zettelkasten - Category - TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/zettelkasten/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/categories/zettelkasten/" rel="self" type="application/rss+xml" /><item>
+    <title>Atomic Notes</title>
+    <link>https://techzerker.com/202201191101-atomic-notes/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-atomic-notes/</guid>
+    <description><![CDATA[<h1 id="atomic-notes">Atomic Notes</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
+    <title>Zettelkasten</title>
+    <link>https://techzerker.com/202201191101-zettelkasten/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-zettelkasten/</guid>
+    <description><![CDATA[<h1 id="zettelkasten">Zettelkasten</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<p>A zettelkasten is a type of knowledge management system (KMS), originally created by <a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas Luhmann</a>, and popularised by the book <a href="https://amzn.to/3GJp6fT">How to Take Smart Notes by <em>Sonke Ahrens</em></a>, among many other online sources and guides.</p>
+<p>The core design of how the zettelkasten works is that no pre-defined structure or organisation is imposed, as that can limit idea and thought discovery. Instead, notes are assigned a unique <a href="/202201191101-zettelkasten-id/">Zettelkasten ID</a>, which digitally is most commonly (as here) based off timestamp, and then cross-linked to any other notes with related ideas. This is aided by the focus that notes should be <a href="/202201191101-atomic-notes/">Atomic Notes</a>.</p>
+<p>The <em>Links</em> section of this document is acting as a <em>hub note</em> to help identify some starting points to explore the zettelkasten, which is designed to be wandered. These links are not meant to imply rigid organisation or file structure, beyond some slight structure for rough reading notes and author tracking. By design, it is very possible to start down a chain of Linux IT notes and end up cross linking into Stoicism thoughts or any other subject as this keeps growing.</p>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
+    <title>Zettelkasten ID</title>
+    <link>https://techzerker.com/202201191101-zettelkasten-id/</link>
+    <pubDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://techzerker.com/202201191101-zettelkasten-id/</guid>
+    <description><![CDATA[<h1 id="zettelkasten-id">Zettelkasten ID</h1>
+<h2 id="zettel-id-202201191101">Zettel ID: 202201191101</h2>
+<hr>
+<h2 id="links">Links:</h2>
+<hr>
+<hr>
+<h2 id="references">References:</h2>
+<hr>]]></description>
+</item><item>
     <title>Zettelkasten Github Readme</title>
     <link>https://techzerker.com/readme/</link>
     <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
@@ -12,6 +57,7 @@
     <description><![CDATA[<h1 id="obsidian-zettelkasten">Obsidian Zettelkasten</h1>
 <p>I maintain my reading notes and knowledge base via <a href="https://obsidian.md">Obsidian</a>, which is software for maintaining a Zettelkasten. This specific file is just the basic GitHub readme file, which I use to sync, and also use with <a href="https://github.com/zoni/obsidian-export">Obsidian Export</a> to create these notes in my Hugo based site (where your viewing this) on <a href="https://techzerker.com">Techzerker</a>.</p>
 <p>I also use Obsidian Mobile on iOS with <em>Working Copy</em> to sync to the GitHub repo, which was <a href="https://ryan.himmelwright.net/post/obsidian-ios-setup/">easy to setup</a>.</p>
+<p>I have created a <em>hub note</em> (or structure note) that is both my <em>first</em> note in the system self-defining what the Zettelkasten is, and also acting as a bit of a top-level note to give some starting points into subjects I have notes on. A Zettelkasten is meant to be wandered and cross-linked, but from the digital sense, it helps to have a rough starting point for new discovery.</p>
 ]]></description>
 </item></channel>
 </rss>
