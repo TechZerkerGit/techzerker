@@ -11,7 +11,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Title | Author |
 |:------|:-------|
 | [Winner Take Nothing](https://amzn.to/2Y9A0pX) | Ernest Hemingway |
-| Dead Doubles | Trevor Barnes |
+| Talking To Strangers | Malcolm Gladwell |
 | Digital Minimalism | Cal Newport |
 
 ## Finished Reading
@@ -19,6 +19,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Title | Author | Finished | Commentary? |
 |:------|:-------|:--------:|------------:|
 | Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
+| Dead Doubles | Trevor Barnes | 2022-03-01 | |
 
 
 ## Would Like To Read
