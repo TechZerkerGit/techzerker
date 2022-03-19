@@ -4,7 +4,7 @@ title: Zettlekaten Index
 date: 2022-01-01
 tags: 
 - Zettelkasten
-draft: false
+draft: true
 # images: []
 resources:
 #- name: featured-image

@@ -5,7 +5,7 @@ tags:
   - Zettelkasten
 categories:
   - Zettelkasten
-draft: false
+draft: true
 resources: ~
 ---
 

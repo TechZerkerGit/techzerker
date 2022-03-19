@@ -2,7 +2,7 @@
 title: Zettelkasten ID
 subtitle: 202201191101
 date: 2022-01-19
-draft: false
+draft: true
 tags:
   - Zettelkasten
 categories:
