@@ -3,7 +3,7 @@
         <title>All Posts - TechZerker</title>
         <link>https://techzerker.com/posts/</link>
         <description>All Posts | TechZerker</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 19 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://techzerker.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Handling Relative Images in Hugo</title>
     <link>https://techzerker.com/2022-01-18-hugo-relative-image-reference/</link>
     <pubDate>Tue, 18 Jan 2022 00:00:00 &#43;0000</pubDate>
@@ -45,15 +45,6 @@
 </div>
 </div><p>Then thesame Markdown inline reference works again.</p>
 <p>As I&rsquo;m writing this, the next step now is to fully test Obsidian Export itself, and make sure with a few notes relative linking to each other in the Obsidian style, that those links properly generate so you can &ldquo;crawl&rdquo; the web of the Zettelkasten notes.</p>
-]]></description>
-</item><item>
-    <title>Zettlekaten Index</title>
-    <link>https://techzerker.com/posts/zettelkasten/</link>
-    <pubDate>Sat, 01 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://techzerker.com/posts/zettelkasten/</guid>
-    <description><![CDATA[<h1 id="zettelkasten">Zettelkasten</h1>
-<p>Just testing a _index.md file in Zettlekasten sub-section to see if it adds anything vs just a direct menu link to a &ldquo;top&rdquo; structure note.</p>
 ]]></description>
 </item><item>
     <title>Using LTE Tablet as a Phone</title>
