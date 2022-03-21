@@ -26,6 +26,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 | Title | Author |
 |:------|:-------|
+| Keep the Memories, Lose the Stuff | Matt Paxton |
 | Deep Work | Cal Newport |
 | How to Live (Preface to Montaigne) | Sarah Bakewell |
 | Montaigne | Stefan Zweig |
@@ -52,6 +53,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Range: Why Generalists Triumph in a Specialized World | David Epstein |
 | Average Is Over | Tyler Cowen |
 | Speed & Scale | John Doerr |
+| [Shape Up](https://basecamp.com/shapeup) | Ryan Singer |
 
 
 ---
