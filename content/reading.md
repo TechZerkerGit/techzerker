@@ -56,6 +56,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Range: Why Generalists Triumph in a Specialized World | David Epstein |
 | Average Is Over | Tyler Cowen |
 | Speed & Scale | John Doerr |
+| [Shape Up](https://basecamp.com/shapeup) | Ryan Singer |
 
 
 ---
