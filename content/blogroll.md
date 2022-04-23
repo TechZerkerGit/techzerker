@@ -27,6 +27,7 @@ I primarily read other content via my RSS Feed Reader, which is a Self-Hosted [M
 - [The New Oil](https://write.as/thenewoil/) *[(Feed)](https://write.as/thenewoil/feed/)*
 - [zerokspot.com](https://zerokspot.com) *[(Feed)](https://zerokspot.com/index.xml)*
 - [Matt Harrison](https://matt-harrison.com/)
+- [Bradley Taunt](https://tdarb.org/)
 - [fs Blog](https://fs.blog/start/)
 
 ## Comics
