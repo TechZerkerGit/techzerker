@@ -1,10 +1,10 @@
 ---
 title: "Reading"
-date: 2020-06-04
+date: 2022-08-16
 draft: false
 ---
 
-After seeing a few blogs and sites I follow add *Reading* lists, showing what they are, have previously and would like to read, I liked the idea!
+After seeing a few blogs I follow add *Reading* lists, showing what they are, have previously and would like to read, I liked the idea!
 So here we are, right now, the "have read" list is short until I can scrape my memory for what has past, as I have not previously kept a written record.
 The tail end of the list will be my running *wish list* in my reading and travels of books I would like to read. Hopefully maintaining a bit of an online
 record will help improve my reading habit a bit! (I love reading, but tend to get distracted...)
