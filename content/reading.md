@@ -19,13 +19,20 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 ## Finished Reading
 
+### Non-Fiction
+
 | Title | Author | Finished | Commentary? |
 |:------|:-------|:--------:|------------:|
 | Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
 | Dead Doubles | Trevor Barnes | 2022-03-01 | |
 
 
+### Fiction
+
+
 ## Would Like To Read
+
+### Non-Fiction
 
 | Title | Author |
 |:------|:-------|
@@ -57,6 +64,10 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Average Is Over | Tyler Cowen |
 | Speed & Scale | John Doerr |
 | [Shape Up](https://basecamp.com/shapeup) | Ryan Singer |
+
+
+### Fiction
+
 
 
 ---
