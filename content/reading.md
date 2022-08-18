@@ -68,9 +68,31 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | [Shape Up](https://basecamp.com/shapeup) | Ryan Singer |
 
 
+**In Progress**
+
+## Reading List
+
+### Non-Fiction
+
+#### Broad Sub-Categories (Build as Books are Added, Adjust as Needed)
+
+| Title | Series | Author | Read | Commentary | 
+|:------|:-------|:-------|:----:|:----------:|
+|   |   |   |   |   |
+
 ### Fiction
 
+#### Sci-Fi
 
+| Title | Series | Author | Read | Commentary | 
+|:------|:-------|:-------|:----:|:----------:|
+|   |   |   |   |   |
+
+#### Fantasy
+
+| Title | Series | Author | Read | Commentary | 
+|:------|:-------|:-------|:----:|:----------:|
+|   |   |   |   |   |
 
 ---
 
