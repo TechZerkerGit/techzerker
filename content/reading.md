@@ -13,6 +13,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 | Title | Author |
 |:------|:-------|
+| Leviathan Wakes (The Expanse #1) | James S. A. Corey |
 | [Winner Take Nothing](https://amzn.to/2Y9A0pX) | Ernest Hemingway |
 | Talking To Strangers | Malcolm Gladwell |
 | Digital Minimalism | Cal Newport |
@@ -93,25 +94,25 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 ##### The Expanse (Series)
 
-| Title | Series | Author | Read | Commentary | 
+| Title | Series Order | Author | Read | Commentary | 
 |:------|:-------|:-------|:----:|:----------:|
-| Drive (Short)(#0.1) | The Expanse | James S. A. Corey   |   |   |
-| The Churn (Novella)(#0.3) | The Expanse | James S. A. Corey   |   |   |
-| The Butcher of Anderson Station (Short)(#0.5) | The Expanse | James S. A. Corey   |   |   |
-| Leviathan Wakes (#1) | The Expanse | James S. A. Corey   |   |   |
-| Caliban's War (#2) | The Expanse | James S. A. Corey   |   |   |
-| Gods of Risk (Novella)(#2.5) | The Expanse | James S. A. Corey   |   |   |
-| Abaddon's Gate (#3) | The Expanse | James S. A. Corey   |   |   |
-| Cibola Burn (#4) | The Expanse | James S. A. Corey   |   |   |
-| Nemesis Games (#5) | The Expanse | James S. A. Corey   |   |   |
-| The Vital Abyss (Novella)(#5.5) | The Expanse | James S. A. Corey   |   |   |
-| Babylon's Ashes (#6) | The Expanse | James S. A. Corey   |   |   |
-| Strage Dogs (Novella)(#6.5) | The Expanse | James S. A. Corey   |   |   |
-| Persepolis Rising (#7) | The Expanse | James S. A. Corey   |   |   |
-| Auberon (Novella)(#7.5) | The Expanse | James S. A. Corey   |   |   |
-| Tiamat's Wrath (#8) | The Expanse | James S. A. Corey   |   |   |
-| Leviathan Falls (#9) | The Expanse | James S. A. Corey   |   |   |
-| The Sins of Our Fathers (#9.5) | The Expanse | James S. A. Corey   |   |   |
+| Drive | 0.1 | James S. A. Corey   |   |   |
+| The Churn | 0.3 | James S. A. Corey   |   |   |
+| The Butcher of Anderson Station | 0.5 | James S. A. Corey   |   |   |
+| Leviathan Wakes | 1 | James S. A. Corey   |   |   |
+| Caliban's War | 2 | James S. A. Corey   |   |   |
+| Gods of Risk | 2.5 | James S. A. Corey   |   |   |
+| Abaddon's Gate | 3 | James S. A. Corey   |   |   |
+| Cibola Burn | 4 | James S. A. Corey   |   |   |
+| Nemesis Games | 5 | James S. A. Corey   |   |   |
+| The Vital Abyss | 5.5 | James S. A. Corey   |   |   |
+| Babylon's Ashes | 6 | James S. A. Corey   |   |   |
+| Strange Dogs | 6.5 | James S. A. Corey   |   |   |
+| Persepolis Rising | 7 | James S. A. Corey   |   |   |
+| Auberon | 7.5 | James S. A. Corey   |   |   |
+| Tiamat's Wrath | 8 | James S. A. Corey   |   |   |
+| Leviathan Falls | 9 | James S. A. Corey   |   |   |
+| The Sins of Our Fathers | 9.5 | James S. A. Corey   |   |   |
 
 #### Fantasy
 
