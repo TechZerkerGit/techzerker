@@ -74,6 +74,13 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 ### Non-Fiction
 
+#### Philosophy, Self-Help and Motivation
+
+| Title | Series | Author | Read | Commentary | 
+|:------|:-------|:-------|:----:|:----------:|
+| Discipline Is Destiny  |   | Ryan Holiday  |   |   |
+|   |   |   |   |   |
+
 #### Broad Sub-Categories (Build as Books are Added, Adjust as Needed)
 
 | Title | Series | Author | Read | Commentary | 
@@ -84,9 +91,27 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 #### Sci-Fi
 
+##### The Expanse (Series)
+
 | Title | Series | Author | Read | Commentary | 
 |:------|:-------|:-------|:----:|:----------:|
-|   |   |   |   |   |
+| Drive (Short)(#0.1) | The Expanse | James S. A. Corey   |   |   |
+| The Churn (Novella)(#0.3) | The Expanse | James S. A. Corey   |   |   |
+| The Butcher of Anderson Station (Short)(#0.5) | The Expanse | James S. A. Corey   |   |   |
+| Leviathan Wakes (#1) | The Expanse | James S. A. Corey   |   |   |
+| Caliban's War (#2) | The Expanse | James S. A. Corey   |   |   |
+| Gods of Risk (Novella)(#2.5) | The Expanse | James S. A. Corey   |   |   |
+| Abaddon's Gate (#3) | The Expanse | James S. A. Corey   |   |   |
+| Cibola Burn (#4) | The Expanse | James S. A. Corey   |   |   |
+| Nemesis Games (#5) | The Expanse | James S. A. Corey   |   |   |
+| The Vital Abyss (Novella)(#5.5) | The Expanse | James S. A. Corey   |   |   |
+| Babylon's Ashes (#6) | The Expanse | James S. A. Corey   |   |   |
+| Strage Dogs (Novella)(#6.5) | The Expanse | James S. A. Corey   |   |   |
+| Persepolis Rising (#7) | The Expanse | James S. A. Corey   |   |   |
+| Auberon (Novella)(#7.5) | The Expanse | James S. A. Corey   |   |   |
+| Tiamat's Wrath (#8) | The Expanse | James S. A. Corey   |   |   |
+| Leviathan Falls (#9) | The Expanse | James S. A. Corey   |   |   |
+| The Sins of Our Fathers (#9.5) | The Expanse | James S. A. Corey   |   |   |
 
 #### Fantasy
 
