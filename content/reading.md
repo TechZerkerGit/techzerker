@@ -69,7 +69,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | [Shape Up](https://basecamp.com/shapeup) | Ryan Singer |
 | The Coddling of the American Mind | 
 Greg Lukianoff |
-
+| No Place To Hide | Glen Greenwald |
+| Permanent Record | Ed Snowden |
 
 
 **In Progress**
