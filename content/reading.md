@@ -71,6 +71,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 Greg Lukianoff |
 | No Place To Hide | Glen Greenwald |
 | Permanent Record | Ed Snowden |
+| The Disconnect: A Personal Journey Through the Internet | Roisin Kiberd |
+
 
 
 **In Progress**
