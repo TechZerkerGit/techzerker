@@ -72,6 +72,8 @@ Greg Lukianoff |
 | No Place To Hide | Glen Greenwald |
 | Permanent Record | Ed Snowden |
 | The Disconnect: A Personal Journey Through the Internet | Roisin Kiberd |
+| Will | Mark Manson |
+
 
 
 
