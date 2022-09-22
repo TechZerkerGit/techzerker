@@ -88,7 +88,8 @@ Greg Lukianoff |
 | Title | Series | Author | Read | Commentary | 
 |:------|:-------|:-------|:----:|:----------:|
 | Discipline Is Destiny  |   | Ryan Holiday  |   |   |
-|   |   |   |   |   |
+| No More Mr. Nice Guy  |   |  Robert A. Glover |   |   |
+| | | | | |
 
 #### Broad Sub-Categories (Build as Books are Added, Adjust as Needed)
 
