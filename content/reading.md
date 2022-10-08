@@ -93,8 +93,8 @@ Greg Lukianoff |
 
 #### Psychology & Behavior
 
-| Title | Series | Author | Read | Commentary | 
-|:——|:-——|:-——|:-—:|:-———:|
+| Title | Series | Author | Read | Commentary |
+|:------|:-------|:-------|:----:|:----------:|
 | Thinking Fast and Slow  |   | Daniel Kahneman  |   |   |
 | The Brain  |   | David Eagleman  |   |   |
 | How The Mind Works  |   | Steven Pinker  |   |   |
