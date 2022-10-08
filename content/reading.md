@@ -91,6 +91,24 @@ Greg Lukianoff |
 | No More Mr. Nice Guy  |   |  Robert A. Glover |   |   |
 | | | | | |
 
+#### Psychology & Behavior
+
+| Title | Series | Author | Read | Commentary | 
+|:——|:-——|:-——|:-—:|:-———:|
+| Thinking Fast and Slow  |   | Daniel Kahneman  |   |   |
+| The Brain  |   | David Eagleman  |   |   |
+| How The Mind Works  |   | Steven Pinker  |   |   |
+| Incognito  |   | David Eagleman  |   |   |
+| The Leading Brain  |   | Freiderike Fabritius  |   |   |
+| How To Change Your Mind  |   | Michael Pollan  |   |   |
+| Predictably Irrational |   | Dan Ariely  |   |   |
+| Why Zebras Don’t Get Ulcers |   | Robert M. Sapolsky  |   |   |
+| Brain Rules  |   | John Medina  |   |   |
+| The Brain That Changes Itself  |   | Norman Doidge  |   |   |
+| mindset  |   |  Carol S. Dweck |   |   |
+| Your Brain At Work  |   | David Rock  |   |   |
+
+
 #### Broad Sub-Categories (Build as Books are Added, Adjust as Needed)
 
 | Title | Series | Author | Read | Commentary | 
