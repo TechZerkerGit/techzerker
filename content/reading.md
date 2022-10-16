@@ -14,24 +14,8 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 | Title | Author |
 |:------|:-------|
 | Leviathan Wakes (The Expanse #1) | James S. A. Corey |
-| [Winner Take Nothing](https://amzn.to/2Y9A0pX) | Ernest Hemingway |
 | Talking To Strangers | Malcolm Gladwell |
 | Digital Minimalism | Cal Newport |
-
-## Finished Reading
-
-### Non-Fiction
-
-| Title | Author | Finished | Commentary? |
-|:------|:-------|:--------:|------------:|
-| Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
-| Dead Doubles | Trevor Barnes | 2022-03-01 | |
-| - [ ] | | | |
-| [x] | - [x] | | |
-
-
-### Fiction
-
 
 ## Would Like To Read
 
@@ -75,8 +59,6 @@ Greg Lukianoff |
 | Will | Mark Manson |
 
 
-
-
 **In Progress**
 
 ## Reading List
@@ -85,28 +67,36 @@ Greg Lukianoff |
 
 #### Philosophy, Self-Help and Motivation
 
-| Title | Series | Author | Read | Commentary | 
-|:------|:-------|:-------|:----:|:----------:|
-| Discipline Is Destiny  |   | Ryan Holiday  |   |   |
-| No More Mr. Nice Guy  |   |  Robert A. Glover |   |   |
-| | | | | |
+| Title | Author | Read | Commentary | 
+|:------|:-------|:----:|:----------:|
+| Discipline Is Destiny  | Ryan Holiday  |   |   |
+| No More Mr. Nice Guy  | Robert A. Glover |   |   |
+| Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
+| | | | |
 
 #### Psychology & Behavior
 
-| Title | Series | Author | Read | Commentary |
-|:------|:-------|:-------|:----:|:----------:|
-| Thinking Fast and Slow  |   | Daniel Kahneman  |   |   |
-| The Brain  |   | David Eagleman  |   |   |
-| How The Mind Works  |   | Steven Pinker  |   |   |
-| Incognito  |   | David Eagleman  |   |   |
-| The Leading Brain  |   | Freiderike Fabritius  |   |   |
-| How To Change Your Mind  |   | Michael Pollan  |   |   |
-| Predictably Irrational |   | Dan Ariely  |   |   |
-| Why Zebras Don’t Get Ulcers |   | Robert M. Sapolsky  |   |   |
-| Brain Rules  |   | John Medina  |   |   |
-| The Brain That Changes Itself  |   | Norman Doidge  |   |   |
-| mindset  |   |  Carol S. Dweck |   |   |
-| Your Brain At Work  |   | David Rock  |   |   |
+| Title | Author | Read | Commentary |
+|:------|:-------|:----:|:----------:|
+| Thinking Fast and Slow  | Daniel Kahneman  |   |   |
+| The Brain  | David Eagleman  |   |   |
+| How The Mind Works  | Steven Pinker  |   |   |
+| Incognito  | David Eagleman  |   |   |
+| The Leading Brain  | Freiderike Fabritius  |   |   |
+| How To Change Your Mind  | Michael Pollan  |   |   |
+| Predictably Irrational | Dan Ariely  |   |   |
+| Why Zebras Don’t Get Ulcers | Robert M. Sapolsky  |   |   |
+| Brain Rules  | John Medina  |   |   |
+| The Brain That Changes Itself  | Norman Doidge  |   |   |
+| mindset  | Carol S. Dweck |   |   |
+| Your Brain At Work  | David Rock  |   |   |
+
+#### History
+
+| Title | Author | Read | Commentary |
+|:-----|:------|:------|:--------|
+| Dead Doubles | Trevor Barnes | 2022-03-01 | |
+
 
 
 #### Broad Sub-Categories (Build as Books are Added, Adjust as Needed)
@@ -116,6 +106,13 @@ Greg Lukianoff |
 |   |   |   |   |   |
 
 ### Fiction
+
+#### General
+
+| Title | Author | Read | Commentary |
+|:-----|:------|:------|:--------|
+| [Winner Take Nothing](https://amzn.to/2Y9A0pX) | Ernest Hemingway | 2021-06-05 |  |
+
 
 #### Sci-Fi
 
