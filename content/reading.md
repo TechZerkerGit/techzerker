@@ -123,7 +123,7 @@ Greg Lukianoff |
 | Drive | 0.1 | James S. A. Corey   |   |   |
 | The Churn | 0.3 | James S. A. Corey   |   |   |
 | The Butcher of Anderson Station | 0.5 | James S. A. Corey   |   |   |
-| Leviathan Wakes | 1 | James S. A. Corey   |   |   |
+| Leviathan Wakes | 1 | James S. A. Corey   | 2022-10-28 |   |
 | Caliban's War | 2 | James S. A. Corey   |   |   |
 | Gods of Risk | 2.5 | James S. A. Corey   |   |   |
 | Abaddon's Gate | 3 | James S. A. Corey   |   |   |
