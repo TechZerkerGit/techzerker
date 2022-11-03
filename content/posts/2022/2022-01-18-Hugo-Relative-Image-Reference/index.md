@@ -39,6 +39,6 @@ Updated Structure:
 /static/posts/post-date/image.png
 ````
 
-Then thesame Markdown inline reference works again.
+Then the same Markdown inline reference works again.
 
 As I'm writing this, the next step now is to fully test Obsidian Export itself, and make sure with a few notes relative linking to each other in the Obsidian style, that those links properly generate so you can "crawl" the web of the Zettelkasten notes.
