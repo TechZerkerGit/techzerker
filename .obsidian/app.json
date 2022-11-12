@@ -1,1 +1,11 @@
-{}
+{
+  "attachmentFolderPath": "static/posts",
+  "spellcheck": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/posts",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative"
+}
