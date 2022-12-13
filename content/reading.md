@@ -13,7 +13,7 @@ record will help improve my reading habit a bit! (I love reading, but tend to ge
 
 | Title | Author |
 |:------|:-------|
-| Leviathan Wakes (The Expanse #1) | James S. A. Corey |
+| The Churn (The Expanse #0.3) | James S. A. Corey |
 | Talking To Strangers | Malcolm Gladwell |
 | Digital Minimalism | Cal Newport |
 
@@ -71,7 +71,7 @@ Greg Lukianoff |
 |:------|:-------|:----:|:----------:|
 | Discipline Is Destiny  | Ryan Holiday  |   |   |
 | No More Mr. Nice Guy  | Robert A. Glover |   |   |
-| Everything Is F*cked | Mark Manson | 2020-06-06 | <--> |
+| Everything Is F\*cked | Mark Manson | 2020-06-06 | <--> |
 | | | | |
 
 #### Psychology & Behavior
@@ -120,7 +120,7 @@ Greg Lukianoff |
 
 | Title | Series Order | Author | Read | Commentary | 
 |:------|:-------|:-------|:----:|:----------:|
-| Drive | 0.1 | James S. A. Corey   |   |   |
+| Drive | 0.1 | James S. A. Corey   | 2022-12-05 |   |
 | The Churn | 0.3 | James S. A. Corey   |   |   |
 | The Butcher of Anderson Station | 0.5 | James S. A. Corey   |   |   |
 | Leviathan Wakes | 1 | James S. A. Corey   | 2022-10-28 |   |
