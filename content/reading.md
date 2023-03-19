@@ -121,7 +121,7 @@ Greg Lukianoff |
 | Title | Series Order | Author | Read | Commentary | 
 |:------|:-------|:-------|:----:|:----------:|
 | Drive | 0.1 | James S. A. Corey   | 2022-12-05 |   |
-| The Churn | 0.3 | James S. A. Corey   |   |   |
+| The Churn | 0.3 | James S. A. Corey   | 2023-03-19  |   |
 | The Butcher of Anderson Station | 0.5 | James S. A. Corey   |   |   |
 | Leviathan Wakes | 1 | James S. A. Corey   | 2022-10-28 |   |
 | Caliban's War | 2 | James S. A. Corey   |   |   |
