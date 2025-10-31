@@ -16,7 +16,7 @@ theme = "LoveIt"
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/TechzerkerE30_wText.png"]
+  images = ["https://techzerkergit.github.io/techzerker/TechzerkerE30_wText.png"]
   summaryLength = 50
   relativeURLs = true
 
@@ -62,7 +62,7 @@ theme = "LoveIt"
     # LoveIt NEW | 0.2.0 Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/static/TechzerkerE30_woText_Trans.png"
+      logo = "https://techzerkergit.github.io/techzerker/TechzerkerE30_woText_Trans.png"
       # title name
       name = "TechZerker"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -118,7 +118,7 @@ theme = "LoveIt"
       # Gravatar Email for preferred avatar in home page
       # gravatarEmail = "scott.haner@techzerker.com"
       # URL of avatar shown in home page
-      avatarURL = "/tzavatar.png"
+      avatarURL = "https://techzerkergit.github.io/techzerker/tzavatar.png"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       # title = "TechZerker"
       # subtitle shown in home page
